@@ -1,0 +1,27 @@
+##########################################################################
+############################### Human config file ########################
+##########################################################################
+#
+
+organism: 'human'
+
+igblast_germline_db_V: "database/igblast/database/imgt_human_ig_v"
+igblast_germline_db_D: "database/igblast/database/imgt_human_ig_d"
+igblast_germline_db_J: "database/igblast/database/imgt_human_ig_j"
+igblast_auxiliary_data: "database/igblast/optional_file/human_gl.aux"
+
+
+imgt_germline_db_V: "database/germlines/imgt/human/vdj/imgt_human_IG_All_V.fasta"
+imgt_germline_db_D: "database/germlines/imgt/human/vdj/imgt_human_IGHD.fasta"
+imgt_germline_db_J: "database/germlines/imgt/human/vdj/imgt_human_IG_All_J.fasta"
+
+imgt_germline_v_db_fasta: "database/igblast/fasta/imgt_human_ig_v.fasta"
+
+HV_primer: 23
+KV_primer: 21
+LV_primer: 0
+
+CORRECTION: True
+ANALYSISNAME: "COVID"
+BCR_DB: "database/public-bcell-dataset-IGHV-cdr3aa.tsv"
+
