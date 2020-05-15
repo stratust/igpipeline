@@ -50,8 +50,8 @@ Open up a terminal session and type **docker run -it -v < path_to_data_folder >:
 
 <br/>
 
-#### Warning
-- In the hydrophobicity analysis we calculate the GRAVY score for 22,654,256 IGH CDR3 sequences from the public database of memory B-cell receptor sequences (doi:10.1371/journal.pone.0160853), which requires plenty of computing resources and it takes ~30 min to execute. If you want skip this step execute the pipeline with the command **snakemake --until SHM** 
+#### Warnings
+- In the hydrophobicity analysis we calculate the GRAVY score for 22,654,256 IGH CDR3 sequences from a public database of memory B-cell receptor sequences (doi:10.1371/journal.pone.0160853), which requires plenty of computing resources and it takes ~30 min to execute. If you want skip this step execute the pipeline with the command **snakemake --until SHM** 
 
 - If you have enough computing resources to parallelize the execution, specify the parameter -j < number_of_cores > for the snakemake.
 
