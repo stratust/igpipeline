@@ -45,7 +45,7 @@ Create a folder in any directory named "ig_analysis". Inside this folder, downlo
 <br/>
 
 #### Step 3:
-Open up a terminal session and type **docker run -it -v < path_to_data_folder >:/igpipeline/data -v < path_to_results_folder >/igpipeline/results stratust/igpipeline:latest** to access a contaier and type **snakemake** to start the pipeline execution
+Open up a terminal session and type **docker run -it -v < path_to_data_folder >:/igpipeline/data -v < path_to_results_folder >/igpipeline/results stratust/igpipeline:latest** to load a container with the downloaded image and type **snakemake** to start the pipeline execution
 ![](img/img8.png "")  
 
 <br/>
