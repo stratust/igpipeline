@@ -45,13 +45,13 @@ Create a folder in any directory named "ig_analysis". Inside this folder, downlo
 <br/>
 
 #### Step 3:
-Open up a terminal session and type **docker run -it -v < path_to_data_folder >:/igpipeline/data -v < path_to_results_folder >/igpipeline/results stratust/igpipeline:latest** to load a container with the downloaded image and type **snakemake** to start the pipeline execution
+Open up a terminal session and type **docker run -it -v < path_to_data_folder >:/igpipeline/data -v < path_to_results_folder >/igpipeline/results stratust/igpipeline:latest** to load a container with the downloaded image and type **snakemake --until SHM** to start the pipeline execution
 ![](img/img8.png "")  
 
 <br/>
 
 #### Warnings
-- In the hydrophobicity analysis we calculate the GRAVY score for 22,654,256 IGH CDR3 sequences from a public database of memory B-cell receptor sequences (doi:10.1371/journal.pone.0160853), which requires plenty of computing resources and it takes ~30 min to execute. If you want skip this step execute the pipeline with the command **snakemake --until SHM** 
+- In the hydrophobicity analysis we calculate the GRAVY score for 22,654,256 IGH CDR3 sequences from a public database of memory B-cell receptor sequences (doi:10.1371/journal.pone.0160853), which requires plenty of computing resources and it takes ~30 min to execute. Using the command above this step **WILL NOT** be executed. If you want to execute the hydrophobicity score calculation, run the pipeline with the command **snakemake** 
 
 - If you have enough computing resources to parallelize the execution, specify the parameter -j < number_of_cores > for the snakemake.
 
