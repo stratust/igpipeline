@@ -39,13 +39,13 @@ Open up a terminal session and download the image using the command **docker pul
 <br/>
 
 #### Step 2:
-Create a folder in any directory named "ig_analysis". Inside this folder, download and extract the zip file available through [this link](https://rockefeller.app.box.com/s/vboi2buc769w7r1yo6vhpcxnfcbbn807) and create a folder named "results"  
+In Desktop, create a folder named "ig_analysis". Inside this folder, download and extract the zip file available through [this link](https://rockefeller.app.box.com/s/vboi2buc769w7r1yo6vhpcxnfcbbn807) and create a folder named "results"  
 ![](img/img7.png "")  
 
 <br/>
 
 #### Step 3:
-Open up a terminal session and type **docker run -it -v < path_to_data_folder >:/igpipeline/data -v < path_to_results_folder >/igpipeline/results stratust/igpipeline:latest** to load a container with the downloaded image and type **snakemake --until SHM** to start the pipeline execution
+Open up a terminal session and type **docker run -it -v ~/Desktop/ig_analysis/data:/igpipeline/data -v ~/Desktop/ig_analysis/results:/igpipeline/results stratust/igpipeline:latest** to load a container with the downloaded image. Right after the container is loaded, type **snakemake --until SHM** to start the pipeline execution
 ![](img/img8.png "")  
 
 <br/>
