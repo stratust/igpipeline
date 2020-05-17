@@ -286,7 +286,8 @@ rule create_circos_plot:
 
 rule SHM:
     input:
-        xlsx_files = RESULT_FILE
+        xlsx_files = RESULT_FILE,
+        plots  = CWD + "/results/circos_plots/plots/"
     output: directory(CWD + "/results/SHM_analysis/")
     params:
         data = CWD + "/results/circos_plots/data/"
@@ -300,7 +301,8 @@ rule SHM:
 
 rule hydrophobicity:
     input:
-        xlsx_files = RESULT_FILE
+        xlsx_files = RESULT_FILE,
+        shm = CWD + "/results/SHM_analysis/"
     output: directory(CWD + "/results/hydrophobicity_analysis/")
     params:
         data = CWD + "/results/circos_plots/data/",
