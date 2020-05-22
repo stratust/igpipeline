@@ -328,21 +328,28 @@ create_links <- function(data) {
 }
 
 
-create_circos_plot <- function(files = NULL, filename = NULL, linklabels = TRUE) {
+create_circos_plot <- function(files = NULL, filename = NULL, linklabels = TRUE, sample_order = NULL) {
   patient_list <- NULL
   all_patients <- NULL
   shared <- NULL
   shared_V_only <- NULL
   title <- NULL
 
-  patient_order <- NULL
-  patient_order <- c("COV47", "COV21", "COV72", "COV57", "COV96", "COV107")
 
   title <- "Strict Criteria (V+J)"
 
   patient_list <- lapply(files, parse_strict)
   all_patients <- bind_rows(patient_list) %>% mutate(patcluster = paste(patient, cluster_id, sep = ","))
-  all_patients$patient <- factor(all_patients$patient, levels = patient_order)
+
+  # order patients
+  if (! is.null(sample_order)){
+    order.vector = strsplit(sample_order, split=",")
+    order.vector = as.character(order.vector[[1]])
+    if (unique(all_patients$patient) %in% order.vector){
+        all_patients$patient <- factor(all_patients$patient, levels = order.vector)
+    }
+    #print(head(all_patients$patient))
+  }
 
   shared <- all_patients %>% group_by(V_CALL...4, J_CALL...6, V_CALL...16, J_CALL...18, V_CALL...28, J_CALL...30) %>% add_tally() %>% filter(n > 1) %>% mutate(key = paste(V_CALL...4, J_CALL...6, V_CALL...16, J_CALL...18, V_CALL...28, J_CALL...30, sep = ","))
 
@@ -369,8 +376,6 @@ create_circos_plot <- function(files = NULL, filename = NULL, linklabels = TRUE)
     shared.links.circos.labels$key <- gsub("(\\S+IGHJ\\S+)\\,(IG[KL]V\\S+)", "\\1\n\\2", shared.links.circos.labels$key, perl = TRUE)
   }
 
-  # order patients
-  all_patients$patient <- factor(all_patients$patient, levels = patient_order)
   plot.circos.labels(all_patients, shared.links.circos, shared.links.circos.labels, title, filename)
 
 }
@@ -383,6 +388,7 @@ main <- function() {
   # Add command line arguments
   p <- add_argument(p, "--input_dir", help = "directory where the excel files are located")
   p <- add_argument(p, "--output_prefix", help = "output prefix")
+  p <- add_argument(p, "--sample_order", help = "sample order")
 
   # Parse the command line arguments
   argv <- parse_args(p)
@@ -395,8 +401,8 @@ main <- function() {
 
   # For strict files COV
   files <- list.files(pattern = ".*strict_selected_columns.xlsx", path = argv$input_dir, full.names = T)
-  create_circos_plot(files, filename = paste0(argv$output_prefix, "/clusters_strict_criteria"), linklabels = TRUE)
-  create_circos_plot(files, filename = paste0(argv$output_prefix, "/clusters_strict_criteria_nolabels"), linklabels = FALSE)
+  create_circos_plot(files, filename = paste0(argv$output_prefix, "/clusters_strict_criteria"), linklabels = TRUE, sample_order = argv$sample_order)
+  create_circos_plot(files, filename = paste0(argv$output_prefix, "/clusters_strict_criteria_nolabels"), linklabels = FALSE, sample_order = argv$sample_order)
 }
 
 

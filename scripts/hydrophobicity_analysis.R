@@ -13,6 +13,7 @@ p <- arg_parser("SHM analysis")
 p <- add_argument(p, "--input", help="directory where the excel files are located")
 
 p <- add_argument(p, "--bcelldbtsv", help="TSV file containing the CDR3 of the B cell database")
+p <- add_argument(p, "--rdsbcelldb", help="RDS file containing CDR3 score of the B cell database")
 
 p <- add_argument(p, "--output", help="output to export the images", default="output.txt")
 
@@ -114,22 +115,29 @@ gravy.score.all.cdr3 = get.cdr3.score.df( gravy.score.all.cdr3 )
 
 xl.obj = xl.obj %>% inner_join( gravy.score.all.cdr3 %>% tibble::rownames_to_column('sequence.id'), by = c("SEQUENCE_ID...3" = "sequence.id") )
 xl.obj = xl.obj %>% rename(CDR3_IGH_GRAVY_SCORE = gravy.score.all.cdr3)
-xl.obj$patient = gsub("^(COV.*?)_.*", "\\1", xl.obj$SEQUENCE_ID...3)
+xl.obj$patient = gsub("^(.*?)_.*", "\\1", xl.obj$SEQUENCE_ID...3)
 
 # Part 2: Calculating GRAVY scores for B cell database
 # x = read.table("~/Downloads/public-bcell-dataset-IGHV-cdr3aa.tsv")
-x = read.table(argv$bcelldbtsv)
-colnames(x) = c("SEQUENCE_ID...3", "cdr3_aa...13")
-cat('Please wait... this analysis will take ~25 minutes to finish!')
+#x = read.table(argv$bcelldbtsv)
+#colnames(x) = c("SEQUENCE_ID...3", "cdr3_aa...13")
+#cat('Please wait... this analysis will take ~25 minutes to finish!')
 
-gravy.score.db = apply(X = x, 1, check.hydrophobicity )
-gravy.score.db.df = get.cdr3.score.df( gravy.score.db )
-gravy.score.db.df$patient = "CDR3 from BCR Database"
-gravy.score.db.df = gravy.score.db.df %>% rename(CDR3_IGH_GRAVY_SCORE =  "gravy.score.all.cdr3")
+#gravy.score.db = apply(X = x, 1, check.hydrophobicity )
+#gravy.score.db.df = get.cdr3.score.df( gravy.score.db )
+
+#gravy.score.db.df$patient = "CDR3 from BCR Database"
+#gravy.score.db.df = gravy.score.db.df %>% rename(CDR3_IGH_GRAVY_SCORE =  "gravy.score.all.cdr3")
+
+# save RDS
+#saveRDS(gravy.score.db.df, file = paste0( argv$output, "/bcelldb.rds") )
+
+#read RDS
+gravy.score.db.df = readRDS(argv$rdsbcelldb)
 
 # Part 3: Concatenating database sequences data frame with our sequences database
 db.and.covid = plyr::rbind.fill(xl.obj, gravy.score.db.df)
-db.and.covid[ which(db.and.covid$patient != "CDR3 from BCR Database"), "patient"] = "COVID-19 patients"
+db.and.covid[ which(db.and.covid$patient != "CDR3 from BCR Database"), "patient"] = "patients"
 
 boxplot.score = get.boxplot.plot( xl.obj = db.and.covid )
 
@@ -138,10 +146,10 @@ boxplot.score = get.boxplot.plot( xl.obj = db.and.covid )
 # Shapiro-Wilk test was used to determine whether the GRAVY scores are normally distributed.
 
 # Shapiro-Wilk test applied to the database sequences - 5000 sequences randomly selected
-shapiro.test( subset(db.and.covid, patient == "CDR3 from BCR Database")[sample(1:nrow(subset(db.and.covid, patient == "CDR3 from BCR Database")), 5000, replace=F), "CDR3_IGH_GRAVY_SCORE"] )
+#shapiro.test( subset(db.and.covid, patient == "CDR3 from BCR Database")[sample(1:nrow(subset(db.and.covid, patient == "CDR3 from BCR Database")), 5000, replace=F), "CDR3_IGH_GRAVY_SCORE"] )
 
 # Shapiro-Wilk test applied to our sequences only
-shapiro.test( subset(xl.obj, patient != "CDR3 from BCR Database")$CDR3_IGH_GRAVY_SCORE )
+#shapiro.test( subset(xl.obj, patient != "CDR3 from BCR Database")$CDR3_IGH_GRAVY_SCORE )
 
 t = boxplot.score + stat_compare_means(paired = FALSE, method = "wilcox.test", label.y = 0.5)
 pdf(file = paste0( argv$output, "/all_patients_collapsed_and_db_boxplot_2.pdf"), height = 6, width = 9 )

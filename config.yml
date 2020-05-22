@@ -23,5 +23,6 @@ LV_primer: 0
 
 CORRECTION: True
 ANALYSISNAME: "COVID"
-BCR_DB: "database/public-bcell-dataset-IGHV-cdr3aa.tsv"
-
+# BCR_DB: "database/public-bcell-dataset-IGHV-cdr3aa.tsv"
+BCR_DB: "database/bcelldb.rds"
+SAMPLE_ORDER : "COV47,COV21,COV72,COV57,COV96,COV107"

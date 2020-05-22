@@ -56,6 +56,7 @@ get.SHM = function ( ig.df ) {
 get.jitter.plot = function ( shm.df, patient, output ) {
   
   # shm.df.melt = reshape2::melt( shm.df )
+  shm.df.melt = shm.df
   shm.df.melt$patient = patient
   
   first.plot = subset( shm.df.melt, variable %in% c("VH.nt.mutations","VL.nt.mutations") )
@@ -69,9 +70,9 @@ get.jitter.plot = function ( shm.df, patient, output ) {
                position = position_jitterdodge( jitter.width=0.3, dodge.width = 0.7), size=2)+
     geom_path(aes(x=c(0.7,1.3),y =c(mean.VH.nt.mutations, mean.VH.nt.mutations)), size=1, color = "black")+
     geom_path(aes(x=c(1.7,2.3),y=c(mean.VL.nt.mutations, mean.VL.nt.mutations)),size=1, color = "black")+
-    coord_cartesian( ylim=c(0, 65)) +
+    coord_cartesian( ylim=c(-3, 85), expand=F) +
     ylab("# of mutations") +
-    scale_y_continuous(breaks=c(seq(0, 65, 5))) +
+    scale_y_continuous(breaks=c(seq(0, 85, 5))) +
     xlab("") +
     # ggtitle( paste0("Patient: ", patient) ) +
     theme_classic() + 
@@ -89,7 +90,7 @@ get.jitter.plot = function ( shm.df, patient, output ) {
                position = position_jitterdodge( jitter.width=0.3, dodge.width = 0.7), size=2)+
     geom_path(aes(x=c(0.7,1.3),y =c(mean.cdr3.HC.length, mean.cdr3.HC.length)), size=1, color = "black")+
     geom_path(aes(x=c(1.7,2.3),y=c(mean.cdr3.LC.length, mean.cdr3.LC.length)),size=1, color = "black")+
-    coord_cartesian( ylim=c(0, 35)) +
+    coord_cartesian( ylim=c(-3, 35), expand = F) +
     scale_y_continuous(breaks=c(seq(0, 35, 5))) +
     ylab("CDR3 length") +
     xlab("") +

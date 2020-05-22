@@ -275,12 +275,12 @@ rule create_circos_plot:
         xlsx_files = RESULT_FILE
     output: directory(CWD + "/results/circos_plots/plots/")
     params:
-        data = CWD + "/results/circos_plots/data/"
-
+        data = CWD + "/results/circos_plots/data/",
+        sample_order = config['SAMPLE_ORDER']
     log: CWD + "/results/circos_plots/plots.log"
     shell:
         """
-        Rscript scripts/ParseToCircos2.R -i {params.data} -o {output} &> {log}
+        Rscript scripts/ParseToCircos2.R -i {params.data} -o {output} --sample_order {params.sample_order}  &> {log}
         """
 
 
@@ -306,10 +306,9 @@ rule hydrophobicity:
     output: directory(CWD + "/results/hydrophobicity_analysis/")
     params:
         data = CWD + "/results/circos_plots/data/",
-        bcelldb = bcell_database
+        bcelldbrds = bcell_database
     log: CWD + "/results/hydrophobicity_analysis/hydrophobicity_analysis.log"
     shell:
         """
-        echo "\nPlease be patient... this step will take ~25 minutes to finish...\n\n"
-        Rscript scripts/hydrophobicity_analysis.R -i {params.data} -o {output} -b {params.bcelldb} &> {log}
+        Rscript scripts/hydrophobicity_analysis.R -i {params.data} -o {output} --rdsbcelldb {params.bcelldbrds} &> {log}
         """
