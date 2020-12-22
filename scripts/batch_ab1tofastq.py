@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/env python
 import os
 import sys
 import glob
@@ -21,6 +21,7 @@ for f in ab1_files:
     record.id = re.search('(.*)\.ab1', os.path.basename(f)).groups()[0]
     seqs.append(record)
 
-count = SeqIO.write(seqs, out_fname, "fastq")
+count = SeqIO.write(seqs, out_fname, "fastq-illumina")
 
 assert len(ab1_files) == count, "conversion not successful for all sequences"
+

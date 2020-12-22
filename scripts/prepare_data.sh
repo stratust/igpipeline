@@ -37,7 +37,7 @@ batch_ab1tofastq.py "$data_dir" "$out_fastq"
 
 # trim sequences based on specified quality
 echo "- trimming sequences ..."
-cutadapt --quality-cutoff $q_cutoff,$q_cutoff --trim-n -m 100 \
+cutadapt --quality-cutoff $q_cutoff,$q_cutoff --trim-n -m 100 --quality-base=64 \
     -o "$out_fasta" "$out_fastq" > "${outdir}/cutadapt.log"
 
 echo "Done"

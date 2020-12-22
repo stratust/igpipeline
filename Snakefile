@@ -4,25 +4,38 @@ Antibody Analysis Snakefile
 import os, re, glob
 
 CWD=os.getcwd()
-
+print(CWD)
 configfile: CWD+'/config.yml'
 
-cmd_result = os.popen("  for i in $( find " + CWD + "/data -iname \*.ab1 );do test=$(dirname $i); echo $test;done | uniq | perl -plane 's/data/results/g; s/^(.*\/(.*))$/$1\/igpairs\/$2\_strict\.xlsx/g' ").read().rstrip()
+cmd_result = os.popen(" for i in $( find " + CWD + "/data/ -iname \*.ab1 );do test=$(dirname $i); echo $test;done | uniq | perl -plane 's/data/results/g; s/^(.*\/(.*))$/$1\/igpairs\/$2\_all\_samples\_strict\.xlsx/g' ").read().rstrip()
 cmd_result_splitted = cmd_result.split("\n")
 
 RESULT_FILE = cmd_result_splitted
 
-correct = config['CORRECTION']
-bcell_database = config['BCR_DB']
+circos_plot = os.popen("  for i in $( find " + CWD + "/data/ -iname \*.ab1 );do test=$(dirname $i); echo $test;done | uniq | perl -plane 's/data/results/g; s/^(.*\/(.*))$/$1\/circos_plots\//g' ").read().rstrip()
+CIRCOS_PLOT_DIR = circos_plot.split("\n")
 
+shm_plot = os.popen("  for i in $( find " + CWD + "/data/ -iname \*.ab1 );do test=$(dirname $i); echo $test;done | uniq | perl -plane 's/data/results/g; s/^(.*\/(.*))$/$1\/shm_analysis\//g' ").read().rstrip()
+SHM_PLOT_DIR = shm_plot.split("\n")
+
+donut_plot = os.popen("  for i in $( find " + CWD + "/data/ -iname \*.ab1 );do test=$(dirname $i); echo $test;done | uniq | perl -plane 's/data/results/g; s/^(.*\/(.*))$/$1\/donut_plots\//g' ").read().rstrip()
+DONUT_PLOT_DIR = donut_plot.split("\n")
+
+correct = config['CORRECTION']
+
+bcell_database = config['BCR_DB']
+print(CIRCOS_PLOT_DIR)
 
 rule all:
-    input: [RESULT_FILE, CWD + "/results/circos_plots/plots/", CWD + "/results/SHM_analysis/", CWD + "/results/hydrophobicity_analysis/"]
+    #input: [RESULT_FILE, CWD + "/results/circos_plots/", CWD + "/results/SHM_analysis/", CWD + "/results/hydrophobicity_analysis/"]
+    input: [RESULT_FILE, CIRCOS_PLOT_DIR, SHM_PLOT_DIR, DONUT_PLOT_DIR]
 
 
 rule chromatogram_to_fasta:
     input: CWD + "/data/{directory}"
-    output: CWD + "/results/{directory}/fasta_output/fasta_conversion.fasta"
+    output: 
+        CWD + "/results/{directory}/fasta_output/fasta_conversion.fasta",
+        CWD + "/results/{directory}/fasta_output/fasta_conversion.fastq"
     log: CWD + "/results/{directory}/{directory}.log"
     params:
         result_dir = CWD + "/results/{directory}/fasta_output"
@@ -248,67 +261,108 @@ rule xlsx_file:
         scripts/generate_xlsx.py --changeo_integrated_file {input} --output {output} &> {log}
         """
 
-rule create_ig_pairs:
-    input: CWD+"/results/{directory}/xlsx_output/{directory}_summary.xlsx"
+
+rule identify_isotype:
+    input:
+        fastq = CWD + "/results/{directory}/fasta_output/fasta_conversion.fastq",
+        ighg_db = CWD + "/database/IGHG.fasta",
+        igha_db = CWD + "/database/IGHA.fasta"
     output:
-        all = CWD+"/results/{directory}/igpairs/{directory}_strict.xlsx",
-        selected = CWD+"/results/{directory}/igpairs/{directory}_strict_selected_columns.xlsx",
-        all_combo = CWD + "/results/circos_plots/data/{directory}_strict.xlsx",
-        selected_combo = CWD + "/results/circos_plots/data/{directory}_strict_selected_columns.xlsx",
+        ighg = CWD + "/results/{directory}/isotype/matchedG.fastq",
+        ighg_stats = CWD + "/results/{directory}/isotype/matchedG_stats.txt",
+        igha = CWD + "/results/{directory}/isotype/matchedA.fastq",
+        igha_stats = CWD + "/results/{directory}/isotype/matchedA_stats.txt"
+    log: 
+        ighg = CWD+"/results/{directory}/isotype/ighg.log",
+        igha = CWD+"/results/{directory}/isotype/igha.log",
+    params:
+        output_prefix=CWD+"/results/{directory}/igpairs/{directory}",
+        pairs_file=CWD+"/data/pairs.xlsx"
+    shell:
+        """
+        bbduk.sh qin=64 in={input.fastq}  outm={output.ighg} ref={input.ighg_db} k=21 hdist=1 stats={output.ighg_stats} &> {log.ighg}
+        bbduk.sh qin=64 in={input.fastq}  outm={output.igha} ref={input.igha_db} k=21 hdist=1 stats={output.igha_stats} &> {log.ighg}
+        """
+
+
+rule create_ig_pairs:
+    input:
+        CWD+"/results/{directory}/xlsx_output/{directory}_summary.xlsx"#,
+        #ighg = CWD + "/results/{directory}/isotype/matchedG.fastq",
+        #igha = CWD + "/results/{directory}/isotype/matchedA.fastq",
+    output:
+        all = CWD+"/results/{directory}/igpairs/{directory}_all_samples_strict.xlsx",
+        selected = CWD+"/results/{directory}/igpairs/{directory}_all_samples_strict_selected_columns.xlsx",
     log: CWD+"/results/{directory}/igpairs/{directory}.log",
     params:
         output_prefix=CWD+"/results/{directory}/igpairs/{directory}",
         pairs_file=CWD+"/data/pairs.xlsx"
     shell:
         """
-        scripts/IgPairs.pl parse_excel --input_file {input} \
+        scripts/IgPairsCombo.pl parse_excel --input_file {input} \
             --pairs_file {params.pairs_file} \
             --output_prefix {params.output_prefix} \
             &> {log}
-            cp {output.all} {output.all_combo}
-            cp {output.selected} {output.selected_combo}
         """
-
 
 rule create_circos_plot:
     input:
         xlsx_files = RESULT_FILE
-    output: directory(CWD + "/results/circos_plots/plots/")
+    output: directory(CWD + "/results/{directory}/circos_plots/")
     params:
-        data = CWD + "/results/circos_plots/data/",
+        data = CWD + "/results/{directory}/igpairs",
         sample_order = config['SAMPLE_ORDER']
-    log: CWD + "/results/circos_plots/plots.log"
+    log: CWD + "/results/{directory}/logs/circos_plots.log"
     shell:
         """
-        Rscript scripts/ParseToCircos2.R -i {params.data} -o {output} --sample_order {params.sample_order}  &> {log}
+        for FILE in {params.data}/*clonal.xlsx;
+        do
+            BASENAME=$(basename $FILE)
+            OUTPUT=$(echo $BASENAME | perl -plane 's/\.xlsx$//g')
+            Rscript scripts/ParseToCircosPatient.R -i $FILE -o {output}/$OUTPUT --title "Clonal clusters (V+J+CDR3) "  &>> {log}
+        done
+        for FILE in {params.data}/*strict.xlsx;
+        do
+            BASENAME=$(basename $FILE)
+            OUTPUT=$(echo $BASENAME | perl -plane 's/\.xlsx$//g')
+            Rscript scripts/ParseToCircosPatient.R -i $FILE -o {output}/$OUTPUT --title "Strict clusters (V+J) "  &>> {log}
+        done
         """
 
 
 rule SHM:
     input:
-        xlsx_files = RESULT_FILE,
-        plots  = CWD + "/results/circos_plots/plots/"
-    output: directory(CWD + "/results/SHM_analysis/")
+        xlsx_files = RESULT_FILE
+    output: directory(CWD + "/results/{directory}/shm_analysis/")
     params:
-        data = CWD + "/results/circos_plots/data/"
-
-    log: CWD + "/results/SHM_analysis/SHM_analysis.log"
+        rdsbcelldb = bcell_database,
+        igpairs = CWD + "/results/{directory}/igpairs"
+    log: CWD + "/results/{directory}/logs/shm_analysis.log"
     shell:
         """
-        Rscript scripts/SHM_analysis.R -i {params.data} -o {output} &> {log}
+        Rscript scripts/SHM_analysis2.R --input {params.igpairs} --output {output} --rdsbcelldb {params.rdsbcelldb}  &> {log}
         """
 
 
-rule hydrophobicity:
+rule donut_plots:
     input:
         xlsx_files = RESULT_FILE,
-        shm = CWD + "/results/SHM_analysis/"
-    output: directory(CWD + "/results/hydrophobicity_analysis/")
+    output: directory(CWD + "/results/{directory}/donut_plots/")
     params:
-        data = CWD + "/results/circos_plots/data/",
-        bcelldbrds = bcell_database
-    log: CWD + "/results/hydrophobicity_analysis/hydrophobicity_analysis.log"
+        data = CWD + "/results/{directory}/igpairs",
+    log: CWD + "/results/{directory}/logs/donut_plots.log"
     shell:
         """
-        Rscript scripts/hydrophobicity_analysis.R -i {params.data} -o {output} --rdsbcelldb {params.bcelldbrds} &> {log}
+        for FILE in {params.data}/*all*clonal.xlsx;
+        do
+            BASENAME=$(basename $FILE)
+            OUTPUT=$(echo $BASENAME | perl -plane 's/\.xlsx$//g')
+            Rscript scripts/CreatePieCharts.R --input_file $FILE --output_prefix {output}/$OUTPUT &>> {log}
+        done
+        for FILE in {params.data}/*all*strict.xlsx;
+        do
+            BASENAME=$(basename $FILE)
+            OUTPUT=$(echo $BASENAME | perl -plane 's/\.xlsx$//g')
+            Rscript scripts/CreatePieCharts.R --input_file $FILE --output_prefix {output}/$OUTPUT &>> {log}
+        done
         """
