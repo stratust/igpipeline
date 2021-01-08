@@ -346,8 +346,6 @@ create_links <- function(data) {
     out.df <- as.data.frame(do.call(rbind, lapply(pairwise.list, deflate_vector_to_df)))
     header <- c("isotype", "start", "end", "border", "color", "n_seqs")
     colnames(out.df) <- c(paste0(header, "1"), paste0(header, "2"))
-    out.df$n_seqs1 <- as.numeric(out.df$n_seqs1)
-    out.df$n_seqs2 <- as.numeric(out.df$n_seqs2)
   }
   return(out.df)
 }
