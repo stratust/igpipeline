@@ -118,11 +118,16 @@ piechart_plot <- function(isotype, isotypes.list, shared = FALSE){
 
   single.df <- data.frame(ymax=max(single_end), ymin=min(single_start) + nrow(shared.singles))
   
-  ggplot(data, aes(ymax=end, ymin=start, xmax=4, xmin=3)) +
+  p <- ggplot(data, aes(ymax=end, ymin=start, xmax=4, xmin=3)) +
     geom_rect(aes(color = as.factor(cluster_id), fill=as.factor(cluster_id)), color='black', size = 1) +
-    geom_rect(data=single.df, aes(ymax = ymax, ymin = ymin, xmax=4, xmin = 3), color='black', fill = 'white', size=1) + # single white chunk
-    geom_rect(data=filter(data, n_seqs > 1), aes(xmin=4.1,xmax=4.2), fill = 'black') +
-    coord_polar(theta="y") + # Try to remove that to understand how the chart is built initially
+    geom_rect(data=single.df, aes(ymax = ymax, ymin = ymin, xmax=4, xmin = 3), color='black', fill = 'white', size=1) # single white chunk
+
+    # Draw black bar representing percent of clones
+    clones.df <- filter(data, n_seqs > 1)
+    if (nrow(clones.df) > 0) {
+        p <- p + geom_rect(data = clones.df,  aes(xmin=4.1,xmax=4.2), fill = 'black')
+    }
+    p <- p + coord_polar(theta="y") + # Try to remove that to understand how the chart is built initially
     xlim(c(2.3, 4.4)) + # Try to remove that to see how to make a pie chart
     annotate(geom = 'text', x = 2.3, y = 0.5, label = sum(data$n_seqs), family = 'sans', fontface = 'bold', size = 16) + # Add number at the center
     annotate(geom = 'text', x = 4.4, y = 0, label = paste0(percent_seq_clones,'%'), family = 'sans', fontface = 'bold', size = 10) + # Add percentage number on top of black circle
@@ -135,6 +140,8 @@ piechart_plot <- function(isotype, isotypes.list, shared = FALSE){
       legend.position="none",
       text=element_text(family="Helvetica")
       ) # format plot title
+
+    return(p)
 }
 
 
