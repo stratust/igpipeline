@@ -1,4 +1,18 @@
-# Antibody Analysis
+# Antibody Analysis - IgPipeline 2
+
+This is modified version of the original IgPipeline, allowing the use of different isotypes (IgG, IgM and IgA). It was first used in the following publication:
+
+- [Wang Z, Lorenzi JCC, Muecksch F, et al. **Enhanced SARS-CoV-2 neutralization by dimeric IgA.** *Sci Transl Med.* 2021;13(577):eabf1555. doi:10.1126/scitranslmed.abf1555](https://stm.sciencemag.org/content/13/577/eabf1555.full)
+
+The same pipeline was used to analyze antibody evolution between two timepoints as described in our publication:
+
+- [Gaebler C, Wang Z, Lorenzi JCC, et al. **Evolution of antibody immunity to SARS-CoV-2.** *Nature.* 2021;10.1038/s41586-021-03207-w. doi:10.1038/s41586-021-03207-w](https://www.nature.com/articles/s41586-021-03207-w)
+
+Sequences from timepoints 1.2 months and 6.2 months were placed in the IgG and IgM slots of this pipeline,and the figures labels were modified manually using Adobe Illustrator. 
+
+
+---
+
 
 #### Table of Contents  
 * [Docker Installation](#installing-docker-desktop-on-macos-and-windows)
