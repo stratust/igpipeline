@@ -8,7 +8,7 @@ This branch refers to our article:
 Use the branch [**igpipeline2_timepoint_v2**](https://github.com/stratust/igpipeline/tree/igpipeline2_timepoint_v2) if you are interested in the analyzes of the following articles:
 
 - [Wang Z, Lorenzi JCC, Muecksch F, et al. **Enhanced SARS-CoV-2 neutralization by dimeric IgA.** *Sci Transl Med.* 2021;13(577):eabf1555. doi:10.1126/scitranslmed.abf1555](https://stm.sciencemag.org/content/13/577/eabf1555.full)
-- 
+
 - [Gaebler C, Wang Z, Lorenzi JCC, et al. **Evolution of antibody immunity to SARS-CoV-2.** *Nature.* 2021;10.1038/s41586-021-03207-w. doi:10.1038/s41586-021-03207-w](https://www.nature.com/articles/s41586-021-03207-w)
 
 ---
