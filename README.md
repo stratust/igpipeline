@@ -55,7 +55,12 @@ Open up a terminal session and download the image using the command **docker pul
 <br/>
 
 #### Step 2:
-In Desktop, create a folder named "ig_analysis". Inside this folder, download and extract the zip file available through [**this link**](https://rockefeller.box.com/v/igpipeline2-data) and create a folder named "results"  
+In Desktop, create a folder named "ig_analysis". Inside this folder, download and extract the zip file available through the links below. 
+- [Dataset for: Wang Z, Lorenzi JCC, Muecksch F, et al. **Enhanced SARS-CoV-2 neutralization by dimeric IgA.** *Sci Transl Med.* 2021;13(577):eabf1555. doi:10.1126/scitranslmed.abf1555](https://rockefeller.box.com/v/igpipeline2-data)
+
+- [Dataset for: Gaebler C, Wang Z, Lorenzi JCC, et al. **Evolution of antibody immunity to SARS-CoV-2.** *Nature.* 2021;10.1038/s41586-021-03207-w. doi:10.1038/s41586-021-03207-w](https://rockefeller.box.com/s/azhdz2cna2ic404rznao9iuaapvkl1d4)
+- 
+Also create a folder named "results".
 ![](img/finder_screenshot.jpeg "")  
 
 <br/>
