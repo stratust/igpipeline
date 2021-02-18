@@ -43,48 +43,52 @@ Double-click Docker for Windows Installer to run the installer.
 When the installation finishes, Docker starts automatically. The whale ![](img/img4.png "") in the notification area indicates that Docker is running, and accessible from a terminal.
 
 ## Executing IgPipeline
-#### Step 1:
-Once Docker is installed, download the image containing the IgPipeline on https://hub.docker.com/r/stratust/igpipeline
-![](img/img5.png "")  
 
-Open up a terminal session and download the image using the command **docker pull stratust/igpipeline**  
-![](img/img6.png "")  
+#### Step 1:
+
+Once Docker is installed, download the image containing the IgPipeline on https://hub.docker.com/r/stratust/igpipeline2
+![](img/dockerhub_igpipeline2_frontpage.png "")  
+
+Open up a terminal session and download the image using the command **docker pull stratust/igpipeline2**  
+![](img/igpipeline2_docker_pull.png "")  
 
 <br/>
 
 #### Step 2:
-In Desktop, create a folder named "ig_analysis". Inside this folder, download and extract the zip file available through [this link](https://rockefeller.app.box.com/s/vboi2buc769w7r1yo6vhpcxnfcbbn807) and create a folder named "results"  
-![](img/img7.png "")  
+In Desktop, create a folder named "ig_analysis". Inside this folder, download and extract the zip file available through [**this link**](https://rockefeller.box.com/v/igpipeline2-data) and create a folder named "results"  
+![](img/finder_screenshot.jpeg "")  
 
 <br/>
 
 #### Step 3:
-* To load a container with the downloaded image, open up a terminal session and type:
+* To load a container using the downloaded docker image, open up a terminal session and type:
 <br/>
 
 ```
-docker run -it -v ~/Desktop/ig_analysis/data:/igpipeline/data -v ~/Desktop/ig_analysis/results:/igpipeline/results stratust/igpipeline:latest
+docker run -it -v ~/Desktop/ig_analysis/data:/igpipeline/data -v ~/Desktop/ig_analysis/results:/igpipeline/results stratust/igpipeline2:latest
 ``` 
 <br/>
 
 * Right after the container is loaded, to start the pipeline execution type: 
 ```
-snakemake --until SHM
+snakemake -j 1
 ```
+
+- If you have enough computing resources to parallelize the execution, specify the parameter -j < number_of_cores > for the snakemake.
+```
+snakemake -j 4
+```
+
 <br/>
 
 ![](img/img8.png "") 
 
 <br/>
 
-#### Warnings
-- In the hydrophobicity analysis we calculate the GRAVY score for 22,654,256 IGH CDR3 sequences from a public database of memory B-cell receptor sequences (doi:10.1371/journal.pone.0160853), which requires plenty of computing resources and it takes ~30 min to execute. Using the command provided above this step **WILL NOT** be executed. If you want to execute the hydrophobicity score calculation, run the pipeline with the command **snakemake**
-
-- If you have enough computing resources to parallelize the execution, specify the parameter -j < number_of_cores > for the snakemake.
 
 <br/>
 
-That's it ! The IgPipeline is executing.
+That's it ! The IgPipeline2 is executing.
 ![](img/img9.png "")  
 
 <br/>
