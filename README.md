@@ -8,7 +8,7 @@ The same pipeline was used to analyze antibody evolution between two timepoints 
 
 - [Gaebler C, Wang Z, Lorenzi JCC, et al. **Evolution of antibody immunity to SARS-CoV-2.** *Nature.* 2021;10.1038/s41586-021-03207-w. doi:10.1038/s41586-021-03207-w](https://www.nature.com/articles/s41586-021-03207-w)
 
-Sequences from timepoints 1.2 months and 6.2 months were placed in the IgG and IgM slots of this pipeline,and the figures labels were modified manually using Adobe Illustrator. 
+Sequences from timepoints 1.3 months and 6.2 months were placed in the IgG and IgM slots of this pipeline,and the figures labels were modified manually using Adobe Illustrator. 
 
 
 ---
