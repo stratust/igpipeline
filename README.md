@@ -60,6 +60,9 @@ In Desktop, create a folder named "ig_analysis". Inside this folder, download an
 
 - [Dataset for: Gaebler C, Wang Z, Lorenzi JCC, et al. **Evolution of antibody immunity to SARS-CoV-2.** *Nature.* 2021;10.1038/s41586-021-03207-w. doi:10.1038/s41586-021-03207-w](https://rockefeller.box.com/s/azhdz2cna2ic404rznao9iuaapvkl1d4)
 
+- [Data set for: Alice Cho, Frauke Muecksch, Dennis Schaefer-Babajew, et al. **Antibody Evolution after SARS-CoV-2 mRNA Vaccination** *bioRxiv* 2021; 10.1101/2021.07.29.454333 ](https://www.dropbox.com/s/gr0r7cz14xmhkxp/VAX_MANUSCRIPT_ab1.zip?dl=0)
+
+
 Also create a folder named "results".
 ![](img/finder_screenshot.jpeg "")  
 
