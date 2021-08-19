@@ -51,7 +51,7 @@ Open up a terminal session and download the image using the command **docker pul
 <br/>
 
 #### Step 2:
-In Desktop, create a folder named "ig_analysis". Inside this folder, download and extract the zip file available through [this link](https://rockefeller.app.box.com/s/vboi2buc769w7r1yo6vhpcxnfcbbn807) and create a folder named "results"  
+In Desktop, create a folder named "ig_analysis". Inside this folder, download and extract the zip file available through [this link](http://gofile.me/4kSgZ/cr4CylTqJ) and create a folder named "results"  
 ![](img/img7.png "")  
 
 <br/>
