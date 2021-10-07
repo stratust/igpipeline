@@ -119,8 +119,11 @@ piechart_plot <- function(isotype, isotypes.list, shared = FALSE){
   single.df <- data.frame(ymax=max(single_end), ymin=min(single_start) + nrow(shared.singles))
   
   p <- ggplot(data, aes(ymax=end, ymin=start, xmax=4, xmin=3)) +
-    geom_rect(aes(color = as.factor(cluster_id), fill=as.factor(cluster_id)), color='black', size = 1) +
-    geom_rect(data=single.df, aes(ymax = ymax, ymin = ymin, xmax=4, xmin = 3), color='black', fill = 'white', size=1) # single white chunk
+    geom_rect(aes(color = as.factor(cluster_id), fill=as.factor(cluster_id)), color='black', size = 1)
+
+  if (total_seq > total_seq_clones + nrow(shared.singles)) {
+    p <- p + geom_rect(data=single.df, aes(ymax = ymax, ymin = ymin, xmax=4, xmin = 3), color='black', fill = 'white', size=1) # single white chunk
+  }
 
     # Draw black bar representing percent of clones
     clones.df <- filter(data, n_seqs > 1)
