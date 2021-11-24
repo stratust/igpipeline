@@ -12,7 +12,7 @@ Sequences from timepoints 1.3 months and 6.2 months were placed in the IgG and I
 
 We also use this branch in our follow-up paper:
 
--[Cho, A., Muecksch, F., Schaefer-Babajew, D. et al. **Anti-SARS-CoV-2 receptor-binding domain antibody evolution after mRNA vaccination.** *Nature* (2021). https://doi.org/10.1038/s41586-021-04060-7](https://www.nature.com/articles/s41586-021-04060-7)
+- [Cho, A., Muecksch, F., Schaefer-Babajew, D. et al. **Anti-SARS-CoV-2 receptor-binding domain antibody evolution after mRNA vaccination.** *Nature* (2021). https://doi.org/10.1038/s41586-021-04060-7](https://www.nature.com/articles/s41586-021-04060-7)
 ---
 
 
