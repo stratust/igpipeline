@@ -10,7 +10,7 @@ Use the branch [**igpipeline2_timepoint_v2**](https://github.com/stratust/igpipe
 - [Wang Z, Lorenzi JCC, Muecksch F, et al. **Enhanced SARS-CoV-2 neutralization by dimeric IgA.** *Sci Transl Med.* 2021;13(577):eabf1555. doi:10.1126/scitranslmed.abf1555](https://stm.sciencemag.org/content/13/577/eabf1555.full)
 
 - [Gaebler C, Wang Z, Lorenzi JCC, et al. **Evolution of antibody immunity to SARS-CoV-2.** *Nature.* 2021;10.1038/s41586-021-03207-w. doi:10.1038/s41586-021-03207-w](https://www.nature.com/articles/s41586-021-03207-w)
-- 
+
 - [Cho, A., Muecksch, F., Schaefer-Babajew, D. et al. **Anti-SARS-CoV-2 receptor-binding domain antibody evolution after mRNA vaccination.** *Nature* (2021). https://doi.org/10.1038/s41586-021-04060-7](https://www.nature.com/articles/s41586-021-04060-7)
 
 ---
