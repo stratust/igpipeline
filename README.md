@@ -10,7 +10,9 @@ The same pipeline was used to analyze antibody evolution between two timepoints 
 
 Sequences from timepoints 1.3 months and 6.2 months were placed in the IgG and IgM slots of this pipeline,and the figures labels were modified manually using Adobe Illustrator. 
 
+We also use this branch in our follow-up paper:
 
+-[Cho, A., Muecksch, F., Schaefer-Babajew, D. et al. **Anti-SARS-CoV-2 receptor-binding domain antibody evolution after mRNA vaccination.** *Nature* (2021). https://doi.org/10.1038/s41586-021-04060-7](https://www.nature.com/articles/s41586-021-04060-7)
 ---
 
 
@@ -56,11 +58,11 @@ Open up a terminal session and download the image using the command **docker pul
 
 #### Step 2:
 In Desktop, create a folder named "ig_analysis". Inside this folder, download and extract the zip file available through the links below. 
-- [Dataset for: Wang Z, Lorenzi JCC, Muecksch F, et al. **Enhanced SARS-CoV-2 neutralization by dimeric IgA.** *Sci Transl Med.* 2021;13(577):eabf1555. doi:10.1126/scitranslmed.abf1555](http://gofile.me/4kSgZ/llhDH7WfE)
+- [Dataset for: Wang Z, Lorenzi JCC, Muecksch F, et al. **Enhanced SARS-CoV-2 neutralization by dimeric IgA.** *Sci Transl Med.* 2021;13(577):eabf1555. doi:10.1126/scitranslmed.abf1555](https://www.dropbox.com/s/lrrw4974drazhaf/data_wang_z_2021.zip?dl=0)
 
-- [Dataset for: Gaebler C, Wang Z, Lorenzi JCC, et al. **Evolution of antibody immunity to SARS-CoV-2.** *Nature.* 2021;10.1038/s41586-021-03207-w. doi:10.1038/s41586-021-03207-w](http://gofile.me/4kSgZ/fUwS7JEOn)
+- [Dataset for: Gaebler C, Wang Z, Lorenzi JCC, et al. **Evolution of antibody immunity to SARS-CoV-2.** *Nature.* 2021;10.1038/s41586-021-03207-w. doi:10.1038/s41586-021-03207-w](https://www.dropbox.com/s/ruhghx38hhxxo81/data_gaebler_c_2021.zip?dl=0)
 
-- [Data set for: Alice Cho, Frauke Muecksch, Dennis Schaefer-Babajew, et al. **Antibody Evolution after SARS-CoV-2 mRNA Vaccination** *bioRxiv* 2021; 10.1101/2021.07.29.454333 ](https://www.dropbox.com/s/gr0r7cz14xmhkxp/VAX_MANUSCRIPT_ab1.zip?dl=0)
+- [Cho, A., Muecksch, F., Schaefer-Babajew, D. et al. **Anti-SARS-CoV-2 receptor-binding domain antibody evolution after mRNA vaccination.** *Nature* (2021). https://doi.org/10.1038/s41586-021-04060-7](https://www.dropbox.com/s/gr0r7cz14xmhkxp/VAX_MANUSCRIPT_ab1.zip?dl=0)
 
 
 Also create a folder named "results".
