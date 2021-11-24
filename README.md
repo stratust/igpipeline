@@ -10,6 +10,8 @@ Use the branch [**igpipeline2_timepoint_v2**](https://github.com/stratust/igpipe
 - [Wang Z, Lorenzi JCC, Muecksch F, et al. **Enhanced SARS-CoV-2 neutralization by dimeric IgA.** *Sci Transl Med.* 2021;13(577):eabf1555. doi:10.1126/scitranslmed.abf1555](https://stm.sciencemag.org/content/13/577/eabf1555.full)
 
 - [Gaebler C, Wang Z, Lorenzi JCC, et al. **Evolution of antibody immunity to SARS-CoV-2.** *Nature.* 2021;10.1038/s41586-021-03207-w. doi:10.1038/s41586-021-03207-w](https://www.nature.com/articles/s41586-021-03207-w)
+- 
+- [Cho, A., Muecksch, F., Schaefer-Babajew, D. et al. **Anti-SARS-CoV-2 receptor-binding domain antibody evolution after mRNA vaccination.** *Nature* (2021). https://doi.org/10.1038/s41586-021-04060-7](https://www.nature.com/articles/s41586-021-04060-7)
 
 ---
 
@@ -51,7 +53,7 @@ Open up a terminal session and download the image using the command **docker pul
 <br/>
 
 #### Step 2:
-In Desktop, create a folder named "ig_analysis". Inside this folder, download and extract the zip file available through [this link](http://gofile.me/4kSgZ/cr4CylTqJ) and create a folder named "results"  
+In Desktop, create a folder named "ig_analysis". Inside this folder, download and extract the zip file available through [this link](https://www.dropbox.com/s/fv21zlqx3dizw1m/data_robbiani_df_2020.zip?dl=0) and create a folder named "results"  
 ![](img/img7.png "")  
 
 <br/>
