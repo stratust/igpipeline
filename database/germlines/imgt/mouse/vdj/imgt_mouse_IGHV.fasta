@@ -19,7 +19,7 @@ tgggtgaagcagagtctgaagcagggactggaatggattggagctattcatcctgaa...
 ...aatggtggtattacctacaatcagaagttcaaa...ggcaaggccacatttactgta
 gacacatcctccaacacagcctacatgcaactcagaagcctgacatctgaggacactgct
 gactattattgtgagaga
->AC090843|IGHV1-14*01|Mus_musculus_C57BL/6|F|V-REGION|149197..149490|294 nt|1| | | | |294+24=318| | |
+>AC090843|IGHV1-14*01|Mus_musculus_C57BL/6|P|V-REGION|149197..149490|294 nt|1| | | | |294+24=318| | |
 gagttccagctgcagcagtctggacct...gagctggtaaagcctggggcttcagtgaag
 atgtcctgcaaggcttctggatacacattc............actagctatgttatgcac
 tgggtgaagcagaagcctgggcagggccttgagtggattggatatatttatccttac...
@@ -41,13 +41,6 @@ tgtgtgaaacagagccatgtaaagagccttgagtggattgaacatattaatcttttc...
 gacatatcctctagcacagcctatatggagcttagcagattgacatctgaagactcagag
 gtatattactgtgcaaga
 >AC090843|IGHV1-17-1*01|Mus_musculus_C57BL/6|P|V-REGION|174593..174886|294 nt|1| | || |294+24=318| | |
-gaagtccacctgcagcagtctctacct...aaggtagtgaaggctgggccttcagtgaag
-atatcctgcaaggcttctggttactcattc............actggctactacatgcac
-tgggtgaagcagagccatggaaagatccttcaaaggattgaatatgttaatccttat...
-...aatggtggtactggctacaatgaaaagttcaag...gacaaggccacattgactgca
-gacaaatccttcagcacagcctatatgcaattcagcagcctgacatctgaggactctctg
-gtctattactgtgcaaga
->BN000872|IGHV1-17-1*01|Mus_musculus_C57BL/6|P|V-REGION|1398847..1399140|294 nt|1| | | | |294+24=318| | |
 gaagtccacctgcagcagtctctacct...aaggtagtgaaggctgggccttcagtgaag
 atatcctgcaaggcttctggttactcattc............actggctactacatgcac
 tgggtgaagcagagccatggaaagatccttcaaaggattgaatatgttaatccttat...
@@ -192,21 +185,21 @@ tgggtgaagcagagccatggaaagagccttgagtggattggatatatttatcctaac...
 ...aatggtggtactagctacaatcagaagttcaag...ggcaaggccacattgactgta
 gacaagtcctccagcacagcctacatggagctccacagcctgacatctgaggactctgca
 gtctattactgtgcaaga
->AC073565|IGHV1-35*01|Mus_musculus_C57BL/6|P|V-REGION|10854..11149|296 nt|1| | | | |296+24=320| | |
+>AC073565|IGHV1-35*01|Mus_musculus_C57BL/6|P|V-REGION|10854..11147|294 nt|1| | || |294+24=318| | |
 gaggtccagctgaagcagcctggaact...gtggtggtgaaacctggggcttcagtgaag
 atatcctgccaggcttctggttactcattt............actggctactacatgcac
 tgggtgaagcagagccatgaaaagagcctttagtggattctacttattattccttac...
 ...aatggtgatactagcaacaaccagaagttcaag...ggcaaagcaacattgactgta
 gacaagtcctccagcacagccaacatggagctctgcagcctgacatctgaggactctacg
-gtctattaccgtgcaagact
->D13202|IGHV1-35*02|Mus_musculus_BALB/c|P|V-REGION|101..394|294 nt|1| | | | |294+24=318| | |
+gtctattaccgtgcaaga
+>D13202|IGHV1-35*02|Mus_musculus_BALB/c|P|V-REGION|101..394|294 nt|1| | || |294+24=318| | |
 gaggtccagctgaagcagcctggcact...gtggtggtgaaacctggggcttcagttaag
 atatcctgccaggcttctggttactcattt............actggctactacatgcac
 tgggtgaagcagagccatgaaaagagcctttagtggattggacttattattccttac...
 ...aatggtgatactagcaacaaccagaagttcaag...ggcaaagccacattgactgta
 gacaagtcctccagcacagccaacatggagctctgcagcctgacatctgaggactctacg
 gtctattaccgtgcaaga
->M17696|IGHV1-35*03|Mus_musculus_BALB/c|P|V-REGION|101..354|254 nt|1| | | | |254+24=278| | |
+>M17696|IGHV1-35*03|Mus_musculus_BALB/c|P|V-REGION|101..354|254 nt|1| | || |254+24=278|partial in 3'| |
 gaggtccagctgaagcagcctggcact...gtggtggtgaaacctggggcttcagttaag
 atatcctgccaggcttctggttactcattt............actggctactacatgcac
 tgggtgaagcagagccatgaaaagagcctttagtggattggacttattattccttac...
@@ -742,13 +735,13 @@ tgggtccgccaggctccaggaaagggtttggaatgggttgctcgcataagaagtaaaagt
 aataattatgcaacatattatgccgattcagtgaaa...gacaggttcaccatctccaga
 gatgattcacaaagcatgctctatctgcaaatgaacaacttgaaaactgaggacacagcc
 atgtattactgtgtgagcga
->AC073561|IGHV10-3*01|Mus_musculus_C57BL/6|F|V-REGION|118953..119254|301 nt|1| | | | |301+18=319| | |
+>AC073561|IGHV10-3*01|Mus_musculus_C57BL/6|F|V-REGION|118953..119254|302 nt|1| | || |302+18=320| | |
 gaggtgcagcttgttgagtctggtgga...ggattggtgcagcctaaaggatcattgaaa
 ctctcatgtgccgcctctggtttcaccttc............aatacctatgccatgcac
 tgggtccgccaggctccaggaaagggtttggaatgggttgctcgcataagaagtaaaagt
 agtaattatgcaacatattatgccgattcagtgaaa...gacagattcaccatctccaga
 gatgattcacaaagcatgctctatctgcaaatgaacaacctgaaaactgaggacacagcc
-atgtattactgtgtgagag
+atgtattactgtgtgagaga
 >AF064442|IGHV10-3*02|Mus_musculus_C57BL/10|F|V-REGION|323..624|302 nt|1| | | | |302+18=320| | |
 gaggtgcagcttgttgagtctggtgga...ggattggtgcagcctaaaggatcattgaaa
 ctctcatgtgccgcctctgttttcaccttc............aatacctatgccatgcac
@@ -1228,13 +1221,13 @@ tgggtgaaacagaggcctggacagggcctggaatggattggatatattaatcctgga...
 ...aatggttatactaagtacaatgagaagttcaag...ggcaagaccacactgactgta
 gacaaatcctccagcacagcctacatgcagctcagaagcctgacatctgaggactctgca
 gtctatttctgtgcaaga
->K02154|IGHV1S21*01|Mus_musculus_A/J|F|V-REGION|1..230|230 nt|1| | || |230+67=297|partial in 5'| |
+>K02154|IGHV1S21*01|Mus_musculus_A/J|F|V-REGION|1..230|230 nt|1| | || |230+67=297|partial in 5' and in 3' | |
 ..............................................ggtcctcagtgaag
 ctgtcctgcaagacttctggatatacattc............acaagctatggtataaac
 tgggtgaaacagaggcctggacagggcctggaatggattggatatatttatcctgga...
 ...aatggttatactgcgtacaatgagcagttcaag...ggcaaggccacactgacttca
 gacacatcctccagcacagcctacatgcagctcagaagcctgacatctgaggaytct
->X05745|IGHV1S21*02|Mus_musculus_A/J|[F]|V-REGION|1..222|222 nt|1| | | | |222+69=291|partial in 5'| |
+>X05745|IGHV1S21*02|Mus_musculus_A/J|[F]|V-REGION|1..222|222 nt|1| | || |222+69=291|partial in 5' and in 3' | |
 ................................................tcctcagtgaag
 ctgtcctgcaagacttctggatatacattc............acaagctatggtataaac
 tgggtgaaacagaggcctggacagggcctggaatggattggatatatttatcctgga...
@@ -1703,13 +1696,13 @@ tgggttcgccagcctccaggaaagggtctggagtggctggtagtgatatggagtgat...
 ......ggaagcacaacctataattcagctctcaaa...tccagactgagcatcagcaag
 gacaactccaagagccaagttttcttaaaaatgaacagtctccaaactgatgacacagcc
 atgtactactgtgccagaaa
->BN000872|IGHV2-6*03|Mus_musculus_C57BL/6|F|V-REGION|2354190..2354482|291 nt|1| | | | |291+27=318| | |
+>BN000872|IGHV2-6*03|Mus_musculus_C57BL/6|F|V-REGION|0..0|293 nt|1| | || |293+27=320| | |
 caggtgcagctgaaggagtcaggacct...ggcctggtggcgccctcacagagcctgtcc
 atcacatgcaccgtctcagggttctcatta............accagctatggtgtacac
 tgggttcgccagcctccaggaaagggtctggagtggctggtagtgatatggagtgat...
 ......ggaagcacaacctataattcagctctcaaa...tccagactgagcatcagcaag
 gacaactccaagagccaagttttcttaaaaatgaacagtctccaaactgatgacacagcc
-atgtactactgtgccaga
+atgtactactgtgccagaca
 >AJ851868|IGHV2-6-1*01|Mus_musculus_129/Sv|F|V-REGION|854274..854566|293 nt|1| | | | |293+27=320| | |
 caggtgcagctgaaggagtcaggacct...ggcctggtggcgccctcacagagcctgtcc
 atcacatgcaccatctcagggttctcatta............accagctatggtgtacac
@@ -1780,13 +1773,13 @@ tggtttcgcaagcctccgagaaagggattggaatggttgggaggaatatggtctggt...
 ......ggaagcatatactatactccagctctcagt...tcccgactgagtgtcagcagg
 gacacctctaagagccaagttttctttaaaatgagcagtctgcaaagtgaagacacggct
 gtgtaccactgtgccagata
->AC079273|IGHV2-9*01|Mus_musculus_C57BL/6|F|V-REGION|65767..66059|293 nt|1| | | | |293+27=320| | |
+>AC079273|IGHV2-9*01|Mus_musculus_C57BL/6|F|V-REGION|65767..66059|293 nt|1| | || |293+27=320| | |
 caggtgcagctgaaggagtcaggacct...ggcctggtggcgccctcacagagcctgtcc
 atcacttgcactgtctctgggttttcatta............accagctatggtgtagac
 tgggttcgccagcctccaggaaagggtctggagtggctgggagtaatatggggtggt...
 ......ggaagcacaaattataattcagctctcatg...tccagactgagcatcagcaaa
 gacaactccaagagccaagttttcttaaaaatgaacagtctgcaaactgatgacacagcc
-atgtactactgtgcacaaac
+atgtactactgtgccaaaca
 >AJ851868|IGHV2-9*02|Mus_musculus_129/Sv|F|V-REGION|405504..405796|293 nt|1| | || |293+27=320| | |
 caggtgcagctgaaggagtcaggacct...ggcctggtggcgccctcacagagcctgtcc
 atcacttgcactgtctctgggttttcatta............accagctatggtgtacac
@@ -1955,13 +1948,13 @@ tggatccggaaattcccagggaataaacttgagtacatggggttcataagcggaagt...
 ......ggtagcacttactacaatccatctctcaaa...agtcgaatctccataactcga
 gacacatccaagaaccagtattacctacagttgaattctgtgactactgaggacgcagcc
 acatattactgtgcaagagg
->AC079273|IGHV4-1*01|Mus_musculus_C57BL/6|F|V-REGION|134953..135248|294 nt|1| | | | |294+24=318| | |
+>AC079273|IGHV4-1*01|Mus_musculus_C57BL/6|F|V-REGION|134953..135248|296 nt|1| | || |296+24=320| | |
 gaggtgaagcttctccagtctggaggt...ggcctggtgcagcctggaggatccctgaaa
 ctctcctgtgcagcctcaggaatcgatttt............agtagatactggatgagt
 tgggttcggcgggctccagggaaaggactagaatggattggagaaattaatccagat...
 ...agcagtacaataaactatgcaccatctctaaag...gataaattcatcatctccaga
 gacaacgccaaaaatacgctgtacctgcaaatgagcaaagtgagatctgaggacacagcc
-ctttattactgtgcaaga
+ctttattactgtgcaagacc
 >AJ851868|IGHV4-1*02|Mus_musculus_129/Sv|F|V-REGION|334879..335174|296 nt|1| | | | |296+24=320| | |
 gaggtgaagcttctcgagtctggaggt...ggcctggtgcagcctggaggatccctgaaa
 ctctcctgtgcagcctcaggattcgatttt............agtagatactggatgagt
@@ -2039,20 +2032,20 @@ tgggttcgccagactccagagaagaggctggagtgggtcgcatacattagtaatggt...
 ...ggtggtagcacctactatccagacactgtaaag...ggccgattcaccatctccaga
 gacaatgccaagaacaccctgtacctgcaaatgagcagtctgaagtctgaggacacggcc
 atgtattactgtgcaagaca
->BN000872|IGHV5-12-4*01|Mus_musculus_C57BL/6|F|V-REGION|2308604..2308898|294 nt|1| | | | |294+24=318| | |
+>BN000872|IGHV5-12-4*01|Mus_musculus_C57BL/6|F|V-REGION|2308604..2308900|296 nt|1| | || |296+24=320| | |
 gaagtgaagctcgtggagtctggggga...ggtttagtgaagcctggacagtccctgaaa
 ctctcctgtgcagcctctggattcactttc............agtaactattacatgtct
 tgggttcaccagactccggagaagaggctggagtgggttgcatacattagtagtagt...
 ...ggtgttagcacctattatccagacaatgtaaag...ggccgattcgccatctccaga
 gacaatgccaagaacaccctttacctgcaaatgaccagtctgaagtcagaggacacggcc
-ttgtattactgtgcaaga
->AC079273|IGHV5-15*01|Mus_musculus_C57BL/6|F|V-REGION|13317..13612|296 nt|1| | | | |296+24=320| | |
+ttgtattactgtgcaagagg
+>AC079273|IGHV5-15*01|Mus_musculus_C57BL/6|F|V-REGION|13317..13612|296 nt|1| | || |296+24=320| | |
 gaggtgaagctggtggagtctggggga...ggcttagtgcagcctggagggtccctgaaa
 ctctcctgtgcagcctctggattcactttc............agtgactacggaatggcg
 tgggttcgacaggctccaaggaaggggcctgagtgggtagcattcattagtaatttg...
 ...gcatatagtatctactatgcagacactgtgacg...ggccgattcaccatctctaga
 gagaatgccaagaacaccctgtacctggaaatgagcagtctgaggtctgaggacacggcc
-atgtattactgtgcaagaac
+atgtattactgtgcaagaca
 >AJ851868|IGHV5-15*02|Mus_musculus_129/Sv|F|V-REGION|455690..455985|296 nt|1| | | | |296+24=320| | |
 gaggtgaagctggtggagtctggggga...ggcttagtgcagcctggagggtcccggaaa
 ctctcctgtgcagcctctggattcactttc............agtgactacggaatggcg
@@ -2081,13 +2074,13 @@ tgggttcgacaggctccaaggaaggggcctgagtgggtagcattcattagtaatttg...
 ...gcatatagtatctactatgcagacactgtgacg...ggccgattcaccatctctaga
 gagaatgccaagaacaccctgtacctggaaatgagcagtctgaggtctgaggacacggcc
 atgtattactgtgcaagaca
->AC079273|IGHV5-16*01|Mus_musculus_C57BL/6|F|V-REGION|25197..25492|296 nt|1| | | | |296+24=320| | |
+>AC079273|IGHV5-16*01|Mus_musculus_C57BL/6|F|V-REGION|25197..25492|296 nt|1| | || |296+24=320| | |
 gaagtgaagctggtggagtctgaggga...ggcttagtgcagcctggaagttccatgaaa
 ctctcctgcacagcctctggattcactttc............agtgactattacatggct
 tgggtccgccaggttccagaaaagggtctagaatgggttgcaaacattaattatgat...
 ...ggtagtagcacctactatctggactccttgaag...agccgtttcatcatctcgaga
 gacaatgcaaagaacattctatacctgcaaatgagcagtctgaagtctgaggacacagcc
-acgtattactgtgcaagaag
+acgtattactgtgcaagaga
 >AF120471|IGHV5-16*02|Mus_musculus_C57BL/6|[F]|V-REGION|1..297|297 nt|1| | | | |297+24=321| | |
 gaagtgaagctggtggagtctgaggga...ggcttagtgcagcctggaagttccatgaaa
 ctctcctgcacagcctctggattcactttc............agtgactattacatggct
@@ -2116,7 +2109,7 @@ tgggttcgtcaggctccagagaaggggctggagtgggttgcatacattagtagtggc...
 ...agtagtaccatctactatgcagacacagtgaag...ggccgattcaccatctccaga
 gacaatgccaagaacaccctgtacctgcaaatgagcagtctgaagtctgaggacacagcc
 atgtattactgtgcaagacga
->AC090887|IGHV5-2*01|Mus_musculus_C57BL/6|F|V-REGION|36458..36755|296 nt|1| | || |296+24=320| | |
+>AC090887|IGHV5-2*01|Mus_musculus_C57BL/6|F|V-REGION|36458..36753|296 nt|1| | || |296+24=320| | |
 gaggtgcagctggtggagtctggggga...ggcttagtgcagcctggagagtccctgaaa
 ctctcctgtgaatccaatgaatacgaattc............ccttcccatgacatgtct
 tgggtccgcaagactccggagaagaggctggagttggtcgcagccattaatagtgat...
@@ -2284,13 +2277,13 @@ tgggttcgccagactccggagaagaggctggagtgggtcgcaaccattagtagtggt...
 ...ggtagttacacctactatccagacagtgtgaag...gggcgattcaccatctccaga
 gacaatgccaagaacaccctgtacctgcaaatgagcagtctgaggtctgaggacacggcc
 atgtattactgtgcaaga
->BN000872|IGHV5-9-1*02|Mus_musculus_C57BL/6|F|V-REGION|2334745..2335041|294 nt|1| | | | |294+24=318| | |
+>BN000872|IGHV5-9-1*02|Mus_musculus_C57BL/6|F|V-REGION|2334745..2335043|296 nt|1| | || |296+24=320| | |
 gacgtgaagctggtggagtctggggaa...ggcttagtgaagcctggagggtccctgaaa
 ctctcctgtgcagcctctggattcactttc............agtagctatgccatgtct
 tgggttcgccagactccagagaagaggctggagtgggtcgcatacattagtagtggt...
 ...ggtgattacatctactatgcagacactgtgaag...ggccgattcaccatctccaga
 gacaatgccaggaacaccctgtacctgcaaatgagcagtctgaagtctgaggacacagcc
-atgtattactgtacaaga
+atgtattactgtacaagaga
 >AJ851868|IGHV5-9-2*01|Mus_musculus_129/Sv|F|V-REGION|845537..845832|296 nt|1| | | | |296+24=320| | |
 gaagtgaagctggtggagtctggggga...ggcttagtgaagcctggagggtccctgaaa
 ctctcctgtgcagcctctggattcactttc............agtagctatggcatgtct
@@ -2368,7 +2361,7 @@ tgggtccgccagtctccagagaaggggcttgagtgggttgctcaaataagattgaaatct
 gataattatgcaacacattatgcggagtctgtgaaa...gggaggttcaccatatcaaga
 gatgattccaaaagtagtgtctacctgcaaatgaacaacttaagggctgaagacactgga
 atttattactgcacaggc
->AC073561|IGHV6-4*01|Mus_musculus_C57BL/6|F|V-REGION|1987..2286|300 nt|1| | | | |300+18=318| | |
+>AC073561|IGHV6-4*01|Mus_musculus_C57BL/6|ORF|V-REGION|1987..2286|300 nt|1| | | | |300+18=318| | |
 gatgtgaacctggaagtgtctggagga...ggcttagttaaacctggaggatccatgcaa
 ctcttttgtgtagcctctggatttactttt............gtagatggctggatggac
 tgggtccgccagtctccagagaagggtcttgagtgggttgctgaaattgcaaacaaagct
@@ -2584,13 +2577,13 @@ tggattcgtcagccttcagggaagggtctagagtggctggcacacatttggtggaat...
 ......gatgataagtactataacccatccctgaag...agccggctcacaatctccaag
 gatacctccaacaaccaggtattcctcaagatcaccactgtggacactgcagatactgcc
 acatac
->AC074329|IGHV8-6*01|Mus_musculus_C57BL/6|F|V-REGION|133286..133586|297 nt|1| | | | |297+21=318| | |
+>AC074329|IGHV8-6*01|Mus_musculus_C57BL/6|F|V-REGION|133286..133586|301 nt|1| | || |301+21=322| | |
 caggttactctgaaagagtctggccct...ggtatattgcagccctcgcagaccctcagt
 ctgacttgttctttctctgggttttcactgagt......acttttggtatgggtgtgagc
 tggattcgtcagccttcagggaaggatctggagtggctggcacacatttattgggat...
 ......gatgacaagcactataacccatccttgaag...agccagctcagaatctccaag
 gatacctccaacaaccaggtattcctcaagatcaccactgtggacactgtagatactgcc
-acatactactgtgctcga
+acatactactgtgctcgaagag
 >AC087166|IGHV8-7*01|Mus_musculus_C57BL/6|P|V-REGION|123398..123691|294 nt|1| | | | |294+21=315| | |
 caggttattctgaaagagtctggccct...ggaatattgcagccgtcccagaccctaagt
 ctgacttgttctttctctgggttttcatttagg......acttaaggtatggcagtgagc
@@ -2612,13 +2605,13 @@ tggattcgtcagccttcagggaagggtctagagtggctggcacacatttggtgggat...
 ......gatgataagtactataacccagccctgaag...agtcggctcacaatctccaag
 gatacctccaacaaccaggtattcctcaagatcaccagtgtggacactgcagatactgcc
 acatac
->BN000872|IGHV8-8-1*01|Mus_musculus_C57BL/6|ORF|V-REGION|666356..666661|301 nt|1| | | | |301+21=322| | |
+>BN000872|IGHV8-8-1*01|Mus_musculus_C57BL/6|ORF|V-REGION|666356..666660|300 nt|1| | || |300+21=321| | |
 caggttattctgaaagagtctggccct...ggaatattgcagccctcccagaccctaagt
 ctgacttgttctttctctgggttttcacttagc......acttatggtatgacagtgagc
 tggatgcgtcagccttcaaggaagggtttggagtggctggcacaaattgggtcagat...
 ......gatagtaagctctataacccatctctgaag...agccgaatcacaatctccaag
 gaaacctccaacaaccatgtattcctcaagatcatctgtgtggacactgaagtttctgtc
-acatactactgtgctcacagac
+acatactactgtgctcacaga
 >AC073939|IGHV8-9*01|Mus_musculus_C57BL/6|ORF|V-REGION|192608..192908|301 nt|1| | | | |301+21=322| | |
 caggttactctgaaagagtctggccct...ggtatattgcagccctcccagaccctcagt
 ctgacctgttctttctctgtgttttcactgagc......acttttggtatgggtgtgagc
@@ -2626,7 +2619,7 @@ tggattcgtcagccttcagggaagggtctggagtggctggcacacatttattgggat...
 ......gaggacaagcactataaaccatccttgaag...agccggctcacaatctccaag
 gatacctccaacaaccaggtattcctcaagatcaccactgtggacactgcagatactgcc
 acatactactctgctcgaagag
->U23025|IGHV8-9*02|Mus_musculus_C57BL/6|[P]|V-REGION|2..289|288 nt|1| | | | |288+21=309| | |
+>U23025|IGHV8-9*02|Mus_musculus_C57BL/6|[P]|V-REGION|2..289|288 nt|1| | || |288+21=309|partial in 5' and in 3' | |
 caggttactctgaaagagtctggccct...ggtatattgcagccctcccagaccctcagt
 ctgacctgttctttctctgtgttttcactgaac......acttttggtatgggtgtgagc
 tggattcgtcagccttcagggaagggtctggagtggctggcacacatttattgggat...
@@ -2647,7 +2640,7 @@ tggatgtgtcagccttcagggaagggtctggtgtggctggcactcatttggtgtaat...
 ......aatgataagggctacaatccattcctgagg...agccagctgacaatctccaag
 gatacctccaacaaccaggtattcctcaagatcaccagtgtggaccctgcagatactgcc
 acatactactgtgcttgaggag
->U23021|IGHV8S6*01|Mus_musculus_C57BL/6|[P]|V-REGION|2..286|285 nt|1| | | | |285+21=306| | |
+>U23021|IGHV8S6*01|Mus_musculus_C57BL/6|[P]|V-REGION|2..286|285 nt|1| | || |285+21=306|partial in 3'| |
 caggttactctgaaagagtctggccct...ggtatattgcagccctcccagaccctcagt
 ctgacctgttctttctctgggttttcactgagc......acttttggtatgggtgtgagc
 tggattcgtcagcctttagggaagggtctggagtagctggcacacatttattgggat...
@@ -2759,7 +2752,7 @@ tgggtgcaaaagatgccaggaaagggtttgaagtggattggctggataaacacccac...
 ...tctggagtgccaaaatatgcagaagacttcaag...ggacggtttgccttctctttg
 gaaacctctgccagcactgcatatttacagataagcaacctcaaaaatgaggacacggct
 acatatttctgt
->L14367|IGHV9S7*01|Mus_musculus_BALB.K|F|V-REGION|1..284|284 nt|1| | | | |284+28=312|partial in 5'| |
+>L14367|IGHV9S7*01|Mus_musculus_BALB.K|F|V-REGION|1..284|284 nt|1| | || |284+28=312|partial in 5' and in 3' | |
 ....tccagttggtgcagtctggacct...gagctgaagaagcctggagagacagtcaag
 atctcctgcaaggcttctgggtataccttc............acaactgctggaatgcag
 tgggtgcaaaagatgccaggaaagggtttgaagtggattggctggataaacacccac...
@@ -2773,4 +2766,270 @@ tgggtgaagcaggctccaggaaagggtttaaagtggatgggctggataaacactgag...
 ...actggtgagccaacatatgcagatgacttcaag...ggacggtttgccttctctttg
 gaaacctctgccagcactgcctatttgcagatcaacaacctcaaaaatgaggacacggct
 acatatttctgt
+>BK063796|IGHV1-38*01|Mustela putorius furo_JIRA1106|F|V-REGION|328011..328304|294 nt|1| | | | |294+24=318| | |
+caggtccatctgttacagtctggggct...gaggtgaggaatcctggagcatccgtgaag
+gtctcctgcaaggcatctggatacacattc............actgactactatatgcac
+tgggtgcgacaggccccagaacgaggacttgagtggatgggacgaattgaccctgaa...
+...gatggtgccacaaatattgcacagaaattccag...gctagagtcacgcttacagca
+gacacatccacaagcacggcctacatggaactgagaagtctgaagtctgaggacacggct
+gtgtattactgtgcaaga
+>BK063796|IGHV1-55*01|Mustela putorius furo_JIRA1106|F|V-REGION|121350..121643|294 nt|1| | | | |294+24=318| | |
+caggtccatctgttacagtctggggct...gaggtgaggaatcctggagcatctgtgaag
+gtctcctgcaaggcatctggatacacattc............actgactactatatgcac
+tgggtgcgacaggccccagaacgagggcttgagtggatgggacaaattgaccctgaa...
+...gatggtgccacaaatattgcacagaaataccag...gctagagtcacgcttacagca
+gacacatccacaaacatggcctacatggaactgagaagtctgaggcctgaggacacggct
+gtgtattactgtgcaaga
+>BK063796|IGHV1-59*01|Mustela putorius furo_JIRA1106|F|V-REGION|65866..66159|294 nt|1| | | | |294+24=318| | |
+caggtccatctgttacagtctggggct...gaggtgaggaatcctggagcatctgtgaag
+gtctcctgcaaggcatctggatacacattc............actaactactatatgcac
+tgggtgcgacaggctccagaacgagggcttgagtggatgggacaaattgaccctgaa...
+...gatggtgccacaaatattgcacagaaataccag...gctagagtcacgcttacagca
+gacacatccacaaacatggcctacatggaactgagaagtctgaggcctgaggacacggtt
+gtgtattactgtgcaaga
+>BK063796|IGHV3-10*01|Mustela putorius furo_JIRA1106|P|V-REGION|745948..746240|293 nt|1| | | | |293+27=320| | |
+gagatgcagctggtggagtctggggga...gacctggtgaagcctgggggttccctgaga
+ctctcctgtgcagcctgtggattcaccttc............agtagctactggatgagc
+tgggtccaccagcctccagggaaggggctgcagtgggtcacatatattagcagtggt...
+......ggaagcacatacaatacagaccctgtgacg...ggccgtttcaccatccccaga
+gacaatggcaagaacaagctgtatctgcagatgaacagcctgagagtcgaggacacagcc
+gtgtattactgtgcaacaga
+>BK063796|IGHV3-11*01|Mustela putorius furo_JIRA1106|F|V-REGION|716234..716529|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctgggggt...gacctggtgaagcctggggggtccctgaga
+ctctcctgtgcagcctctggattcaccttc............agtagctacgacatgtac
+tgggtccgccaggctccagggaaggggctgcagtgtgtcgcatggattaatactggt...
+...ggaagtagcacaagctacgcagactctgtgaag...ggtcgattcaccatctccaga
+gacaacggcaagaacacgctgtatctgcagatgaacagcctgagagccgaggacacggcc
+atgtattactgtgcaacaga
+>BK063796|IGHV3-13*01|Mustela putorius furo_JIRA1106|F|V-REGION|694672..694967|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggtgaagcctggggggtctctgaga
+ctctcctgtgcagcctctggattcaccttc............agtagctactggatgcac
+tgggtccgccaggctccagggaaggggctgcagtgggtcgcagttattagctatgat...
+...ggaagtagcacaagctacgcagactctgtgaag...ggccgattcaccatctccaga
+gacaacggcaagaacacgctgtatctgcagatgagcagcctgagaaccgaggacacggca
+gtgtattactgtgcgagaga
+>BK063796|IGHV3-16*01|Mustela putorius furo_JIRA1106|F|V-REGION|658163..658458|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggtgaagccaggggggtccctgaga
+ctctcctgtgcagcctctggattcaccttc............agcagctacggcatgagc
+tgggtccgccaggctccagggatggggctgcagtgggtcgcagtttttagcagtgat...
+...ggaagtagcacaagatacgcagactctgtgaag...ggccgattcaccatctccaga
+gacaacagcaagaacacgctgtatctgcagatgaacagcctgagagccgtggacacggcc
+atgtattactgtgcaacaga
+>BK063796|IGHV3-17*01|Mustela putorius furo_JIRA1106|F|V-REGION|651422..651717|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggtgaagcctgggggttccctgaga
+ctctcctgtgcagcctctggattcaccttc............agcaactactacatggac
+tgggtccgccaggctccagggaaggggctgcagtgggtcgcacgtattagcaatact...
+...ggtagtagcacaagctacgcagactctgtgaag...ggccaattcaccatctccaga
+gacaacggcaagaacacactttatctgcagatgaacagcctgagagtcgaggacacagcc
+gtgtattactgtgcagcaga
+>BK063796|IGHV3-20*01|Mustela putorius furo_JIRA1106|F|V-REGION|607963..608258|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctgggggt...gacctggtgaagcctggggggtccctgaga
+ctctcctgtgcagcctctggattcaccttc............agcaactactacatgagc
+tgggtccgccaggctccagggaaggggctgcagtgggtcgcatggattaatactggt...
+...ggaagtagcacaagctacgcagactctgtgaag...ggccgattcaccatctccaga
+gacaatggcaagaacacgctgtatctgcagatgaacagcctgagagccgaggacacggcc
+atgtattactgtgcgagaga
+>BK063796|IGHV3-28*01|Mustela putorius furo_JIRA1106|F|V-REGION|490161..490456|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggtgaagccaggggggtccctgaga
+ctctcctgtgcagcctctggattcaccttc............agcagctacggcatgagc
+tgggtccgccaggctccagggatggggctgcagtgggtcgcatacgttagcagtggt...
+...ggaagtagcacaagctatgcagactctgtgaag...ggccgattcaccatctccaga
+gacaacagcaagaacacgctgtatctgcagatgaacagcctgagaaccgaggacacggcc
+atgtattactgtgtgagaga
+>BK063796|IGHV3-29*01|Mustela putorius furo_JIRA1106|P|V-REGION|483431..483726|296 nt|1| | | | |296+24=320| | |
+gtggtgcagctggtggagtctggggga...gacctggtgaagcctaggggttccctgaga
+ctctcctgtgcagcctctggattcaccttc............agcaactaccacatggac
+tgggtccaccaggctccagggaaggggctgcagtgggtcgcagaaattagcaatact...
+...ggtagtagcacacactacgcagactctgtgaaa...ggccgaatcaccatctccaga
+gacaatggcacgaacacactttatctgcagatgaacagcctgagagtcgaggacacagcc
+gtgtattactgtgcagcaga
+>BK063796|IGHV3-3*01|Mustela putorius furo_JIRA1106|ORF|V-REGION|812250..812545|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctgggggt...gacctggtgaagcctggggggtccctgaga
+ctctcctgtgcagcttctggattcgccttc............agtaactacggcatgagc
+cgggtccgccagtctccagggaaggggctgcagtgggtcgcatggattagcagtaga...
+...agtagttacacatactacacagactctgtgaag...ggccaattcaccatctccaga
+gacaacagcaagaacacgctgtatctgcagatgagcagcctgagagccgaggacacggct
+gtatattactgtgcgagaga
+>BK063796|IGHV3-31*01|Mustela putorius furo_JIRA1106|P|V-REGION|470184..470476|293 nt|1| | | | |293+27=320| | |
+gagatgcagctggtggagtctggggga...gacctggtgaagcctggagggtccctgaga
+ctctcctgtgcagcctgtggattcaccttc............agtagctactggatgagc
+tgggtccaccaggctccagggaaggggctgcagtgggtcacatatattagcagtggt...
+......ggaagcacatacaatacagaccctgtgaag...ggccgtttcaccatccccaga
+gacaatggcaagaacatgctgtatctgcagatgaacagcctgagagccgaaagcacaacc
+gtgtattactgtgcaacaga
+>BK063796|IGHV3-32*01|Mustela putorius furo_JIRA1106|F|V-REGION|444858..445153|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctgggggt...gacctggtgaagcctggggggtccctgaga
+ctctcctgtgcagcctctggattcaccttc............agcaactactacatgagc
+tgggtccgccaggctccagggaaggggctgcagtgggtcgcatggattaatactggt...
+...ggaagtagcacaagctacgcagactctgtgaag...ggccgattcaccatctccaga
+gacaacggcaagaacacgctgtatctgcagatgaacagcttgagaactgaggacacggcc
+atgtattactgtgcaagaga
+>BK063796|IGHV3-34*01|Mustela putorius furo_JIRA1106|F|V-REGION|422289..422584|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggtgaagcctggggcgtctctgaga
+ctctcctgtgcagcctctggattcaccttc............agtagctacgggatgcac
+tgggtccgccaggctccagggaaggggctgcagtgggtcgcagttactagcactgat...
+...ggaagtggcacatactacgcggactctgtgaag...ggccgattcaccatctccaga
+gacaatggcaagaacacgctgtatctgcagatggacagcctgagaaccgaggacacggct
+gtgtattactgtgcgagaga
+>BK063796|IGHV3-35*01|Mustela putorius furo_JIRA1106|F|V-REGION|390550..390845|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggtgaagcctgggggttccctgaga
+ctctcctgtgcagcctctggattcaccttc............agtagctatggcatgagc
+tgggtccaccaggccccagggaaggggctgcagtgggtcgcagatattagcaagggt...
+...ggtagttacacatactacacagactctgtgaag...ggccgattcaccatctccaga
+gacaatggcaagaacacgctgtatctgcagatgaacagcctgagaaccgaggacacggcc
+gtgtattactgtgcaacaga
+>BK063796|IGHV3-36*01|Mustela putorius furo_JIRA1106|F|V-REGION|371433..371728|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggtgaagcctggggggtccctgaga
+ctctcctgtgcagcctctggattcaccttc............agtaactatgccatgagc
+tgggtccgccaggctccagggaaggggctgcagtgggtcacaagtattagcaatact...
+...ggtagtaacacatactatgcagactctgtgaag...ggccgattcaccatctccaga
+gacaatggcaagaacatgctgtatcttcagatgaatagcctgaaagccgaggacacagcc
+gtttattactgtgtgaagga
+>BK063796|IGHV3-37*01|Mustela putorius furo_JIRA1106|P|V-REGION|358165..358460|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggagga...gacctggtgaagcctggggggatccctgag
+tctctctgtgcagcctctggattcaccttc............agtagatactttatgaac
+tgggtccgccagactcgaaggaatgggctgcagagggtcccagatattagcaatgat...
+...ggaagtagcacaagctacacagactttgtgaag...ggccgattcaccatccccaga
+aacaatggcaagaacatgctgtatctgcagatgaacagcctgagagctgaggacacagct
+gtgtattactgggtgagaga
+>BK063796|IGHV3-39*01|Mustela putorius furo_JIRA1106|P|V-REGION|317750..318044|295 nt|1| | | | |295+24=319| | |
+gagatgcagttggtggaatctggggga...gacctagtgaagcctagtgggtccctgaga
+ctctcctgtgcagcctctggtttcaccttc............agcagctactacatgaac
+tggtttcgcaagcctccagggaaggggctgcagtgggtcgcatatattagctatgat...
+...ggaagcagcacaagctatgcagactctgtgaag...ggccaattcaccatctccaga
+gacaacggcaagaacacgctgtatctgcagatgaacagcctgagagccaaggacacggcc
+atgtattacttgcaacaga
+>BK063796|IGHV3-4*01|Mustela putorius furo_JIRA1106|F|V-REGION|795331..795626|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggtgaagcctggagggtctctgaga
+ctttcctgtacagcctctggattcaccttc............agcagctacagcatgcaa
+tgggtccgccaggctccagggaaggggctgcagtgggtcgcatatatacgctatgat...
+...ggaagtagcacaagctacgcagactctgtgaag...ggccgattcaccatctccaga
+gacaacggcaagaacacgctgtatctgcagatgaacagcctgagagccgtggacacggcc
+atgtattactgtgcgataga
+>BK063796|IGHV3-40*01|Mustela putorius furo_JIRA1106|F|V-REGION|313233..313528|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggcgaagcctggggggtccctgaga
+ctctcctgtgcagcctctggattcaccttc............agtaactatggcatgagc
+tgggtccggcagactccagggaaggggctgcagcgggtcgcatatattagcagtagt...
+...agtagttacacatactatgcagactctgtgaaa...ggccaattcaccatctccaga
+gacaatgggaagaacacgctgtatctgcagatgagcagcctgagagctgaggacacggcc
+gtgtattactgtgcgagaga
+>BK063796|IGHV3-42*01|Mustela putorius furo_JIRA1106|F|V-REGION|297970..298265|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggtgaagcctgggggttccctgaga
+ctctcctgtgcagcctctggattcaccttc............agcaactactacatgtac
+tgggtccgccaggctccagggaaggggctgcagtgggtcgcagaaattagcaatact...
+...ggtagtagcacatactacacagactctgtgaag...ggccgattcaccatctccaga
+gacaacggcaggaatacactttatcttcagatgaacagccggagaggtgaggacacagcc
+atgtattactgtgtgagaga
+>BK063796|IGHV3-43*01|Mustela putorius furo_JIRA1106|F|V-REGION|281079..281374|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggaggctggggga...gacctggtgaagcctggggggtccctgaga
+ctctcctgtgcagcctctggattcaccttc............agcaactactacatgtac
+tgggtccgccaggcaccagggaaggggctgcagtgggtcgcaggtattagcgatggt...
+...ggaagtagcacatactacgcagactctgtgaag...ggccgattcaccatctccaga
+gacaacggcaagaacacgctgtatctgcagatgaacagcctgagaactgaggacacggcc
+gtgtattactgtgcgagaga
+>BK063796|IGHV3-48*01|Mustela putorius furo_JIRA1106|F|V-REGION|240695..240990|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggtgaagcctggggggtctctgaga
+ctctcctgtgcagcctctggattcaccttc............agtagctatggcatgcac
+tgggtccaccaggctccagggaagggactgcagtgggtcgcaggtattagcaatgac...
+...ggaagtggcacatactacgcggactctgtgaag...ggccgattcaccatctccaga
+gacaatggcaagaacacgctgtatctgcagatgaacagcctgagagccgaggacacggcc
+gtgtactactgtgccagaga
+>BK063796|IGHV3-51*01|Mustela putorius furo_JIRA1106|F|V-REGION|172916..173211|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctgggggt...gacctggtgaagcctgggggttccctgaga
+ctctcctgtgcagcctctggattcaccttc............agcaactactacatggaa
+tgggtccgccaggctccagggaagggactgcagtgggtcgcaggtattagcagggat...
+...ggaagtagcacaagctatgcagactctgtgaag...ggccgattcaccatctccaga
+gacaactgcaagaacacgctgtacctgcagattaacagcctgagaactgaggacacggcc
+atgtattactgtgcaagaga
+>BK063796|IGHV3-52*01|Mustela putorius furo_JIRA1106|F|V-REGION|142635..142930|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggtgaagcctggggggtccctgaga
+ctttcctgtgcagcctctggattcatcttc............agtagctactggatgaga
+tgggtccgccaggctccagggaaggggctgaagtgggtcacaagtattagcaatact...
+...ggtagtaacacatactatgcagactctgtgaag...ggccgattcaccatctccaga
+gacaatggcaagaacacgctgtatctgcagatgaacagcctgagagctgaggacatggct
+gtgtattattgtgcaagaga
+>BK063796|IGHV3-53*01|Mustela putorius furo_JIRA1106|P|V-REGION|138874..139166|293 nt|1| | | | |293+27=320| | |
+gaggtgcagctgttgaattctggggga...gacctggtgaagcctggtgtgtccctgaga
+ctctcctgtgcagcctctgaattcaccttc............agcagtaatgccatgagt
+tgggtcttccaggctccactgaaggggctgcagtgggtctcacatagcaacgaagga...
+......agtagcacaagctacgcagactctgtgaag...ggccgagtcaccagctacaga
+gatgacagcaagaacacgctgtatctgcagaagaacagcctgagaactgaggaaatggct
+gtataaaacactgtgtgaat
+>BK063796|IGHV3-58*01|Mustela putorius furo_JIRA1106|F|V-REGION|71253..71548|296 nt|1| | | | |296+24=320| | |
+gaggtgcagttggtggagtctggggga...gacctggtgaagcctggggggtccctgaga
+ctctcctgtgcagcctctggattcaccttc............agtaactatgccatgagc
+tgggtctgccaggctccagggaaggggctgcagtgggtcgcaagtattagcaatgat...
+...ggaagtagcacaagctatgcagactctgtgaag...ggccgattcaccatctccaga
+gacaacggcaagaacatgctgtatcttcagatgaatagcctgagagctgaagacacggcc
+ctgtattactgtgtgaagga
+>BK063796|IGHV3-60*01|Mustela putorius furo_JIRA1106|P|V-REGION|59366..59657|292 nt|1| | | | |292+27=319| | |
+gaggtgcagctggtggagtctgggaaatacacggtgaagcctggctgggggatcttgaga
+ctctcctatgcaggctctggattcaccttc............agcagttaccacatgagc
+tgggtccactgggctccagggaagtggctgcagtgggtcacatggattagcaatgat...
+...ggaagttgcaaaagctacacagactctgtacaa.........ttcagcatctccaga
+gacaatggcaagaacacgctgtatcggtagatgaacatcatgagagccaaggacacagcc
+atgtattactgtgcaatga
+>BK063796|IGHV3-62*01|Mustela putorius furo_JIRA1106|F|V-REGION|28244..28539|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggtgaagcctggggcgtccctgaga
+ctctcctgtgcagcctctggattcactttc............agcaactactacatgaac
+tgggtccgccaggctccagggaaggggctgcagtgggtcgcatggattaatactggt...
+...ggaagtagcacaagctacgcagactctgtgaag...ggccgattcaccatctccaga
+gacaatggcaagaacacgctgtatctgcagatgaacagcctgagaactgaagacacggcc
+atgtattactgtgcaacaga
+>BK063796|IGHV3-7*01|Mustela putorius furo_JIRA1106|F|V-REGION|766056..766351|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggtgatgccaggggggtccctgaga
+ctctcctgtgcagcctctggattcaccttc............agcagctacggcatgagc
+tgggtccgccaggctgcagggatggggctgcagtgggtcgcagttattagcagtgat...
+...ggaagtagcacaagatacgcagactctgtgaag...ggccgattcaccatctccaga
+gacaacagcaagaacacgctgtatctgcagatgaacagcctgagagccgtggacacggcc
+atgtattactgtgtgagaga
+>BK063796|IGHV3-8*01|Mustela putorius furo_JIRA1106|P|V-REGION|759359..759654|296 nt|1| | | | |296+24=320| | |
+gaggtgcagctggtggagtctggggga...gacctggtgaagcctggggggtccctgaga
+ctctcctgtgcagcctctggattcaccttc............agcaactactacatggac
+tgggtccgccaggctccagggaaggggctgcagtgggtcgcacgtattaacaatact...
+...ggtagtagcacaagctaagcagactctgtgaag...ggccgattcaccatctccaga
+gacaacggcaagaacacactttatctgcagatgaacagcctgagagtcgaggacacagcc
+gtgtattactgtgcagcaga
+>BK063796|IGHV4-2*01|Mustela putorius furo_JIRA1106|F|V-REGION|828120..828409|290 nt|1| | | | |290+30=320| | |
+caacttacacttcaggagtcaggccca...ggactggtgaagccctcacagaccctctct
+ctcacatgtgttgtctccgggggctccgtcacc.........agcagttactattggaac
+tggatccgccagcgccctggaaaagcactggagtggatgggctactggacaggt......
+.........agtacaaggtacaacccggctttccag...ggccgcatctccatcactgct
+gacacatccaagaaccagttctccctgcagctgagttccatgaccactgaggacacggcc
+gtgtattactgtgctagagg
+>BK063796|IGHV7-14*01|Mustela putorius furo_JIRA1106|ORF|V-REGION|676132..676427|296 nt|1| | | | |296+24=320| | |
+caggtgcagttggtgcagtcagaggct...gaggtgaggaagcccggggaatccgtgaag
+gtctcctgcaaggcatctgggtacaccttc............accagctatgcaatgaac
+tgggtgcgacaggcaccaggaaagagcctgcagtacatgggatggatcaacacaaac...
+...actgggaaaccaacatatgcccagggcttctcc...ggtcgatttgttttctccatg
+gacacctctgtcagcacagcctatctacagatcaacagcctgaactctgaggacacggcc
+gtgtattactgtgcaagaga
+>BK063796|IGHV7-26*01|Mustela putorius furo_JIRA1106|ORF|V-REGION|502445..502740|296 nt|1| | | | |296+24=320| | |
+caggtgcagctggtgcagtctgaggct...gaggtgaggaagcccggggaatccgtgaag
+gtctcctgcaaggcatctgggtacaccttc............accagctatgcaatgaac
+tgggtgcgacaggcaccaggaagagccctgcagtacatgggatggatcaacacaaac...
+...actgggaaaccaacatatgcccagggcttctcc...ggtcgatttgttttctccatg
+gacacctctgtcagcacagcctatctacagatcaacagcctgaactctgaggacacggcc
+gtgtattactgtgcaagaga
+>BK063796|IGHV7-44*01|Mustela putorius furo_JIRA1106|ORF|V-REGION|259534..259829|296 nt|1| | | | |296+24=320| | |
+caggtgcagctggtgcagtctgaggct...gaggtgaggaagcccggggaatccgtgaag
+gtctcctgcaaggcatctgggtacaccttc............accagctatgcaatgaac
+tgggtgcgacaggcaccaggaaagagcctgcagtacatgggatggatcaacacaaac...
+...actgggaaaccaacatatgcccagggcttctcc...ggtcgatttgttttctccatg
+gacacctctgtcagcacagcctatctacagatcaacagcctgaactctgaggacacggcc
+gtgtattactgtgcaagaga
+>BK063796|IGHV7-49*01|Mustela putorius furo_JIRA1106|P|V-REGION|211472..211767|296 nt|1| | | | |296+24=320| | |
+caggtgcagctggtgcaatctgaggct...gaggtaaggaagcctggggaatccgtgaag
+gtctcctgcaaggcatctgggtacaccttc............accagctatgcaatgaac
+tgggtgtgacaggcaccaggaaagagcctgcagtacatgggatggatcgacactaac...
+...actgagaaactaacatatgcccagggcttctcc...ggtcgatttgttttctccatg
+gacacctctgtcagcacagcctatctacagatgaacagcctgaactctgaggacacggcc
+atgtattactgtgcaagaga
+>BK063796|IGHV7-5*01|Mustela putorius furo_JIRA1106|ORF|V-REGION|777082..777377|296 nt|1| | | | |296+24=320| | |
+caggtgcagctggtgcagtctgaggct...gaggtgaggaagcccggggaatccgtgaag
+gtctcctgcaaggcatctgggtacaccttc............accagcaatgcaatgagc
+tgggtgcgacaggcaccaggaaagagcctgcagtacatgggatggatcaacacaaac...
+...actgggaaaccaacatatgcccagggcttctcc...ggtcgatttattttctccatg
+gacacctctgtcagcacagcctatctacagatcaacagcctgaactctgaggacacggcc
+gtgtattactgtgcaagaga
 

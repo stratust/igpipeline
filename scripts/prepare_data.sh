@@ -33,7 +33,7 @@ echo -e "quality cut-off:\t" $q_cutoff
 echo "----------------------------------------"
 
 # convert ab1 files to fastq
-batch_ab1tofastq.py "$data_dir" "$out_fastq"
+scripts/batch_ab1tofastq.py "$data_dir" "$out_fastq"
 
 # trim sequences based on specified quality
 echo "- trimming sequences ..."

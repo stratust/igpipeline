@@ -1,0 +1,74 @@
+>M12832|TRGV1*01|Mus_musculus_BALB/c|F|L-PART1+V-EXON|8..50+143..446|347 nt|1| | | | |347+0=347| | |
+atgctgctcctgagatggcccaccttctgctgcctctgggtttttgggcttgggcagctg
+gagcaaactgaattatcggtcaccagagagacagatgagagtgcgcaaatatcctgtata
+gtttctcttccatatttctccaacacagctatacattggtaccggcaaaaagcaaaaaag
+tttgagtatctaatatatgtctcaacaaactacaatcaacgacccttaggagggaagaac
+aaaaaaattgaagcaagtaaagattttcaaacttctacctcaaccttgaaaataaattac
+ttgaagaaagaagatgaagctacctactactgtgcagtctggataaa
+>AF021335|TRGV1*02|Mus_musculus|F|L-PART1+V-EXON|39772..39814+39907..40210|347 nt|1| | | | |347+0=347| | |
+atgctgctcctgagatggcccaccttctgctgcctctgggtttttgggcttgggcagctg
+gagcaaactgaattatcggtcaccagagagacagatgagagtgcgcaaatatcctgtata
+gtttctcttccatatttctccaacacagctatacattggtaccggcaaaaagcaaaaaag
+tttgagtatctaatatatgtctcaacaaactacaatcaacgacccttaggagggaagaac
+aaaaaaattgaagcaagtaaagattttcaaacttctacctcaaccttgaaaataaattac
+ttgaagaaagaagatgaagccacctactactgtgcagtctggataaa
+>M12831|TRGV2*01|Mus_musculus_BALB/c|F|L-PART1+V-EXON|373..415+520..826|350 nt|1| | | | |350+0=350| | |
+atgctgctcctgagatggttcacctcctgctgcctctgggtttttgggcttgggcagctg
+gagcaaactgaattatcggtcaccagagagacagatgagaatgtgcaaatatcctgtata
+gtttatcttccatatttctccaacacagctatacattggtaccggcaaaaaacaaatcaa
+cagtttgagtatctaatatatgtcgcaacaaactacaatcaacgacccttaggagggaag
+cacaaaaaaattgaagcaagtaaagattttaaaagttctacctcaaccttggaaataaat
+tacttgaagaaagaagatgaagccacctactactgtgcagtctggatgag
+>AF037352|TRGV3*01|Mus_musculus|F|L-PART1+V-EXON|66096..66141+66246..66552|353 nt|1| | | | |353+0=353| | |
+atgctgctcctgagaatgttcacctcctgctgctgcctctgggtttttgggcttgggcag
+ctggagcaaactgaattatcggtcaccagagcaacagatgagagtgcgcaaatatcctgt
+atagtttctcttccatgtttctccaacacagctatacattggtaccggcaaaaaccaaat
+caacagtttgagtatctaatatatgtcgagacaaactacaatcaacaacccttaggaggg
+aagaacaagaaaattgaagcaagtaaagattttcaaacttctacctcaaccttgaaaata
+aattacttgaagaaagaagatgaagccacctactactgtgcagtctggataaa
+>AF037352|TRGV4*01|Mus_musculus|F|L-PART1+V-EXON|8236..8347+8455..8761|419 nt|1| | | | |419+0=419| | |
+atgaagaaccctggctcacaagccctgcttcctttatatcttccctgggaagccaacctg
+gcagatgagaatccactcctgaaagtagtcattttcttatgcctcttgacatttggacat
+gggaagttggagcaacctgaaatatcaatttccagaccaagagatgagactgcacaaata
+tcctgtaaagttttcatcgaaagctttaggagtgtaaccatacactggtaccggcagaaa
+ccaaaccaaggtttagagtttctattatatgtccttgcaacccctacccatattttctta
+gataaggagtacaagaaaatggaggcaagtaaaaatcctagtgcttctacatcgatattg
+acaatatattccttggaggaagaagacgaagctatctactactgttcctacggctaaag
+>AF037352|TRGV5*01|Mus_musculus|F|L-PART1+V-EXON|15523..15565+15673..15970|341 nt|1| | | | |341+0=341| | |
+atgtcaacctcttggctttttcttctgtctttgacctgtgtttatggagactcctggata
+tctcaggatcagctctcctttacccgaagaccaaacaagacggtgcacataagttgcaag
+ctctctggggttccccttcataacaccattgtgcactggtaccaactgaaagaaggggag
+cccctgagacgaatcttctatggctcagtcaaaacttacaaacaagacaagtcccactcc
+cgcttggaaattgatgagaaggatgatggtaccttttacctgataatcaacaatgttgtc
+acatcggatgaagccacgtactactgtgcctgctgggatct
+>D29793|TRGV6*01|Mus_musculus_C57BL/6|F|L-PART1+V-EXON|1802..1895+2052..2363|406 nt|1| | | | |406+0=406| | |
+atggggcttctgctacaagtcttcacactggcctccctcaggatttgtaagtgcatggcc
+ttcaggggaatcgaggatacagggaaaagagccaagggaacgagtctcacgtcacctctg
+gggtcatatgtcatcaagaggaaaggaaatacggcttttctcaaatgtcaaataaaaaca
+agtgttcagaagcccgatgcatacatacactggtaccaagagaagccaggccagcgtctc
+caaagaatgctgtgtagttcttcaaaagaaaacattgtctatgagaaagattttagtgac
+gaaagatatgaggcaaggacatggcagagtgatttgtcttcagtcctcaccatacaccaa
+gtgagagaagaggacacgggaacttattactgtgcatgctgggata
+>AF037352|TRGV6*02|Mus_musculus|F|L-PART1+V-EXON|13613..13706+13863..14174|406 nt|1| | | | |406+0=406| | |
+atggggcttctgctacaagtcttcacactggcctccctcaggatttgtaagtgcatggcc
+ttcaggggaatcgaggatacagggaaaagagccaagggaagcagtctcacgtcacctctg
+gggtcatatgtcatcaagaggaaaggaaatacggcttttctcaaatgtcaaataaaaaca
+agtgttcagaagcccgatgcatacatacactggtaccaagagaagccaggccagcgtctc
+caaagaatgctgtgtagttcttcaaaagaaaacattgtctatgagaaagattttagtgac
+gaaagatatgaggcaaggacatggcagagtgatttgtcttcagtcctcaccatacaccaa
+gtgacagaagaggacacgggaacttattactgtgcatgctgggata
+>D29794|TRGV7*01|Mus_musculus_C57BL/6|F|L-PART1+V-EXON|2238..2280+2382..2688|350 nt|1| | | | |350+0=350| | |
+atgctgtgggctctggccctacttctagctttcttgccggctggcagacaaacatcctcc
+aacttggaagaaagaataatgtcaatcaccaagctagaggggtcctctgctataatgact
+tgtgatactcacagaacaggcacttacatccactggtaccgattccagaaagggagggcc
+ccagagcaccttctctactataacttcgtcagttccacaactgtggtggattccagattc
+aattcagagaaatatcatgtttatgaaggcccggacaagaggtataaatttgtgcttcgg
+aatgtggaggagtccgattctgctctgtactactgtgcctcctgggctgg
+>AF037352|TRGV7*02|Mus_musculus|F|L-PART1+V-EXON|1311..1353+1454..1760|350 nt|1| | | | |350+0=350| | |
+atgctgtgggctctggccctacttctagctttcttgcctgctggcagacaaacatcctcc
+aacttggaagaaagaataatgtcaatcaccaagctagaggggtcctctgctataatgact
+tgtgatactcacagaacaggcacttacatccactggtaccgattccagaaagggagggcc
+ccagagcaccttctctactataacttcgtcagttccacaactgtggtggattccagattc
+aatttggagaaatatcatgtttatgaaggcccggacaagaggtataaatttgtgcttcgg
+aatgtggaggagtccgattctgctctgtactactgtgcctcctgggctgg
+

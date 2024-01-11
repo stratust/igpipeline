@@ -47,6 +47,27 @@ tggtaccagcagctcccaggaacggcccccaaactcctcatctatagtaat.........
 ............aatcagcggccctcaggggtccct...gaccgattctctggctccaag
 ......tctggcacctcagcctccctggccatcagtgggctccagtctgaggatgaggct
 gattattactgtgcagcatgggatgacagcctgaatggtcc
+>MW316667|IGLV1-44*02|Homo_sapiens|F|V-REGION|261..556|296 nt|1| | | | |296+45=341| | |
+cagtctgtgctgactcagccaccctca...gcgtctgggacccccgggcagagggtcacc
+atctcttgttctggaagcagctccaacatc............ggaagtaatactgtaaac
+tggtaccagcagctcccaggaacgggccccaaactcctcatctatagtaat.........
+............aatcagcggccctcaggggtccct...gaccgattctctggctccaag
+......tctggcacctcagcctccctggccatcagtgggctccagtctgaggatgaggct
+gattattactgtgcagcatgggatgacagcctgaatggtcc
+>MW316668|IGLV1-44*03|Homo_sapiens|F|V-REGION|259..554|296 nt|1| | | | |296+45=341| | |
+cagtctgtgctgactcagccaccctca...gcgtctgggacccccgggcagagggtcacc
+atctcttgttctggaagcagctccaacatc............ggaagtaatactgtaaac
+tggtaccagcagctcccaggaacggcccccaaactcctcatctatagtaat.........
+............aatcagcggccctcaggggtcctt...gaccgattctctggctccaag
+......tctggcacctcagcctccctggccatcagtgggctccagtctgaggatgaggct
+gattattactgtgcagcatgggatgacagcctgaatggtcc
+>OL352719|IGLV1-44*04|Homo_sapiens|F|V-REGION|38568..38863|296 nt|1| | | | |296+45=341| | |
+cagtctgtgctgactcagccaccctca...gcgtctgggacccccgggcagagggtcacc
+atctcttgttctggaagcagctccaacatc............ggaagtaatactgtaaac
+tggtaccagcagctcccaggaacggcccccaaactcctcatctataggaat.........
+............aatcagcggccctcaggggtccct...gaccgattctctggctccaag
+......tctggcacctcagcctccctggccatcagtgggctccaggctgaggatgaggct
+gattattactgtgcagcatgggatgacagcctgaatggtcc
 >Z73663|IGLV1-47*01|Homo_sapiens|F|V-REGION|1..296|296 nt|1| | | | |296+45=341| | |
 cagtctgtgctgactcagccaccctca...gcgtctgggacccccgggcagagggtcacc
 atctcttgttctggaagcagctccaacatc............ggaagtaattatgtatac
@@ -60,6 +81,13 @@ atctcttgttctggaagcagctccaacatc............ggaagtaattatgtatac
 tggtaccagcagctcccaggaacggcccccaaactcctcatctatagtaat.........
 ............aatcagcggccctcaggggtccct...gaccgattctctggctccaag
 ......tctggcacctcagcctccctggccatcagtgggctccggtccgaggatgaggct
+gattattactgtgcagcatgggatgacagcctgagtggtcc
+>AC279207|IGLV1-47*03|Homo_sapiens|F|V-REGION|15806..16101|296 nt|1| | | | |296+45=341| | |
+cagtctgtgctgactcagccaccctca...gcgtctgggacccccgggcagagggtcacc
+atctcttgttctggaagcagctccaacatc............ggaagtaattatgtatac
+tggtaccagcagctcccaggaacggcccccaaactcctcatctataggaat.........
+............aatcagcggccctcaggggtccct...gaccgattctctggctccaag
+......tctggcacctcagcctccctggccatcagtgggctctggtccgaggatgaggct
 gattattactgtgcagcatgggatgacagcctgagtggtcc
 >M94112|IGLV1-50*01|Homo_sapiens|ORF|V-REGION|287..585|299 nt|1| | | | |299+42=341| | |
 cagtctgtgctgacgcagccgccctca...gtgtctggggccccagggcagagggtcacc
@@ -110,6 +138,27 @@ tggcctgagcagcaccagggccaccctcccaaactcctatcctacaggaat.........
 ............aacaaccggccctcagggatctca...gagagattatctgcatccagg
 ......tcaggaaacacagcctccctgaccattactggactccagcctgaggacgaggct
 gactattactgctcagcatgggacagcagcctcagtgctca
+>MW316678|IGLV10-54*04|Homo_sapiens|F|V-REGION|317..612|296 nt|1| | | | |296+45=341| | |
+caggcagggctgactcagccaccctcg...gtgtccaagggcttgagacagaccgccaca
+ctcacctgcactgggaacagcaacaatgtt............ggcaaccaaggagcagct
+tggctgcagcagcaccagggccaccctcccaaactcctatcctacaggaat.........
+............aacaaccggccctcagggatctca...gagagattctctgcatccagg
+......tcaggaaacacagcctccctgaccattactggactccagcctgaggacgaggct
+gactattactgctcagcatgggacagcagcctcagtgctca
+>OL352713|IGLV10-54*05|Homo_sapiens|F|V-REGION|35505..35800|296 nt|1| | | | |296+45=341| | |
+caggcagggctgactcagccaccctcg...gtgtccaagggcttgagacagaccgccaca
+ctcacctgcactgggaacagcaacattgtt............ggcaaccaaggagcagct
+tggctgcagcagcaccagggccaccctcccaaactcctatcctacaggaat.........
+............aacaaccggccctcagggatctca...gagagattctctgcatccagg
+......tcaggaaacacagcctccctgaccattactggactccagcctgaggacgaggct
+gactattactgctcagcatgggacagcagcctcagtgctca
+>OL352724|IGLV10-54*06|Homo_sapiens|F|V-REGION|30457..30752|296 nt|1| | | | |296+45=341| | |
+caggcagggctgactcagccaccctcg...gtgtccaagggcttgagacagaccgccaca
+ctcacctgcactgggaacagcaacaatgct............ggcaaccaaggagcagct
+tggctgcagcagcaccagggccaccctcccaaactcctatcctacaggaat.........
+............aacaaccggccctcagggatctca...gagagattctctgcatccagg
+......tcaggaaacacagcctccctgaccattactggactccagcctgaggacgaggct
+gactattactgctcagcatgggacagcagcctcagtgctca
 >D86996|IGLV11-55*01|Homo_sapiens|ORF|V-REGION|15396..15707|312 nt|1| | | | |312+24=336| | |
 cggcccgtgctgactcagccgccctct...ctgtctgcatccccgggagcaacagccaga
 ctcccctgcaccctgagcagtgacctcagtgtt.........ggtggtaaaaacatgttc
@@ -124,7 +173,7 @@ tggtaccagcagaagctagggagctctcccaggttattcctgtatcactactcagac...
 ......tcagacaagcagctgggacctggggtcccc...agtcgagtctctggctccaag
 gagacctcaagtaacacagcgtttttgctcatctctgggctccagcctgaggacgaggcc
 gattattactgccaggtgtacgaaagtagtgctaat
->Z73657|IGLV2-11*01|Homo_sapiens|F|V-REGION|1..297|297 nt|1| | | | |297+42=339| | |
+>AC279423|IGLV2-11*01|Homo_sapiens|F|V-REGION|40618..40914|297 nt|1| | || |297+42=339| | |
 cagtctgccctgactcagcctcgctca...gtgtccgggtctcctggacagtcagtcacc
 atctcctgcactggaaccagcagtgatgttggt.........ggttataactatgtctcc
 tggtaccaacagcacccaggcaaagcccccaaactcatgatttatgatgtc.........
@@ -159,8 +208,8 @@ tggtaccaacagcacccaggcaaagcccccaaactcatgatttatgagggc.........
 ............agtaagcggccctcaggggtttct...aatcgcttctctggctccaag
 ......tctggcaacacggcctccctgaccatctctgggctccaggctgaggacgaggct
 gattattactgcagctcatatacaagcagcagcactctc
->Y12412|IGLV2-14*03|Homo_sapiens|F|V-REGION|1..274|274 nt|1| | || |274+65=339|partial in 5' and in 3' | |
-.......................ctcc...gtgtctgggtctcctggacagtcgatcacc
+>AC279423|IGLV2-14*03|Homo_sapiens|F|V-REGION|6933..7229|297 nt|1| | || |297+42=339| | |
+cagtctgccctgactcagcctgcctcc...gtgtctgggtctcctggacagtcgatcacc
 atctcctgcactggaaccagcagtgacgttggt.........ggttataactatgtctcc
 tggtaccaacaacacccaggcaaagcccccaaactcatgatttatgatgtc.........
 ............agtaatcggccctcaggggtttct...aatcgcttctctggctccaag
@@ -171,6 +220,13 @@ gattattactgcagctcatatacaagcagcagcactctc
 atctcctgcactggaaccagcagtgacgttggt.........ggttataactatgtctcc
 tggtaccaacagcacccaggcaaagcccccaaactcatgatttatgatgtc.........
 ............agtaatcggccctcaggggtttct...aatcgcttctctggctccaag
+......tctggcaacacggcctccctgaccatctctgggctccaggctgaggacgaggct
+gattattactgcagctcatatacaagcagcagcactctc
+>MW316674|IGLV2-14*05|Homo_sapiens|F|V-REGION|343..639|297 nt|1| | | | |297+42=339| | |
+cagtctgccctgactcagcctgcctcc...gtgtctgggtctcctggacagtcgatcacc
+atctcctgcactggaaccagcagtgacgttggt.........ggttataactatgtctcc
+tggtaccaacagcacccaggcaaagcccccaaactcatgatttatgaggtc.........
+............agtaatcggccctcaggggtccct...gatcgcttctctggctccaag
 ......tctggcaacacggcctccctgaccatctctgggctccaggctgaggacgaggct
 gattattactgcagctcatatacaagcagcagcactctc
 >Z73642|IGLV2-18*01|Homo_sapiens|F|V-REGION|1..297|297 nt|1| | | | |297+42=339| | |
@@ -222,6 +278,13 @@ tggtaccaacagcacccaggcaaagcccccaaactcatgatttatgagggc.........
 ............agtaagcggccctcaggggtttct...aatcgcttctctggctccaag
 ......tctggcaacacggcctccctgacaatctctgggctccaggctgaggacgaggct
 gattattactgctgctcatatgcaggtagtagcactttc
+>OL352727|IGLV2-23*04|Homo_sapiens|F|V-REGION|22296..22592|297 nt|1| | | | |297+42=339| | |
+cagtctgccctgactcagcctgcctcc...gtgtctgggtctcctggacagtcgatcacc
+atctcctgcactggaaccagcagtgatgttggt.........ggttataactatgtctcc
+tggtaccaacagcacccaggcaaagcccccaaactcatgatttatgatgtc.........
+............agtaagcggccctcaggggtttct...aatcgcttctctggctccaag
+......tctggcaacacggcctccctgacaatctctggactccaggctgaggacgaggct
+gattattactgctgctcatatgcaggtagtagcactttc
 >Z73643|IGLV2-33*01|Homo_sapiens|ORF|V-REGION|1..297|297 nt|1| | | | |297+42=339| | |
 caatctgccctgactcagcctcctttt...gtgtccggggctcctggacagtcggtcacc
 atctcctgcactggaaccagcagtgacgttggg.........gattatgatcatgtcttc
@@ -248,6 +311,13 @@ cagtctgttctgactcagcctcgctca...gtgtccaggtctcctggacagtaggttact
 atcttctgcactggaaccagcagtgacattggg.........ggttatgaccttgtctcc
 tggtgccagtagcacccaggcaaagcccccaaactcatgatttatgatgtc.........
 ............gctaattggccctcaggggcccct...ggttgcttctctggctccaag
+......tctggcaacacggcctccctgaccatctctgggctccaggctgaggacgaggct
+gattattactgcagctcatatgcaggcagctacaatttc
+>Z22209|IGLV2-34*02|Homo_sapiens|P|V-REGION|1..297|297 nt|1| | || |297+42=339| | |
+cagtctgttctgactcagcctcgctca...gtgtccaggtctcctggacagtaggttact
+atcttctgcactggaaccagcagtgacattggg.........ggttatgaccttgtctcc
+tggtgccagtagcacccaggcaaagcccccaaactcatgatttatgatgtc.........
+............ggtaattggccctcaggggcccct...ggttgcttctctggctccaag
 ......tctggcaacacggcctccctgaccatctctgggctccaggctgaggacgaggct
 gattattactgcagctcatatgcaggcagctacaatttc
 >Z73641|IGLV2-5*01|Homo_sapiens|P|V-REGION|1..298|298 nt|1| | | | |298+42=340| | |
@@ -285,18 +355,25 @@ tggtaccaacagcacccaggcaaagcccccaaactcatgatttatgaggtc.........
 ............agtaagcggccctcaggggtccct...gatcgcttctttggctccaag
 ......tctggcaacacggcctccctgaccgtctctgggctccaggctgaggatgaggct
 gattattactgcagctcatatgcaggcagcaacaatttc
->Z22209|IGLV2-NL1*01|Homo_sapiens|P|V-REGION|1..297|297 nt|1| | | | |297+42=339| | |
-cagtctgttctgactcagcctcgctca...gtgtccaggtctcctggacagtaggttact
-atcttctgcactggaaccagcagtgacattggg.........ggttatgaccttgtctcc
-tggtgccagtagcacccaggcaaagcccccaaactcatgatttatgatgtc.........
-............ggtaattggccctcaggggcccct...ggttgcttctctggctccaag
-......tctggcaacacggcctccctgaccatctctgggctccaggctgaggacgaggct
-gattattactgcagctcatatgcaggcagctacaatttc
+>OL352721|IGLV2-8*04|Homo_sapiens|F|V-REGION|39052..39348|297 nt|1| | | | |297+42=339| | |
+cagtctgccctgactcagcctccctcc...gcgtccgggtcttctggacagtcagtcacc
+atctcctgcactggaaccagcagtgacgttggt.........ggttataactatgtctcc
+tggtaccaacagcacccaggcaaagcccccaaactcatgatttatgaggtc.........
+............agtaagcggccctcaggggtccct...gatcgcttctctggctccaag
+......tctggcaacacggcctccctgaccgtctctgggctccaggctgaggatgaggct
+gattattactgcagctcatatgcaggcagcaacaatttc
 >X57826|IGLV3-1*01|Homo_sapiens|F|V-REGION|2256..2540|285 nt|1| | | | |285+51=336| | |
 tcctatgagctgactcagccaccctca...gtgtccgtgtccccaggacagacagccagc
 atcacctgctctggagataaattgggg..................gataaatatgcttgc
 tggtatcagcagaagccaggccagtcccctgtgctggtcatctatcaagat.........
 ............agcaagcggccctcagggatccct...gagcgattctctggctccaac
+......tctgggaacacagccactctgaccatcagcgggacccaggctatggatgaggct
+gactattactgtcaggcgtgggacagcagcactgca
+>OL352728|IGLV3-1*02|Homo_sapiens|F|V-REGION|13285..13569|285 nt|1| | | | |285+51=336| | |
+tcctatgagctgactcagccaccctca...gtgtccgtgtccccaggacagacagccagc
+atcacctgctctggagataaattgggg..................gataaatatgcttgc
+tggtatcagcagaagccaggccagtcccctgtgctggtcatctatcaagat.........
+............agcgagcggccctcagggatccct...gagcgattctctggctccaac
 ......tctgggaacacagccactctgaccatcagcgggacccaggctatggatgaggct
 gactattactgtcaggcgtgggacagcagcactgca
 >X97464|IGLV3-10*01|Homo_sapiens|F|V-REGION|1..290|290 nt|1| | | | |290+51=341| | |
@@ -313,7 +390,14 @@ tggtaccagcagaagtcaggccaggcccctgtgctggtcatctataaggac.........
 ............agcaaacgaccctcagggatccct...gagagattctctggctccagc
 ......tcagggacaatggccaccttgaccatcagtggggcccaggtggaggatgaagat
 gactactactgttactcagcagactacagtggtaat
->Z73658|IGLV3-12*01|Homo_sapiens|F|V-REGION|1..290|290 nt|1| | | | |290+51=341| | |
+>AC279221|IGLV3-10*03|Homo_sapiens|F|V-REGION|21210..21499|290 nt|1| | | | |290+51=341| | |
+tcctatgagctgacacagccaccctcg...gtgtcagtgtccccaggacaaacggccagg
+atcacctgctctggagatgcattgcca..................aaaaaatatgcttat
+tggtaccagcagaagtcaggccaggcccctgtgctggtcatctatgaggac.........
+............agcaaacgaccctccgggatccct...gagagattctctggctccagc
+......tcagggacaatggccaccttgactatcagtggggcccaggtggaggatgaagat
+gactactactgttactcaacagacagcagtggtaatcatag
+>AC279423|IGLV3-12*01|Homo_sapiens|P|V-REGION|20229..20518|290 nt|1| | || |290+51=341| | |
 tcctatgagctgactcagccacactca...gtgtcagtggccacagcacagatggccagg
 atcacctgtgggggaaacaacattgga..................agtaaagctgtgcac
 tggtaccagcaaaagccaggccaggaccctgtgctggtcatctatagcgat.........
@@ -334,6 +418,13 @@ tggtacccgcaaaagccaggccaggcccctgtgctggtgatatataaagat.........
 ............ggtgagcggccctctggaatccct...gagcgattctctgggtccacc
 ......tcagggaacacaaccgccctgaccattagcagggtcctgaccaaaggcggggct
 gactattactgtttttctggtgattagaacaatct
+>AC279423|IGLV3-13*02|Homo_sapiens|P|V-REGION|10225..10508|284 nt|1| | || |284+51=335| | |
+tcctatgagctgacacagccacccgcg...gtgtcagtgtccccaggacagacagccagg
+atcagctgctctggagatgtactgaga..................gataattatgctgac
+tggtacccgcaaaagccaggccagacccctgtgctggtgatatataaagat.........
+............ggtgagcggccctctggaatccct...gagcgattctctgggtccacc
+......tcagggaacacaaccgccctgaccattagcagggtcctgaccaaaggcggggct
+gactattactgtttttctggtgattagaacaatct
 >X97471|IGLV3-16*01|Homo_sapiens|F|V-REGION|1..290|290 nt|1| | | | |290+51=341| | |
 tcctatgagctgacacagccaccctcg...gtgtcagtgtccctaggacagatggccagg
 atcacctgctctggagaagcattgcca..................aaaaaatatgcttat
@@ -348,6 +439,13 @@ tggtaccagcagaagccaggacaggcccctgtacttgtcatctatggtaaa.........
 ............aacaaccggccctcagggatccca...gaccgattctctggctccagc
 ......tcaggaaacacagcttccttgaccatcactggggctcaggcggaagatgaggct
 gactattactgtaactcccgggacagcagtggtaaccatct
+>AC279208|IGLV3-19*02|Homo_sapiens|F|V-REGION|25647..25936|290 nt|1| | | | |290+51=341| | |
+tcgtctgagctgactcaggaccctgct...gtgtctgtggccttgggacagacagtcagg
+atcacatgccaaggagacagcctcaga..................agctattatgcaagc
+tggtaccagcagaagccaggacaggcccctgtacgtgtcatctatggtaaa.........
+............aacaaccggccctcagggatccca...gaccgattctctggctccagc
+......tcaggaaacacagcttccttgaccatcactggggctcaggcggaagatgaggct
+gactattactgtaactcctgggacagcagtggtaaccatcc
 >X71966|IGLV3-21*01|Homo_sapiens|F|V-REGION|688..977|290 nt|1| | | | |290+51=341| | |
 tcctatgtgctgactcagccaccctca...gtgtcagtggccccaggaaagacggccagg
 attacctgtgggggaaacaacattgga..................agtaaaagtgtgcac
@@ -369,6 +467,13 @@ tggtaccagcagaagccaggccaggcccctgtgctggtcgtctatgatgat.........
 ............agcgaccggccctcagggatccct...gagcgattctctggctccaac
 ......tctgggaacacggccaccctgaccatcagcagggtcgaagccggggatgaggcc
 gactattactgtcaggtgtgggatagtagtagtgatcatcc
+>AC279208|IGLV3-21*04|Homo_sapiens|F|V-REGION|17696..17985|290 nt|1| | | | |290+51=341| | |
+tcctatgtgctgactcagccaccctca...gtgtcagtggccccaggaaagacggccagg
+attacctgtgggggaaacaacattgga..................agtaaaagtgtgcac
+tggtaccagcagaagccaggccaggcccctgtgctggtcatctattatgat.........
+............agcgaccggccctcagggatccct...gagcgattctctggctccaac
+......tctgggaacacggccaccctgaccatcagcagggtcgaagccggggatgaggcc
+gactattactgtcaggtgtgggatagtagtagtgatcatcc
 >Z73666|IGLV3-22*01|Homo_sapiens|F|V-REGION|1..284|284 nt|1| | | | |284+51=335| | |
 tcctatgagctgacacagctaccctcg...gtgtcagtgtccccaggacagacagccagg
 atcacctgctctggagatgtactgggg..................gaaaattatgctgac
@@ -376,6 +481,13 @@ tggtaccagcagaagccaggccaggcccctgagttggtgatatacgaagat.........
 ............agtgagcggtaccctggaatccct...gaacgattctctgggtccacc
 ......tcagggaacacgaccaccctgaccatcagcagggtcctgaccgaagacgaggct
 gactattactgtttgtctggggatgaggacaatcc
+>AC279208|IGLV3-22*03|Homo_sapiens|F|V-REGION|9327..9610|284 nt|1| | | | |284+51=335| | |
+tcctatgagctgacacagctaccctcg...gtgtcattgtccccaggacagaaagccagg
+atcacctgctctggagatgtactgggg..................aaaaattatgctgac
+tggtaccagcagaagccaggccaggcccctgagttggtgatatacgaagat.........
+............agtgagcggtaccctggaatccct...gaacgattctctgggtccacc
+......tcagggaacacgaccaccctgaccatcagcagggtcctgaccgaagacgaggct
+gactattactgtttgtctgggaatgaggataatcc
 >X97474|IGLV3-25*01|Homo_sapiens|F|V-REGION|1..290|290 nt|1| | | | |290+51=341| | |
 tcctatgagctgatgcagccaccctcg...gtgtcagtgtccccaggacagacggccagg
 atcacctgctctggagatgcattgcca..................aagcaatatgcttat
@@ -390,13 +502,13 @@ tggtaccagcagaagccaggccaggcccctgtgctggtgatatataaagac.........
 ............agtgagaggccctcagggatccct...gagcgattctctggctccagc
 ......tcagggacaacagtcacgttgaccatcagtggagtccaggcagaagatgaggct
 gactattactgtcaatcagcagacagcagtggtacttatcc
->L29165|IGLV3-25*03|Homo_sapiens|F|V-REGION|252..533|282 nt|1| | || |282+51=333|partial in 3'| |
+>AC279213|IGLV3-25*03|Homo_sapiens|F|V-REGION|16344..16633|290 nt|1| | | | |290+51=341| | |
 tcctatgagctgacacagccaccctcg...gtgtcagtgtccccaggacagacggccagg
 atcacctgctctggagatgcattgcca..................aagcaatatgcttat
 tggtaccagcagaagccaggccaggcccctgtgctggtgatatataaagac.........
 ............agtgagaggccctcagggatccct...gagcgattctctggctccagc
 ......tcagggacaacagtcacgttgaccatcagtggagtccaggcagaagacgaggct
-gactattactgtcaatcagcagacagcagtggt
+gactattactgtcaatcagcagacagcagtggtacttatcc
 >D86994|IGLV3-27*01|Homo_sapiens|F|V-REGION|5986..6269|284 nt|1| | | | |284+51=335| | |
 tcctatgagctgacacagccatcctca...gtgtcagtgtctccgggacagacagccagg
 atcacctgctcaggagatgtactggca..................aaaaaatatgctcgg
@@ -418,13 +530,13 @@ tggtacaagcagaagccaagccaggcccctgggctggtcatctaacttaac.........
 ............agtgtccagtcttcagggattcct...aagaaattctctggctccagc
 ......tcagggaacatggccaccctgaccatcactgggattcaggttgaagacaaggct
 gactattactgtcagtcatgggacagcagtcgtactcattc
->Z73645|IGLV3-32*01|Homo_sapiens|ORF|V-REGION|1..284|284 nt|1| | | | |284+51=335| | |
+>D87014|IGLV3-32*01|Homo_sapiens|ORF|V-REGION|12198..12487|290 nt|1| | || |290+51=341| | |
 tcctctgggccaactcaggtgcctgca...gtgtctgtggccttgggacaaatggccagg
 atcacctgccagggagacagcatggaa..................ggctcttatgaacac
 tggtaccagcagaagccaggccaggcccccgtgctggtcatctatgatagc.........
 ............agtgaccggccctcaaggatccct...gagcgattctctggctccaaa
 ......tcaggcaacacaaccaccctgaccatcactggggcccaggctgaggatgaggct
-gattattactatcagttgatagacaaccatgctac
+gattattactatcagttgatagacaaccatgctactcaact
 >X97473|IGLV3-9*01|Homo_sapiens|F|V-REGION|1..285|285 nt|1| | | | |285+51=336| | |
 tcctatgagctgactcagccactctca...gtgtcagtggccctgggacagacggccagg
 attacctgtgggggaaacaacattgga..................agtaaaaatgtgcac
@@ -460,13 +572,13 @@ tggcatcagcagcagccagggaaggcccctcggtacttgatgaagcttgaaggtagt...
 ......ggaagctacaacaaggggagcggagttcct...gatcgcttctcaggctccagc
 ......tctggggctgaccgctacctcaccatctccaacctccagtttgaggatgaggct
 gattattactgtgagacctgggacagtaacactca
->AF073885|IGLV4-60*03|Homo_sapiens|F|V-REGION|1..297|297 nt|1| | | | |297+36=333| | |
+>AC279317|IGLV4-60*03|Homo_sapiens|F|V-REGION|7315..7613|299 nt|1| | || |299+36=335| | |
 cagcctgtgctgactcaatcatcctct...gcctctgcttccctgggatcctcggtcaag
 ctcacctgcactctgagcagtgggcacagt...............agctacatcatcgca
 tggcatcagcagcagccagggaaggcccctcggtacttgatgaagcttgaaggtagt...
 ......ggaagctacaacaaggggagcggagttcct...gatcgcttctcaggctccagc
 ......tctggggctgaccgctacctcaccatctccaacctccagtctgaggatgaggct
-gattattactgtgagacctgggacagtaacact
+gattattactgtgagacctgggacagtaacactca
 >Z73648|IGLV4-69*01|Homo_sapiens|F|V-REGION|1..299|299 nt|1| | | | |299+36=335| | |
 cagcttgtgctgactcaatcgccctct...gcctctgcctccctgggagcctcggtcaag
 ctcacctgcactctgagcagtgggcacagc...............agctacgccatcgca
@@ -484,6 +596,20 @@ gactattactgtcagacctggggcactggcattca
 >Z73672|IGLV5-37*01|Homo_sapiens|F|V-REGION|1..312|312 nt|1| | | | |312+24=336| | |
 cagcctgtgctgactcagccaccttcc...tcctccgcatctcctggagaatccgccaga
 ctcacctgcaccttgcccagtgacatcaatgtt.........ggtagctacaacatatac
+tggtaccagcagaagccagggagccctcccaggtatctcctgtactactactcagac...
+......tcagataagggccagggctctggagtcccc...agccgcttctctggatccaaa
+gatgcttcagccaatacagggattttactcatctccgggctccagtctgaggatgaggct
+gactattactgtatgatttggccaagcaatgcttct
+>OL352722|IGLV5-37*02|Homo_sapiens|F|V-REGION|28300..28611|312 nt|1| | | | |312+24=336| | |
+cagcctgtgctgactcagccaccttcc...tcctccgcatctcctggagaatccgccaga
+ctcacctgcaccttgcccagtgacatcaatgtt.........ggtagctacaacatatac
+tggtaccagcagaagccagggagccctcccaggtatctcctgtactactactcagac...
+......tcagataagggccagggctctggagtcccc...agccgcttctctggatccaaa
+gatgcttcggccaatacagggattttactcatctccgggctccagtctgaggatgaggct
+gactattactgtatgatttggccaagcaatgcttct
+>OL352725|IGLV5-37*03|Homo_sapiens|F|V-REGION|22439..22750|312 nt|1| | | | |312+24=336| | |
+cagcctgtgctgactcagccaccttcc...tcctccgcatctcctggagaatccgccaga
+ctcacctgcaccttgcccagtgacatcaatgtt.........agtagctacaacatatac
 tggtaccagcagaagccagggagccctcccaggtatctcctgtactactactcagac...
 ......tcagataagggccagggctctggagtcccc...agccgcttctctggatccaaa
 gatgcttcagccaatacagggattttactcatctccgggctccagtctgaggatgaggct
@@ -530,6 +656,13 @@ tggtaccagcagaagccagggagtcctccccagtatctcctgaggtacaaatcagac...
 ......tcagataagcagcagggctctggagtcccc...agccgcttctctggatccaaa
 gatgcttcggccaatgcagggattttactcatctctgggctccagtctgaggatgaggct
 gactattactgtatgatttggcacagcagcgcttct
+>OL352719|IGLV5-45*05|Homo_sapiens|F|V-REGION|33714..34025|312 nt|1| | | | |312+24=336| | |
+caggctgtgctgactcagctggcttcc...ctctctgcatctcctggagcatcagccagt
+ctcacctgcaccttgcgcagtggcatcaatgtt.........ggtacctacaggatatac
+tggtaccagcagaagccagggagtcctccccagtatctcctgaggtacaaatcagac...
+......tcagataagcagcagggctctggagtcccc...agccgcttctctggatccaaa
+gatgcttcggccaatgcagggattttactcatctctgggctccagtctgaggatgaggct
+gactattactgtatgatttggcacagcagcgcttct
 >Z73649|IGLV5-48*01|Homo_sapiens|ORF|V-REGION|1..312|312 nt|1| | | | |312+24=336| | |
 cagcctgtgctgactcagccaacttcc...ctctcagcatctcctggagcatcagccaga
 ctcacctgcaccttgcgcagtggcatcaatctt.........ggtagctacaggatattc
@@ -565,6 +698,20 @@ tggtaccagcagcgcccgggcagtgcccccaccactgtgatctatgaggat.........
 ............aaccaaagaccctctggggtccct...gatcggttctctggctccatc
 gacagctcctccaactctgcctccctcaccatctctggactgaagactgaggacgaggct
 gactactactgtcagtcttatgatagcagcaatca
+>AC279220|IGLV6-57*03|Homo_sapiens|F|V-REGION|396..691|296 nt|1| | | | |296+39=335| | |
+aattttatgctgactcagccccactct...gtgtcggagtctccggggaagacggtaacc
+atctcctgcacccgcagcagtggcagcatt............gccagcaactatgtgcag
+tggtaccagcagcgcccgggcagtgcccccaccactgtgatctatgaggat.........
+............aaccaaagaccctctggggtccct...gatcggttctctggctccatc
+gacagctcctccaactctgcctccctcaccatctctggactgaagactgaggacgaggct
+gactactactgtcagtcttatgatagcagcaatca
+>MW316677|IGLV6-57*04|Homo_sapiens|F|V-REGION|63..358|296 nt|1| | | | |296+39=335| | |
+aattttatgctgactcagccgcactct...gtgtcggagtctccggggaagacggtaacc
+atctcctgcacccgcagcagtggcagcatt............gccagcaactatgtgcag
+tggtaccagcagcgcccgggcagtgcccccaccactgtgatctatgaggat.........
+............aaccaaagaccctctggggtccct...gatcggttctctggctccatc
+gacagctcctccaactctgcctccctcaccatctctggactgaagactgaggacgaggct
+gactactactgtcagtcttatgatagcagcaatca
 >X14614|IGLV7-43*01|Homo_sapiens|F|V-REGION|414..707|294 nt|1| | | | |294+42=336| | |
 cagactgtggtgactcaggagccctca...ctgactgtgtccccaggagggacagtcact
 ctcacctgtgcttccagcactggagcagtcacc.........agtggttactatccaaac
@@ -586,6 +733,20 @@ tggttccagcagaagcctggccaagcccccaggacactgatttatgataca.........
 ............agcaacaaacactcctggacacct...gcccggttctcaggctccctc
 ......cttgggggcaaagctgccctgacccttttgggtgcgcagcctgaggatgaggct
 gagtattactgcttgctctcctatagtggtgctcgg
+>MW316675|IGLV7-46*04|Homo_sapiens|F|V-REGION|355..648|294 nt|1| | | | |294+42=336| | |
+caggctgtggtgactcaggagccctca...ctgactgtgtccccaggagggacagtcact
+ctcacctgtggctccagcactggagctgtcacc.........agtggtcattatccctac
+tggttccagcagaagcctggccaagcccccaggacactgatttatgataca.........
+............agcaacaaacactcctggacccct...gcccggttctcaggctccctc
+......cttgggggcaaagctgccctgaccctttcgggtgcgcagcctgaggatgaggct
+gagtattactgcttgctctcctatagtggtgctcgg
+>OL352719|IGLV7-46*05|Homo_sapiens|F|V-REGION|27312..27605|294 nt|1| | | | |294+42=336| | |
+caggctgtggtgactcaggagccctca...ttgactgtgtccccaggagggacagtcact
+ctcacctgtggctccagcactggagctgtcacc.........agtggtcattatccctac
+tggttccagcagaagcctggccaagcccccaggacactgatttatgataca.........
+............agcaacaaacactcctggacacct...gcccggttctcaggctccctc
+......cttgggggcaaagctgccctgaccctttcgggtgcgcagcctgaggatgaggct
+gagtattactgcttgctctcctatagtggtgctcgg
 >Z73650|IGLV8-61*01|Homo_sapiens|F|V-REGION|1..296|296 nt|1| | | | |296+42=338| | |
 cagactgtggtgacccaggagccatcg...ttctcagtgtcccctggagggacagtcaca
 ctcacttgtggcttgagctctggctcagtctct.........actagttactaccccagc
@@ -600,7 +761,7 @@ tggtaccagcagaccccaggccaggctccacgcacgctcatctacagcaca.........
 ............aacactcgctcttctggggtccct...gattgcttctctggctccatc
 ......cttgggaacaaagctgccctcaccatcacgggggcccaggcagatgatgaatct
 gattattactgtgtgctgtatatgggtagtggcatttc
->AF266511|IGLV8-61*03|Homo_sapiens|F|V-REGION|1..247|247 nt|1| | | | |247+50=297|partial in 5'| |
+>AF266511|IGLV8-61*03|Homo_sapiens|F|V-REGION|1..247|247 nt|1| | || |247+50=297|partial in 5' and in 3' | |
 ........ggtgacccaggagccatcg...ttctcagtgtcccctggagggacagtcaca
 ctcacttgtggcttgagctctggctcagtctct.........actagttactaccccagc
 tggtaccagcagaccccaggccaggctccacgcacgctcatctacagcaca.........

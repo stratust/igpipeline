@@ -36,8 +36,8 @@ ggtgat
 atgggctccattttcctcagttgcctggccgtttgtctcctggtggcaggtccagtc
 >AE000664|TRBV20*01|Mus_musculus_BALB/c|F|L-PART1+L-PART2|59936..59966+60337..60347|42 nt|1| | | | |42+0=42| | |
 atgttactgcttctattacttctggggcctggctgtgggctt
->AE000664|TRBV23*01|Mus_musculus_BALB/c|F|L-PART1+L-PART2|87739..87787+87895..87899|54 nt|1| | | | |54+0=54| | |
-atgggtgcacggctcatttgctatgtagcactttgcctcctgggggcaggctct
+>AE000664|TRBV23*01|Mus_musculus_BALB/c|F|L-PART1+L-PART2|87739..87787+87895..87902|57 nt|1| | | | |57+0=57| | |
+atgggtgcacggctcatttgctatgtagcactttgcctcctgggggcaggctctttt
 >M61184|TRBV24*01|Mus_musculus_PWK|F|L-PART1+L-PART2|1..49+170..177|57 nt|1| | | | |57+0=57| | |
 atgggtgcaagactgctctgctgtgtagcactttgtctgcttggggcaggctctttt
 >AE000664|TRBV24*02|Mus_musculus_BALB/c|P|L-PART1+L-PART2|89757..89805+89926..89933|57 nt|1| | | | |57+0=57| | |
@@ -58,6 +58,8 @@ atgggctgtaggctcctaagctgtgtggccttctgcctcttgggaataggccctttg
 atgagctgcaggcttctcctctatgtttccctatgtcttgtggaaacagcactcatg
 >AE000663|TRBV7*01|Mus_musculus_BALB/c|P|L-PART1+L-PART2|202489..202537+202593..202599|56 nt|1| | | | |56+0=56| | |
 atgggctgaaaaatgctctgctgtatggccctttgtctcctgggagcagtgagggc
+>AE000663|TRBV8*01|Mus_musculus_BALB/c|P|L-PART1+L-PART2|206906..206954+207050..207057|57 nt|1| | | | |57+0=57| | |
+atgaacctcagtttactctgcagtgctgcattttgtttcctgcaggcaggtccagtg
 >IMGT000022|TRBV1*01|Mustela putorius furo_sable|ORF|L-PART1+L-PART2|10001..10055+10319..10326|63 nt|1| | | | |63+0=63| | |
 atgggaccgccatccattctgtgggtctgggtgctcgtggctaccatgagtacaggtgcc
 acg

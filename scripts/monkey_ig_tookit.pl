@@ -61,7 +61,7 @@ package MyApp::FixHeavyChain {
                     if ( $-[0] <= 80 ) {
                         $dna =~ s/GGTGAGC/GGTGAAGC/g;
                         $seq->seq($dna);
-                        $seq->id($seq->id.'_fixed');
+                        #$seq->id($seq->id.'_fixed');
                     }
                 }
                 # Second fix (VH5.7)
@@ -69,7 +69,7 @@ package MyApp::FixHeavyChain {
                     if ( $-[0] <= 80 ) {
                         $dna =~ s/AGCAGAGGTGAAAGGCCC/AGCAGAGGTGAAAAGGCCC/g;
                         $seq->seq($dna);
-                        $seq->id($seq->id.'_fixed2');
+                        #$seq->id($seq->id.'_fixed2');
                     }
                 }
                 # 3rd fix (VH3.15)
@@ -77,7 +77,7 @@ package MyApp::FixHeavyChain {
                     if ( $-[0] <= 80 ) {
                         $dna =~ s/GCTTGGCAAGCCTG/GCTTGGCAAAGCCTG/g;
                         $seq->seq($dna);
-                        $seq->id($seq->id.'_fixed3');
+                        #$seq->id($seq->id.'_fixed3');
                     }
                 }
             }
@@ -148,7 +148,7 @@ package MyApp::PairSequenceChains {
         );
          while ( my $seq = $in->next_seq ) {
             my $id = $seq->id;
-            $id =~ s/\_fixed$//g;
+            #$id =~ s/\_fixed$//g;
             $h{$id} = $seq;
         }
         return \%h;
@@ -477,7 +477,7 @@ package MyApp::CreatePairedClones {
                 my $id = $h{SEQUENCE_ID};
 
                 # remove fixed suffix
-                $id =~ s/_fixed.*$//g;
+                #$id =~ s/_fixed.*$//g;
                 $sequences{$id} = \%h;
             }
         }

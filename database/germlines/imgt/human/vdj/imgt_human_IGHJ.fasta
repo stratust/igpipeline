@@ -19,12 +19,12 @@ acaactggttcgacccctggggccagggaaccctggtcaccgtctcctcag
 >J00256|IGHJ6*01|Homo_sapiens|F|J-REGION|2947..3009|63 nt|3| | | | |63+0=63| | |
 attactactactactacggtatggacgtctgggggcaagggaccacggtcaccgtctcct
 cag
->X86355|IGHJ6*02|Homo_sapiens|F|J-REGION|2482..2543|62 nt|3| | | | |62+0=62|partial in 3'| |
+>M25625|IGHJ6*02|Homo_sapiens|F|J-REGION|1480..1542|63 nt|3| | | | |63+0=63| | |
 attactactactactacggtatggacgtctggggccaagggaccacggtcaccgtctcct
-ca
->X86356|IGHJ6*03|Homo_sapiens|F|J-REGION|2482..2543|62 nt|3| | | | |62+0=62|partial in 3'| |
+cag
+>BK063799|IGHJ6*03|Homo_sapiens|F|J-REGION|1016585..1016647|63 nt|3| | || |63+0=63| | |
 attactactactactactacatggacgtctggggcaaagggaccacggtcaccgtctcct
-ca
+cag
 >AJ879487|IGHJ6*04|Homo_sapiens|F|J-REGION|39..101|63 nt|3| | | | |63+0=63| | |
 attactactactactacggtatggacgtctggggcaaagggaccacggtcaccgtctcct
 cag

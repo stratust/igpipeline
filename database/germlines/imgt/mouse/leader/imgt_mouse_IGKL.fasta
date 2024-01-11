@@ -1,3 +1,30 @@
+>IMGT000068|IGKV(I)-112-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|670391..670439+670563..670573|60 nt|1| | | | |60+0=60| | |
+atgacagctcccactcagcttctggagctactgctgctctggagtataggtaccagatgt
+>IMGT000068|IGKV(I)-118-3*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|554934..554988+555111..555121|66 nt|1| | | | |66+0=66| | |
+atgggcatgagtacccctgttcagttccttgggctcctattgctctggtttccaggtgtc
+aaatgt
+>IMGT000068|IGKV(I)-121-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|479716..479769+479891..479901|65 nt|1| | | | |65+0=65| | |
+atggaaaagaggtcctctgttcagcttctaggttgatactggtctagatcacaaggctga
+gttgt
+>IMGT000068|IGKV(I)-87-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|1348317..1348365+1348182..1348192|60 nt|1| | | | |60+0=60| |rev-compl|
+acatgtatctctatttggctcatggggctgctattgttctggctctcagttgtcataagt
+>IMGT000068|IGKV(I)-87-4*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|1327487..1327535+1327664..1327674|60 nt|1| | | | |60+0=60| | |
+atgggcataagagtttcaacccaattcctagtgttgctctggattgtagaagctagatgt
+>IMGT000068|IGKV(II)-129-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|252660..252711+253101..253111|63 nt|1| | | | |63+0=63| | |
+atgaaattgtctgttaggttgtggttgttgctgctgttgttcaggatttctgctcccata
+agt
+>IMGT000068|IGKV(II)-130-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|225466..225513+225417..225427|59 nt|1| | | | |59+0=59| |rev-compl|
+atgtcaatatctttctacttttctaagtgtcttagagatgcttttcattctccagaaat
+>IMGT000068|IGKV(II)-22-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|2749272..2749320+2749486..2749496|60 nt|1| | | | |60+0=60| | |
+atggtgacaccctcactctacctcatccttctcctcctatgtttgacaccttccaatggg
+>IMGT000068|IGKV(II)-34-2*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|2489337..2489385+2488967..2488977|60 nt|1| | | | |60+0=60| |rev-compl|
+atggattcacagacctaggttctcatatcactgctgttctgagtctctggtacctgtaga
+>IMGT000068|IGKV(II)-99-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|984535..984583+984912..984922|60 nt|1| | | | |60+0=60| | |
+atgaaaacaccctgctggtgccatgtatcccactgttgcttggcatagtcttgcagactc
+>IMGT000068|IGKV(III)-106-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|789304..789352+789446..789456|60 nt|1| | | | |60+0=60| | |
+atgtctttccaagctcaactactcagaattctcctcctccagatctctaattctacagca
+>IMGT000068|IGKV(III)-34-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|2495227..2495275+2494989..2494999|60 nt|1| | | | |60+0=60| |rev-compl|
+cagagagggtctgctctcctgttgtgggtactgctggtctgggttccaggatcaactggt
 >D00080|IGKV1-110*01|Mus_musculus_BALB/c|F|L-PART1+L-PART2|342..387+769..779|57 nt|1| | | | |57+0=57| | |
 atgaagttgcctgttaggctgttggtgctgatgttctggattcctgcttccagcagt
 >M28132|IGKV1-110*02|Mus_musculus_NZB/BINJ|F|L-PART1+L-PART2|332..377+764..774|57 nt|1| | | | |57+0=57| | |
@@ -60,13 +87,19 @@ ctctgttttcaaggtaccagatgt
 ctctgttttcaaggtaccagatgt
 >AJ231252|IGKV11-106*01|Mus_musculus_C3H|P|L-PART1+L-PART2|99..147+270..280|60 nt|1| | | | |60+0=60| | |
 atgaggacccctgctcctttccttgggctcctgttgttctgtttttctagtgccagatgt
+>IMGT000068|IGKV11-106*02|Mus_musculus_C57BL/6J|F|L-PART1+L-PART2|793892..793940+794063..794073|60 nt|1| | | | |60+0=60| | |
+atgaggacccctgctcctttccttgggctcctgttgttctgtttttctagtgccagatgt
 >AJ231253|IGKV11-114*01|Mus_musculus_C3H|P|L-PART1+L-PART2|108..156+278..288|60 nt|1| | | | |60+0=60| | |
 atgagggcccctgctcctttccttgggctcctgttgttctgttttctaggtgccagatgt
 >AJ231255|IGKV11-118*01|Mus_musculus_C3H|P|L-PART1+L-PART2|207..255+378..388|60 nt|1| | | | |60+0=60| | |
 atgaggacccctgctcatttccttgggctgctgttgctctgttttctaggtggcagatgt
+>IMGT000068|IGKV11-118*02|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|559779..559827+559949..559959|60 nt|1| | | | |60+0=60| | |
+atgaggacccctgctcatttccttgggctgctgttgctctgttttctaggtggcagatgt
 >AJ231256|IGKV11-125*01|Mus_musculus_129/Sv|F|L-PART1+L-PART2|130..184+312..322|66 nt|1| | | | |66+0=66| | |
 atgaacacgagggcccctgctgagttccttgggttcctgttgctctggtttttaggtgcc
 agatgt
+>IMGT000068|IGKV12-104-2*01|Mus_musculus_C57BL/6J|F|L-PART1+L-PART2|844195..844243+844367..844377|60 nt|1| | | | |60+0=60| | |
+atgacagctcccactcagcttctggggctactgctgctctggattataggtaccagatgt
 >AJ235951|IGKV12-38*01|Mus_musculus_C57BL/6|F|L-PART1+L-PART2|143..191+308..318|60 nt|1| | | | |60+0=60| | |
 atgagtgtgcccactcaactcctggggttgctgctgctgtggcttacagacgcaggatgt
 >AJ235952|IGKV12-40*01|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|160..208+332..342|60 nt|1| | | | |60+0=60| | |
@@ -81,9 +114,11 @@ aggagtgtgcccactcagctcctggggttgctgctgctgtggcttacagatgccagatgt
 atgagtgtgcccactcaggtcctggggttgctgctgctgtggcttacaggtgccagatgt
 >AJ235956|IGKV12-46*01|Mus_musculus_C57BL/6|F|L-PART1+L-PART2|134..182+306..316|60 nt|1| | | | |60+0=60| | |
 atgagtgtgcccactcaggtcctggggttgctgctgctgtggcttacagatgccagatgt
->AJ235959|IGKV12-47*01|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|108..156+279..289|60 nt|1| | | | |60+0=60| | |
+>AJ235959|IGKV12-47*01|Mus_musculus_C57BL/6|ORF|L-PART1+L-PART2|108..156+279..289|60 nt|1| | | | |60+0=60| | |
 atgagtgtgcccactcagctcctagcattgctgctgctgtggcttacagatgccagatgt
 >AJ235960|IGKV12-49*01|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|149..196+314..324|59 nt|1| | | | |59+0=59| | |
+atgagtatgcccactcagcactaaggttgttgatgctgtggcttacagatgccagatgt
+>IMGT000068|IGKV12-49*02|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|2171274..2171321+2171146..2171156|59 nt|1| | | | |59+0=59| |rev-compl|
 atgagtatgcccactcagcactaaggttgttgatgctgtggcttacagatgccagatgt
 >AJ235934|IGKV12-66*01|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|107..155+281..291|60 nt|1| | | | |60+0=60| | |
 atgagtttactcactcaactacaggggttgttgctgctgtggcttacatatgacagatgt
@@ -91,18 +126,36 @@ atgagtttactcactcaactacaggggttgttgctgctgtggcttacatatgacagatgt
 atgagtttacccactcaactccaggggttgctgctgctgtggcttacagatgccagatgt
 >AJ235950|IGKV12-89*01|Mus_musculus_C57BL/6|F|L-PART1+L-PART2|237..276+401..411|51 nt|1| | | | |51+0=51| | |
 atgggtgtacccactcagctcctgttgctgtggcttacagttgtcagatgt
+>IMGT000068|IGKV12-97-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|1041777..1041825+1041636..1041646|60 nt|1| | | | |60+0=60| |rev-compl|
+atgagagctcctaatcagatcctggggttgctgctgctctggtttacagatacaaaatgt
 >AJ235949|IGKV12-98*01|Mus_musculus_C3H|F|L-PART1+L-PART2|121..169+296..306|60 nt|1| | | | |60+0=60| | |
 atgaacatgctcactcagctcctgggattactgctgctctggtttgcaggtggtaaatgt
+>IMGT000068|IGKV13-50-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|2147522..2147570+2147691..2147701|60 nt|1| | | | |60+0=60| | |
+atgatgtctcccactcaggttctgctgatcttactattctgattccagggcctggtatgt
+>IMGT000068|IGKV13-51-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|2115459..2115507+2115624..2115634|60 nt|1| | | | |60+0=60| | |
+atgaagactccctcccagtttctggtgttcttgctgttttgaatcccaggcataatattt
 >AC158673|IGKV13-57-2*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|100515..100563+100684..100694|60 nt|1| | | | |60+0=60| | |
 atgatgtctccctctcagcttctgctgatcttactattctgattccagggcctggtatgt
+>IMGT000068|IGKV13-57-3*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|1970533..1970581+1970924..1970934|60 nt|1| | | | |60+0=60| | |
+atgaagactccctcccagtttctggtgttcttgctgttttgaatcccaggcataatattt
 >AC156953|IGKV13-62-1*02|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|37164..37209+37351..37360|56 nt|1| | | | |56+0=56| | |
 atgttggtcacagtacagccataaagcctccctcccagtttttggtcataatattt
 >AJ235969|IGKV13-64*01|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|138..186+306..316|60 nt|1| | | | |60+0=60| | |
 atgatgtctccttctcaacttctgctgatcttactattctgattcctgggcctgatatgt
 >AC156953|IGKV13-64*02|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|7467..7515+7636..7646|60 nt|1| | | | |60+0=60| | |
 atgatgtctccttctcaacttctgctgatcttactattctgattcctgggcctgatatgt
+>IMGT000068|IGKV13-68-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|1744442..1744487+1744631..1744640|56 nt|1| | | | |56+0=56| | |
+atgtctggtcacagtacagccataaagcctccctcccagttttttgcataatattt
+>IMGT000068|IGKV13-69-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|1730700..1730769+1730888..1730897|80 nt|1| | | | |80+0=80| | |
+atgtctggtcacagtacagccataaagcctccctctcagtttttggtgttcttgctgatt
+tggatcccagcataatattt
 >AJ231271|IGKV13-76*01|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|611..659+780..790|60 nt|1| | | | |60+0=60| | |
 atgaagtctccctctcagcttctgctgatcttattattctgattctaaggcctgatatgt
+>IMGT000068|IGKV13-77-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|1540397..1540445+1540566..1540576|60 nt|1| | | | |60+0=60| | |
+atgatgtctccctctcaacatctgctgatcttactattctgattcctaggcctgatatgt
+>IMGT000068|IGKV13-79-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|1482954..1483004+1483154..1483164|62 nt|1| | | | |62+0=62| | |
+atgaagtcctctggacacaaagtggctatagcaatcttgaaatcaaaagcatactaaaag
+tg
 >AJ231276|IGKV13-82*01|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|182..230+351..361|60 nt|1| | | | |60+0=60| | |
 atgaagtctccctctcagcttctgcttatcttattattctgattctaaggcctgatatgt
 >AJ231273|IGKV13-84*01|Mus_musculus_C57BL/6|F|L-PART1+L-PART2|153..201+321..331|60 nt|1| | | | |60+0=60| | |
@@ -141,9 +194,11 @@ agatgt
 >AJ231241|IGKV14-130*01|Mus_musculus_C57BL/6|F|L-PART1+L-PART2|228..282+396..406|66 nt|1| | | | |66+0=66| | |
 atggacatgagggctcctgctcagtttcttgggatcttgttgctctggttcccaggtgcc
 agatgt
->AJ231249|IGKV14-134-1*01|Mus_musculus_C3H|P|L-PART1+L-PART2|225..279+399..405|62 nt|1| | | | |62+0=62| | |
+>AJ231249|IGKV14-134-1*01|Mus_musculus_C3H|P|L-PART1+L-PART2|225..279+399..404|61 nt|1| | | | |61+0=61| | |
 atggacatgagggcctctgctcagtttcttgggttcctgttgctctggtttccaagtctg
-tg
+t
+>IMGT000068|IGKV14-87-2*01|Mus_musculus_C57BL/6J|F|L-PART1+L-PART2|1334985..1335033+1334830..1334840|60 nt|1| | | | |60+0=60| |rev-compl|
+atgagaattcgtggtcagctcttggggctactggtgctctggatcacaggtgtattgtgt
 >AJ235977|IGKV14/OR16-2*01|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|262..316+436..446|66 nt|1| | | | |66+0=66| | |
 atggacacgagggcctctgctcagtttcttgggttcctgttgctctggtttccaggagct
 agatgt
@@ -161,6 +216,8 @@ ttttaggtacgacatgt
 >AJ231269|IGKV15-103*01|Mus_musculus_C3H|ORF|L-PART1+L-PART2|376..424+536..546|60 nt|1| | | | |60+0=60| | |
 atgagggtccttgctgagctcctggggctgctgctgttctgctttttaggtgtgagatgt
 >AJ231267|IGKV15-97*01|Mus_musculus_C3H|P|L-PART1+L-PART2|109..157+278..288|60 nt|1| | | | |60+0=60| | |
+atgagagttcttcctgagttcctggggctgctgctgctctggatttcaggtgtgagatgt
+>IMGT000068|IGKV15-97*02|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|1045745..1045793+1045914..1045924|60 nt|1| | | | |60+0=60| | |
 atgagagttcttcctgagttcctggggctgctgctgctctggatttcaggtgtgagatgt
 >AJ235936|IGKV16-104*01|Mus_musculus_C3H|F|L-PART1+L-PART2|165..213+334..344|60 nt|1| | | | |60+0=60| | |
 atgaggttccaggttcaggttctggggctccttctgctctggatatcaggtgcccagtgt
@@ -196,7 +253,7 @@ atgaggtgctctcttcagttcctgggggtgcttatgttctggatctctggagtcagtggg
 atgaggtgctctcttcagttcttggggatgcttatgttctggatctctggagtcagtggg
 >AJ231260|IGKV2-113*01|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|152..200+603..613|60 nt|1| | | | |60+0=60| | |
 atgagttactctcttcagctcctgaggatgcttgtgctctggattcctgaaatcactaaa
->AJ277843|IGKV2-116*01|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|288..336+709..719|60 nt|1| | | | |60+0=60| | |
+>IMGT000068|IGKV2-116*01|Mus_musculus_C57BL/6J|F|L-PART1+L-PART2|606250..606298+606670..606680|60 nt|1| | | | |60+0=60| | |
 atgaggttctctgctcagcttctggggctgcttgtgctctggatccctggatccactgca
 >AJ231263|IGKV2-137*01|Mus_musculus_C3H|F|L-PART1+L-PART2|165..213+433..443|60 nt|1| | | | |60+0=60| | |
 atgaggtgcctagctgagttcctggggctgcttgtgctctggatccctggagccattggg
@@ -210,6 +267,8 @@ atgagttactctcttcagctcctgaggatgcttgtgctctggattcctggaatcagtaaa
 atgagttactctgttcagctcctgaggattcttgtgctctggattcctggagccagtgaa
 >AC122918|IGKV20-101-2*01|Mus_musculus_C57BL/6J|F|L-PART1+L-PART2|132005..132050+132201..132211|57 nt|1| | | | |57+0=57| | |
 atggctctagttcagctcctagggatgctgatgctctggctccaaggcatgagctgt
+>IMGT000068|IGKV20-102-2*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|903631..903679+903790..903800|60 nt|1| | | | |60+0=60| | |
+atgatggctttagttcaattcttagggctgctgctgatctggttccaagacatgagattt
 >X16955|IGKV3-1*01|Mus_musculus_BALB/c|F|L-PART1+L-PART2|200..248+488..498|60 nt|1| | | | |60+0=60| | |
 atggagtcagacacactcctgctatgggtgctgctgctctgggttccaggctccactggt
 >K02160|IGKV3-10*01|Mus_musculus_BALB/c|F|L-PART1+L-PART2|198..246+486..496|60 nt|1| | | | |60+0=60| | |
@@ -222,6 +281,9 @@ atggagacagacacactcctgttatgggtactgctgctctgggttccaggttccactggt
 atgctcaaagtatatgtgaaggcagtttttcagtgtcttaagaagcagcgttccacttgg
 >X16954|IGKV3-2*01|Mus_musculus_BALB/c|F|L-PART1+L-PART2|221..269+509..519|60 nt|1| | | | |60+0=60| | |
 atggagaaagacacactcctgctatgggtcctgcttctctgggttccaggttccacaggt
+>IMGT000068|IGKV3-25-1*01|Mus_musculus_C57BL/6J|P|L-PART1+L-PART2|2654595..2654644+2655009..2655019|61 nt|1| | | | |61+0=61| | |
+atgagagaaagtgtccctctgattttgagctttactgagctgcttttcatgctctactgg
+g
 >K02162|IGKV3-3*01|Mus_musculus_BALB/c|F|L-PART1+L-PART2|39..87+317..327|60 nt|1| | | | |60+0=60| | |
 atggagtcagacacactcctgctatgggtgctgctgctctgggttccaggctccactggt
 >Y15968|IGKV3-4*01|Mus_musculus_C57BL/6|F|L-PART1+L-PART2|130..178+409..419|60 nt|1| | | | |60+0=60| | |
@@ -231,6 +293,8 @@ atggagacagacacactcctgctatgggtgctgctgctctgggttccaggttccacaggt
 >Y15969|IGKV3-6*01|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|134..182+416..426|60 nt|1| | | | |60+0=60| | |
 atggagtcagacacactcctgctatgggtgctgctgctctgggttccaggctccactagt
 >K02158|IGKV3-7*01|Mus_musculus_BALB/c|F|L-PART1+L-PART2|61..109+351..361|60 nt|1| | | | |60+0=60| | |
+atggagacagacacactcctgctatgggtgctgctgctctgggttccaggttccactggt
+>IMGT000068|IGKV3-7*02|Mus_musculus_C57BL/6J|F|L-PART1+L-PART2|3061802..3061850+3062092..3062102|60 nt|1| | | | |60+0=60| | |
 atggagacagacacactcctgctatgggtgctgctgctctgggttccaggttccactggt
 >Y15971|IGKV3-8*01|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|1..33+273..283|44 nt|3| | | | |44+0=44|partial in 5'| |
 cagagctatgggtgcttatggtctgggttccaggctccactagt
@@ -283,6 +347,9 @@ agagga
 >AJ231232|IGKV4-65*01|Mus_musculus_C57BL/6|P|L-PART1+L-PART2|146..194+370..386|66 nt|1| | | | |66+0=66| | |
 atgaattttcatgtgcagattttcagcttcatgcttatcagtgtcacagtcatagggtcc
 agtgga
+>IMGT000068|IGKV4-65*02|Mus_musculus|P|L-PART1+L-PART2|1797321..1797369+1797129..1797145|66 nt|1| | | | |66+0=66| |rev-compl|
+atgaattttcatgtgcagattttcagcttcatgcttatcagtgtcacagtcatagggtcc
+agtgga
 >AJ231222|IGKV4-68*01|Mus_musculus_C57BL/6|F|L-PART1+L-PART2|206..254+433..449|66 nt|1| | | | |66+0=66| | |
 atggattttcaagtgcagattttcagcttcctgctaatgagtgcctcagtcataatgtcc
 agggga
@@ -298,7 +365,7 @@ agagga
 >AJ231219|IGKV4-72*01|Mus_musculus_C57BL/6|F|L-PART1+L-PART2|175..223+402..418|66 nt|1| | | | |66+0=66| | |
 atggattttcaagtgcagattttcagcttcctgctaatcagtgcttcagtcataatgtcc
 agagga
->AJ231216|IGKV4-73*01|Mus_musculus_C57BL/6|F|L-PART1+L-PART2|130..178+355..371|66 nt|1| | | | |66+0=66| | |
+>AJ231216|IGKV4-73*01|Mus_musculus_C57BL/6|ORF|L-PART1+L-PART2|130..178+355..371|66 nt|1| | | | |66+0=66| | |
 atggattttcaggtgcagattttcagcttcctgctaatcagtgcctcagtcctaatgtcc
 agagga
 >AJ231217|IGKV4-74*01|Mus_musculus_C57BL/6|F|L-PART1+L-PART2|183..231+410..426|66 nt|1| | | | |66+0=66| | |
@@ -390,6 +457,8 @@ atggaatcacagaaccatgtcctcatgttcttgctgctttgggtatctgatacctgtggg
 atggaatcacagactcaggtcttcctctccctgctgctctgggtatctggtacctgtggg
 >AJ235947|IGKV8-28*01|Mus_musculus_C57BL/6|F|L-PART1+L-PART2|107..155+360..370|60 nt|1| | | | |60+0=60| | |
 atggaatcacagactcaggtcctcatctccttgctgttctgggtatctggtacctgtggg
+>IMGT000127|IGKV8-28*03|Mus_musculus_129S1_SvImJ|F|L-PART1+L-PART2|2594194..2594242+2593979..2593989|60 nt|1| | | | |60+0=60| |rev-compl|
+atggaatcacagactcaggtcctcatctccttgctgttctgggtatctggtacctgtggg
 >AJ235948|IGKV8-30*01|Mus_musculus_C3H|F|L-PART1+L-PART2|189..237+430..440|60 nt|1| | | | |60+0=60| | |
 atggattcacaggcccaggttcttatgttactgctgctatgggtatctggtacctgtggg
 >AJ235957|IGKV8-31*01|Mus_musculus_C3H|P|L-PART1+L-PART2|270..306+506..516|48 nt|1| | | | |48+0=48| | |
@@ -403,6 +472,9 @@ atggacatgtggacctctgctcagtttcttgggatcttgttgctctggtttctaggtgcc
 agatgt
 >V00804|IGKV9-120*01|Mus_musculus_C57BL/6|F|L-PART1+L-PART2|120..174+303..313|66 nt|1| | | | |66+0=66| | |
 atggacatgagggctcctgcacagatttttggcttcttgttgctcttgtttcaaggtacc
+agatgt
+>IMGT000068|IGKV9-120*02|Mus_musculus_C57BL/6J|F|L-PART1+L-PART2|504348..504402+504524..504534|66 nt|1| | | | |66+0=66| | |
+atggacatgagggctcctgcacagatttttggcttcttgttgctcttgtttccaggtacc
 agatgt
 >AF003295|IGKV9-123*01|Mus_musculus|F|L-PART1+L-PART2|99..153+264..274|66 nt|1| | | | |66+0=66| | |
 atggacatcagggctcctgctcagtttcttggcatcttgttgctctggtttccaggtgcc
@@ -420,4 +492,165 @@ agatgt
 ctttgttttcaaggtaccagatgt
 >AF441451|IGKV10-96*01|Mus spretus|F|L-PART1+L-PART2|1..13+135..145|24 nt|1| | | | |24+0=24|partial in 5'| |
 ctctgttttcaaggtaccagatgt
+>BK063797|IGKV(I)-27*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|445488..445535+445087..445097|59 nt|1| | | | |59+0=59| |rev-compl|
+atggtgactccatcacagttcttggccttctgctcatctgggttccagcctcccatggt
+>BK063797|IGKV(II)-73*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|96727..96775+97365..97376|61 nt|1| | | | |61+0=61| | |
+aggaggttccctcctcttctccttgtgctactaatgccttggatcccaagactaaaatgg
+g
+>BK063797|IGKV1-10*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|602403..602449+602650..602660|58 nt|1| | | | |58+0=58| | |
+atggtaactcctacacatttcttggccttctgctcctctgggttccacctcccatggt
+>BK063797|IGKV1-14*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|560416..560463+560663..560673|59 nt|1| | | | |59+0=59| | |
+atggtgactccattacagttcttggccttctgctcctctgggctccagcctcccataaa
+>BK063797|IGKV1-24*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|468655..468701+468901..468911|58 nt|1| | | | |58+0=58| | |
+atggtaactcctacacatttcttagccttctgctcctctgggttccacctcccatggc
+>BK063797|IGKV1-35*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|401457..401505+401246..401256|60 nt|1| | | | |60+0=60| |rev-compl|
+atggtgactccatcacagcttcttggccttctgctcctctgggttccagcctcccatggt
+>BK063797|IGKV1-47*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|304041..304088+304790..304800|59 nt|1| | | | |59+0=59| | |
+atggtgagtccatcacagttctttgccttctgctcctctgggatccagccttccctgga
+>BK063797|IGKV1-5*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|637866..637916+638119..638129|62 nt|1| | | | |62+0=62| | |
+atggttactccatcacagcttcttgaccctctctgctcctctgggttccagcctcccatg
+gt
+>BK063797|IGKV1-50*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|284416..284462+284661..284671|58 nt|1| | | | |58+0=58| | |
+atggtgactccatcacagttcttggccttctgctcttctggattccacctcccatggc
+>BK063797|IGKV1-54*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|257019..257067+257267..257277|60 nt|1| | | | |60+0=60| | |
+atggtgactccatcacagcttcctggccttctgctcctctgggttccagcctctcatggc
+>BK063797|IGKV1-63*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|189829..189877+190077..190087|60 nt|1| | | | |60+0=60| | |
+atggtgactccatcacagcttcttggccttctgctcctctgggttccagcctctcatggc
+>BK063797|IGKV1-87*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|8059..8107+8229..8239|60 nt|1| | | | |60+0=60| | |
+atgaaggctcccactcagctcctgggtctcctgctgctctggctcccaggagccagttct
+>BK063797|IGKV2-12*01|Mustela putorius furo_JIRA1106|ORF|L-PART1+L-PART2|580442..580490+580832..580842|60 nt|1| | | | |60+0=60| | |
+atgaggttcccttctcagctcctggggctgctaatgctctgggtcccaggatccagtggg
+>BK063797|IGKV2-19*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|511067..511115+511468..511478|60 nt|1| | | | |60+0=60| | |
+atgaggttcccttctcagctcctggggctgctgatgctctgggtcccaggatcagatggc
+>BK063797|IGKV2-22*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|479729..479777+480131..480141|60 nt|1| | | | |60+0=60| | |
+atgaggttcccttctcagctcctgggcctgctgatgctctgggtcccaggatccattggg
+>BK063797|IGKV2-23*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|472518..472566+472935..472945|60 nt|1| | | | |60+0=60| | |
+atgaggttcccttctcagctcctggggctgctaatgctctgggtcccaggatccagcggg
+>BK063797|IGKV2-25*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|463035..463083+463449..463459|60 nt|1| | | | |60+0=60| | |
+atgaggttcccttctcagctcctggggctgctgatgctctgggtcccaggatccagtggg
+>BK063797|IGKV2-28*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|441469..441517+441092..441102|60 nt|1| | | | |60+0=60| |rev-compl|
+atgaggttcccttctcagctcctggggctgctgatgctctgggttccaggatccagcggg
+>BK063797|IGKV2-29*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|432994..433042+432618..432628|60 nt|1| | | | |60+0=60| |rev-compl|
+atgaggttcctttctcagctcctggggcttctgatgctctgggtaccaggatccagtgga
+>BK063797|IGKV2-3*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|659114..659162+659537..659547|60 nt|1| | | | |60+0=60| | |
+atgaggttcccttctcagctcctggggctactgatgctttgggtcccaggatctggtggg
+>BK063797|IGKV2-31*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|422816..422864+422436..422446|60 nt|1| | | | |60+0=60| |rev-compl|
+atgaggttcccttctcagctcctggggctgctgatgctctgggtcccaggatccagcggg
+>BK063797|IGKV2-32*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|418549..418597+418169..418179|60 nt|1| | | | |60+0=60| |rev-compl|
+atgaggttgccttctcagttcctggggctgctgatgctctgggtcccaggatccaatggg
+>BK063797|IGKV2-36*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|397540..397588+397162..397172|60 nt|1| | | | |60+0=60| |rev-compl|
+atgaggttcccttctcagctcctggggctgatgatgctctgggtcccaggatccagtggg
+>BK063797|IGKV2-37*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|384228..384276+383881..383891|60 nt|1| | | | |60+0=60| |rev-compl|
+atgaggttcccttctcagctcctagggctgctgatgctctgggtcccaggatccagtggg
+>BK063797|IGKV2-38*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|377685..377733+377327..377337|60 nt|1| | | | |60+0=60| |rev-compl|
+atgaggttcccttctcagctcctggggctgctgatgctctgggtcccaggatccagtggg
+>BK063797|IGKV2-39*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|364413..364461+364833..364843|60 nt|1| | | | |60+0=60| | |
+atgaggttcccttctcagctcctggggctgctgatgctctgggtcccaggatccagcggg
+>BK063797|IGKV2-40*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|355528..355576+355936..355946|60 nt|1| | | | |60+0=60| | |
+atgaggttcccttctcagctcctggggctgctgatgctctgggtcataggatccagtggg
+>BK063797|IGKV2-41*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|350216..350264+350634..350644|60 nt|1| | | | |60+0=60| | |
+atgaggttcccttctcagctcctggggctaatgatgctctggatctcaggatccagtggg
+>BK063797|IGKV2-44*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|324133..324181+324566..324575|59 nt|1| | | | |59+0=59| | |
+atgaagttcccttctcagctcctggggctaatgatgctctgggtcacagaaacaatgca
+>BK063797|IGKV2-45*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|319269..319317+319683..319693|60 nt|1| | | | |60+0=60| | |
+atgaggttcccttctcagctcctggggctgctgatgctctggatcccaggatccagcagg
+>BK063797|IGKV2-49*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|288298..288345+288716..288726|59 nt|1| | | | |59+0=59| | |
+atgagcttcccttcagctcctggggctgctgatgctctgggtcccagggatacagcggg
+>BK063797|IGKV2-53*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|263472..263520+263892..263902|60 nt|1| | | | |60+0=60| | |
+atgaggttcccatctcagttcctggggcttctgatgctctgggtcccaggatccagcggg
+>BK063797|IGKV2-55*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|246729..246777+247149..247159|60 nt|1| | | | |60+0=60| | |
+atgaggttcccttctcagctcctggggctgctgatgctctgggtcccaggatccagtggg
+>BK063797|IGKV2-60*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|215256..215304+215674..215685|61 nt|1| | | | |61+0=61| | |
+atgaggttcccttttcagcttctggggctgctgatgctctgggtcccaggatccagtggg
+g
+>BK063797|IGKV2-61*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|210127..210174+210537..210547|59 nt|1| | | | |59+0=59| | |
+atgaggttcccttctcagctcctgggctgctgatgctcagggtcccaggatccagcggg
+>BK063797|IGKV2-66*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|171096..171144+171756..171765|59 nt|1| | | | |59+0=59| | |
+atgaggttcccttctcagctcctggggctgctgatgctctgggtcccaggatccacggg
+>BK063797|IGKV2-69*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|126539..126587+126991..127001|60 nt|1| | | | |60+0=60| | |
+atgaggttccctgctcagctcctggggttcctcatgctctggtttccagggtccagtggg
+>BK063797|IGKV2-7*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|626865..626913+627285..627295|60 nt|1| | | | |60+0=60| | |
+atgaggttcccttctcagctcctggggctgctgatgctctgggtcccaggatccagcggg
+>BK063797|IGKV2-70*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|114934..114982+115385..115395|60 nt|1| | | | |60+0=60| | |
+atgaggatccctgctcaactctttgcactgctaatggtttgatttcctggatccagcggg
+>BK063797|IGKV2-72*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|101613..101661+102053..102063|60 nt|1| | | | |60+0=60| | |
+atgaggtttcctgctcagctcctgggactgctgatgctctgggtcccaggatccagcggg
+>BK063797|IGKV2-74*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|93422..93470+93869..93879|60 nt|1| | | | |60+0=60| | |
+atgaggttccctgctcagctcctggggctcttcatgctctggtttccaggatccagtggg
+>BK063797|IGKV2-75*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|81844..81892+82290..82300|60 nt|1| | | | |60+0=60| | |
+atgaggttccctgctcagctctttgtactgctaatgctttggtttcctggatccagcggg
+>BK063797|IGKV2-76*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|73015..73063+73676..73686|60 nt|1| | | | |60+0=60| | |
+atgaggattcctactcagctcctggggctcctcgtgctctgggtccctggatctgggggt
+>BK063797|IGKV2-77*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|71373..71421+71810..71820|60 nt|1| | | | |60+0=60| | |
+atgagatttcctgctcagctcctggggctgctgatgctctgggtcccaggatccagtggg
+>BK063797|IGKV2-78*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|66461..66509+67118..67128|60 nt|1| | | | |60+0=60| | |
+agaagattccctgctcttcttctcgggctattaatgccttggatcccaagacctgatggg
+>BK063797|IGKV2-79*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|63838..63886+64295..64305|60 nt|1| | | | |60+0=60| | |
+atgaggttccctgttcagctccttgggctcctcatactttggtttccaggatccagtggg
+>BK063797|IGKV2-8*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|613637..613685+614051..614061|60 nt|1| | | | |60+0=60| | |
+atgaggttcccttctcagctcctggggctgctgatgctctgggtcccaggatccagcggg
+>BK063797|IGKV2-80*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|47872..47920+48321..48331|60 nt|1| | | | |60+0=60| | |
+atgaggtttcctgctcagctcctggggctgctgatgctctgggccccaggatccagtggg
+>BK063797|IGKV2-81*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|42948..42996+43604..43614|60 nt|1| | | | |60+0=60| | |
+aggaggttcccttttcttgtccttgggctactaatgccttggatcccaagacctgatggg
+>BK063797|IGKV2-82*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|40323..40371+40786..40796|60 nt|1| | | | |60+0=60| | |
+atgaggttccctgttcagctcctggggctcatgatgctctggtttccaggatccagtggg
+>BK063797|IGKV2-83*01|Mustela putorius furo_JIRA1106|ORF|L-PART1+L-PART2|32014..32062+32481..32491|60 nt|1| | | | |60+0=60| | |
+atgaggttccctgctcagcactttgcactgctaatggtttggttccctggatccagtggg
+>BK063797|IGKV2-84*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|19074..19122+19543..19553|60 nt|1| | | | |60+0=60| | |
+atgaggttccctgctcagctccttgggctgctaatgttttggatccctggatccagtggg
+>BK063797|IGKV2-85*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|12679..12727+13122..13132|60 nt|1| | | | |60+0=60| | |
+atgacttcccctgctcagctcctggggctgctgattctctggatcactggatccagtggg
+>BK063797|IGKV2-9*01|Mustela putorius furo_JIRA1106|ORF|L-PART1+L-PART2|606258..606306+606673..606683|60 nt|1| | | | |60+0=60| | |
+atgaggttgccttctcagctcctggggctgttaatactctgggtcccaggatccagcggg
+>BK063797|IGKV3-1*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|677438..677486+677221..677231|60 nt|1| | | | |60+0=60| |rev-compl|
+atgacgtcacagaggcaggtcctcctctgcttgttgctgtgggtctccggtgtccatggg
+>BK063797|IGKV3-15*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|555690..555738+555473..555483|60 nt|1| | | | |60+0=60| |rev-compl|
+atgacttcacagaggccggtcctcctctgcttgttgctgtgggtctcaggttcccatggg
+>BK063797|IGKV3-17*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|527804..527852+527587..527597|60 nt|1| | | | |60+0=60| |rev-compl|
+atggcatcacagaggcaggtcctcctctgcttgttgctgtgggtctcaggtgcccatggg
+>BK063797|IGKV3-21*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|485537..485585+485320..485330|60 nt|1| | | | |60+0=60| |rev-compl|
+atggtgtcacagaggcaggtcctcctatccttgttgctgtgggtctcaggtgcccatggg
+>BK063797|IGKV3-26*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|451017..451065+451270..451280|60 nt|1| | | | |60+0=60| | |
+atggtatcacagcggcaggtcctcctatccttgttgctgtgggtctcaggtgcctgtggg
+>BK063797|IGKV3-34*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|407340..407388+407595..407605|60 nt|1| | | | |60+0=60| | |
+atgacgtcacagaggccagtcctcctctgcttgttgctgtgggtctcaggttcccatggg
+>BK063797|IGKV3-43*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|330744..330792+330527..330537|60 nt|1| | | | |60+0=60| |rev-compl|
+atggcgtcacagaggcaggtcctcctgtccttgttgctgtgggtctcaggtgcccatgga
+>BK063797|IGKV3-48*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|299756..299804+299538..299548|60 nt|1| | | | |60+0=60| |rev-compl|
+atggtatcacagaggcaggtcctcctatccttgttgctgtgggtctcaggtgcccatggg
+>BK063797|IGKV3-51*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|278693..278741+278476..278486|60 nt|1| | | | |60+0=60| |rev-compl|
+atggcctcacagaggcaggtcctcctgtccttgttgctgtgggtctcaggtgcccatggg
+>BK063797|IGKV3-58*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|227730..227778+227513..227523|60 nt|1| | | | |60+0=60| |rev-compl|
+atggtgtcacagaggcaggtcttcctatccttgttcctatgggtctcaggtgcctgtggg
+>BK063797|IGKV3-6*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|632121..632164+631912..631922|55 nt|1| | | | |55+0=55| |rev-compl|
+atggcgtcacagaggcaggtcctcctgtccttgttgctgtgggggtgcccatgga
+>BK063797|IGKV3-67*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|160213..160261+160438..160448|60 nt|1| | | | |60+0=60| | |
+atgatatccccagctcagctcctctgcctcctgtccctctggctcccaggtgccactgga
+>BK063797|IGKV7-18*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|520744..520792+520593..520603|60 nt|1| | | | |60+0=60| |rev-compl|
+atggtgtctctcagttcttggtggctggaattcaagcatttggtgtggggttgtactggg
+>BK063797|IGKV7-2*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|672581..672627+672324..672334|58 nt|1| | | | |58+0=58| |rev-compl|
+atggggtctggggctcccctgctgtggatcctttgctctgggctctggctgcactggg
+>BK063797|IGKV7-33*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|409901..409949+410200..410210|60 nt|1| | | | |60+0=60| | |
+atggggtctggggatcccccgctgtggatcttggtgctctgggctccaggctgcactggg
+>BK063797|IGKV7-52*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|274229..274277+273973..273983|60 nt|1| | | | |60+0=60| |rev-compl|
+atggggtctggggctcccctgctgtggatcctgctgctctgggttccaggctgcactgag
+>BK063797|IGKV7-65*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|178403..178451+178145..178155|60 nt|1| | | | |60+0=60| |rev-compl|
+atggggtccgggactcccctgctatggatcctgctgctctgggctccaggctgctctggg
+>BK063797|IGKV8-13*01|Mustela putorius furo_JIRA1106|ORF|L-PART1+L-PART2|572044..572092+572321..572331|60 nt|1| | | | |60+0=60| | |
+atgggagtcctgacccaactcctctgccttctcctggcctgcatcccagctgtccgcagg
+>BK063797|IGKV8-20*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|499805..499853+500082..500092|60 nt|1| | | | |60+0=60| | |
+aagggagtcctgacgcaactcctctgccttttgctggcctgcctcccagcttcctgcagg
+>BK063797|IGKV8-4*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|648528..648576+648805..648815|60 nt|1| | | | |60+0=60| | |
+atgggagtcctgacccaagcctctgccttctgctggcctgcttcccaggctgtccaaggg
+>BK063797|IGKV8-42*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|343297..343344+343572..343582|59 nt|1| | | | |59+0=59| | |
+atgggagtcctgacccaactcctctgcctttgctggcctgccttgcagctgtctctggg
+>BK063797|IGKV8-46*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|310724..310772+311001..311011|60 nt|1| | | | |60+0=60| | |
+atgggaatcctgacccaactcctctgccttctactgtctggcctcccagctgtcagtcgg
+>BK063797|IGKV8-56*01|Mustela putorius furo_JIRA1106|P|L-PART1+L-PART2|239874..239922+240152..240162|60 nt|1| | | | |60+0=60| | |
+atgggagtcctgacccaactcctctgccttctgctggcctgtctcccagctgtccattgg
+>BK063797|IGKV8-62*01|Mustela putorius furo_JIRA1106|ORF|L-PART1+L-PART2|202788..202836+203064..203074|60 nt|1| | | | |60+0=60| | |
+atgggagtcctgacccaactcctctgccttctgctggcctgcctcccagctgtctgtgcg
+>BK063797|IGKV8-86*01|Mustela putorius furo_JIRA1106|F|L-PART1+L-PART2|9724..9772+10001..10011|60 nt|1| | | | |60+0=60| | |
+atgggagtcccaacccaactcctctgccttctgctggcctgcctcccagctgcccacggg
 

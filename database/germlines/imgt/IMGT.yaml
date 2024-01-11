@@ -1,6 +1,8 @@
-source:  http://www.imgt.org/IMGT_GENE-DB
-date:    2019.06.12
+source:  https://www.imgt.org/genedb
+date:    2023.11.13
 species:
-    - Macaca+mulatta
-    - Mus
-    - Homo+sapiens
+    - human:Homo+sapiens
+    - mouse:Mus
+    - rat:Rattus+norvegicus
+    - rabbit:Oryctolagus+cuniculus
+    - rhesus_monkey:Macaca+mulatta

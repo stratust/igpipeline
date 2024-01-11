@@ -12,15 +12,15 @@ ggtataactggaactac
 ggtataactggaacaac
 >X55576|IGHD1/OR15-1b*01|Homo_sapiens|ORF|D-REGION|63..79|17 nt|1| | | | |17+0=17| | |
 ggtataactggaacaac
->J00234|IGHD2-15*01|Homo_sapiens|F|D-REGION|29..59|31 nt|1| | | | |31+0=31| | |
+>J00234|IGHD2-15*01|Homo_sapiens|F|D-REGION|29..59|31 nt|1| | || |31+0=31| | |
 aggatattgtagtggtggtagctgctactcc
->J00232|IGHD2-2*01|Homo_sapiens|F|D-REGION|29..59|31 nt|1| | | | |31+0=31| | |
+>J00232|IGHD2-2*01|Homo_sapiens|F|D-REGION|29..59|31 nt|1| | || |31+0=31| | |
 aggatattgtagtagtaccagctgctatgcc
 >X97051|IGHD2-2*02|Homo_sapiens|F|D-REGION|36367..36397|31 nt|1| | | | |31+0=31| | |
 aggatattgtagtagtaccagctgctatacc
 >M35648|IGHD2-2*03|Homo_sapiens|F|D-REGION|70..100|31 nt|1| | | | |31+0=31| | |
 tggatattgtagtagtaccagctgctatgcc
->J00235|IGHD2-21*01|Homo_sapiens|F|D-REGION|29..56|28 nt|1| | | | |28+0=28| | |
+>J00235|IGHD2-21*01|Homo_sapiens|F|D-REGION|29..56|28 nt|1| | || |28+0=28| | |
 agcatattgtggtggtgattgctattcc
 >X97051|IGHD2-21*02|Homo_sapiens|F|D-REGION|64644..64671|28 nt|1| | | | |28+0=28| | |
 agcatattgtggtggtgactgctattcc
@@ -34,12 +34,16 @@ agaatattgtaatagtactactttctatgcc
 agaatattgtaatagtactactttctatgcc
 >X13972|IGHD3-10*01|Homo_sapiens|F|D-REGION|10659..10689|31 nt|1| | | | |31+0=31| | |
 gtattactatggttcggggagttattataac
->X93615|IGHD3-10*02|Homo_sapiens|F|D-REGION|30..59|30 nt|1| | | | |30+0=30| | |
-gtattactatgttcggggagttattataac
+>X93615|IGHD3-10*02|Homo_sapiens|F|D-REGION|30..59|30 nt|1| | || |30+1=31| | |
+gtattactatg.ttcggggagttattataac
+>BK063800|IGHD3-10*03|Homo_sapiens|F|D-REGION|985897..985927|31 nt|1| | | | |31+0=31| | |
+gtattactatggttcagggagttattataac
 >X93614|IGHD3-16*01|Homo_sapiens|F|D-REGION|30..66|37 nt|1| | | | |37+0=37| | |
 gtattatgattacgtttgggggagttatgcttatacc
 >X97051|IGHD3-16*02|Homo_sapiens|F|D-REGION|57552..57588|37 nt|1| | | | |37+0=37| | |
 gtattatgattacgtttgggggagttatcgttatacc
+>BK063800|IGHD3-16*03|Homo_sapiens|F|D-REGION|994754..994790|37 nt|1| | | | |37+0=37| | |
+gtattatgattacatttgggggagttatcgttatacc
 >X93616|IGHD3-22*01|Homo_sapiens|F|D-REGION|30..60|31 nt|1| | | | |31+0=31| | |
 gtattactatgatagtagtggttattactac
 >X13972|IGHD3-3*01|Homo_sapiens|F|D-REGION|804..834|31 nt|1| | | | |31+0=31| | |
@@ -68,6 +72,8 @@ tgactatggtgctaactac
 gtggatatagtggctacgattac
 >X97051|IGHD5-18*01|Homo_sapiens|F|D-REGION|59661..59680|20 nt|1| | | | |20+0=20| | |
 gtggatacagctatggttac
+>BK063800|IGHD5-18*02|Homo_sapiens|ORF|D-REGION|996862..996884|23 nt|1| | | | |23+0=23| | |
+gtgaatatagtggctacgattac
 >X97051|IGHD5-24*01|Homo_sapiens|ORF|D-REGION|69300..69319|20 nt|1| | | | |20+0=20| | |
 gtagagatggctacaattac
 >X13972|IGHD5-5*01|Homo_sapiens|F|D-REGION|2913..2932|20 nt|1| | | | |20+0=20| | |

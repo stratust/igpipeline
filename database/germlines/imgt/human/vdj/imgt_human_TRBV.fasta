@@ -390,13 +390,13 @@ tggtatcaacagaatcagaataaagagtttatgcttttgatttcctttcagaat......
 ......gaacaagttcttcaagaaacggagatgcacaagaagcgattctcatctcaatgc
 ccc...aagaacgcaccctgcagcctggcaatcctgtcctcagaaccgggagacacggca
 ctgtatctctgcgccagcagtcaatc
->AF029308|TRBV23/OR9-2*01|Homo_sapiens|P|V-REGION|31802..32091|276 nt|1| | | | |276+36=312| | |
+>AF029308|TRBV23/OR9-2*01|Homo_sapiens|P|V-REGION|31802..32091|290 nt|1| | || |290+36=326| | |
 catgccaaagtcacacagactccaggatatttggtcaaaggaaaaggaaggaaaacaaag
 atgtattgtacccccaaaaacggacat.....................acttttgtttgt
 tggtatcagcagaatcagaataaagagtttatgtttttgatttcctttcagaat......
 ......gaacaagttcttcaagaaatggagatgcacaagaagcgattctcatctcaatgc
 ccc...aagaacccaccctgcagcctggcaatcctgtcctcggaaccgggagacaccgca
-ctgtatctctgt
+ctgtatctctgtgccaccagtccgtc
 >L27615|TRBV23/OR9-2*02|Homo_sapiens|ORF|V-REGION|37..267|231 nt|1| | || |231+36=267|partial in 3'| |
 catgccaaagtcacacagactccaggatatttggtcaaaggaaaaggaaggaaaacaaag
 atgtattgtacccccaaaaacggacat.....................acttttgtttgt
@@ -536,7 +536,7 @@ tggtataaacaggactctaagaaatttctgaagacaatgtttatctacagtaac......
 ......aaggagccaattttaaatgaaacagttcca...aatcgcttctcacctgactct
 cca...gacaaagttcatttaaatcttcacatcaattccctggagcttggtgactctgct
 gtgtatttctgtgccagcagccaag
->L36092|TRBV30*01|Homo_sapiens|F|V-REGION|666640..666923|284 nt|1| | | | |284+39=323| | |
+>L36092|TRBV30*01|Homo_sapiens|F|V-REGION|666640..666923|284 nt|1| | || |284+39=323| |rev-compl|
 tctcagactattcatcaatggccagcgaccctggtgcagcctgtgggcagcccgctctct
 ctggagtgcactgtggagggaacatca..................aaccccaacctatac
 tggtaccgacaggctgcaggcaggggcctccagctgctcttctactccgttggt......
@@ -725,7 +725,7 @@ tggtaccaacaggccctgggtctgggcctccagttcctcctttggtatgacgag......
 ......ggtgaagagagaaacagaggaaacttccct...cctagattttcaggtcgccag
 ttc...cctaattatagctctgagctgaatgtgaacgccttggagctggaggactcggcc
 ctgtatctctgtgccagcagcttgg
->X58803|TRBV5-8*02|Homo_sapiens|(F)|V-REGION|1..238|238 nt|1| | | | |238+83=321|partial in 5'| |
+>X58803|TRBV5-8*02|Homo_sapiens|(F)|V-REGION|1..238|238 nt|1| | || |238+83=321|partial in 5'| |
 ............................................aggacagcaagcgact
 ctgagatgctctcctatctctgggcac.....................accagtgtgtac
 tggtaccaacaggccctgggtctgggcctccagctcctcctttggtatgacgag......

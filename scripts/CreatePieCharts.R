@@ -23,7 +23,7 @@ COLORS <- c(
 )
 
 parse_excel <- function(file) {
-  data <- read_excel(file, skip = 1, guess_max=Inf)
+  data <- read_excel(file, skip = 1)
   # remove NAs
   data <- data[complete.cases(data[, c(1, 2)]), ]
   data <- data %>%

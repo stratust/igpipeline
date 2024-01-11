@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/bin/env python
 
 def Insert_row_(row_number, df, row_value):
 

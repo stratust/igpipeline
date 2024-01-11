@@ -3,26 +3,51 @@
 ##########################################################################
 #
 
-organism: 'human'
+organism: "human"
 
-igblast_germline_db_V: "database/igblast/database/imgt_human_ig_v"
-igblast_germline_db_D: "database/igblast/database/imgt_human_ig_d"
-igblast_germline_db_J: "database/igblast/database/imgt_human_ig_j"
-igblast_auxiliary_data: "database/igblast/optional_file/human_gl.aux"
+human:
+  igblast_germline_db_V: "database/igblast/database/imgt_human_ig_v"
+  igblast_germline_db_D: "database/igblast/database/imgt_human_ig_d"
+  igblast_germline_db_J: "database/igblast/database/imgt_human_ig_j"
+  igblast_auxiliary_data: "database/igblast/optional_file/human_gl.aux"
+  imgt_germline_db_V: "database/germlines/imgt/human/vdj/imgt_human_IGHV.fasta  database/germlines/imgt/human/vdj/imgt_human_IGKV.fasta  database/germlines/imgt/human/vdj/imgt_human_IGLV.fasta"
+  imgt_germline_db_D: "database/germlines/imgt/human/vdj/imgt_human_IGHD.fasta"
+  imgt_germline_db_J: "database/germlines/imgt/human/vdj/imgt_human_IGHJ.fasta  database/germlines/imgt/human/vdj/imgt_human_IGKJ.fasta  database/germlines/imgt/human/vdj/imgt_human_IGLJ.fasta"
+  imgt_germline_v_db_fasta: "database/igblast/fasta/imgt_human_ig_v.fasta"
+  HV_primer: 23
+  KV_primer: 21
+  LV_primer: 0
 
+mouse:
+  igblast_germline_db_V: "database/igblast/database/imgt_mouse_ig_v"
+  igblast_germline_db_D: "database/igblast/database/imgt_mouse_ig_d"
+  igblast_germline_db_J: "database/igblast/database/imgt_mouse_ig_j"
+  igblast_auxiliary_data: "database/igblast/optional_file/mouse_gl.aux"
+  imgt_germline_db_V: "database/germlines/imgt/mouse/vdj/imgt_mouse_IGHV.fasta  database/germlines/imgt/mouse/vdj/imgt_mouse_IGKV.fasta  database/germlines/imgt/mouse/vdj/imgt_mouse_IGLV.fasta"
+  imgt_germline_db_D: "database/germlines/imgt/mouse/vdj/imgt_mouse_IGHD.fasta"
+  imgt_germline_db_J: "database/germlines/imgt/mouse/vdj/imgt_mouse_IGHJ.fasta  database/germlines/imgt/mouse/vdj/imgt_mouse_IGKJ.fasta  database/germlines/imgt/mouse/vdj/imgt_mouse_IGLJ.fasta"
+  imgt_germline_v_db_fasta: "database/igblast/fasta/imgt_mouse_ig_v.fasta"
+  HV_primer: 23
+  KV_primer: 21
+  LV_primer: 0
 
-imgt_germline_db_V: "database/germlines/imgt/human/vdj/imgt_human_IG_All_V.fasta"
-imgt_germline_db_D: "database/germlines/imgt/human/vdj/imgt_human_IGHD.fasta"
-imgt_germline_db_J: "database/germlines/imgt/human/vdj/imgt_human_IG_All_J.fasta"
-
-imgt_germline_v_db_fasta: "database/igblast/fasta/imgt_human_ig_v.fasta"
-
-HV_primer: 23
-KV_primer: 21
-LV_primer: 0
+rhesus_monkey:
+  igblast_germline_db_V: "database/igblast/database/imgt_rhesus_monkey_ig_v"
+  igblast_germline_db_D: "database/igblast/database/imgt_rhesus_monkey_ig_d"
+  igblast_germline_db_J: "database/igblast/database/imgt_rhesus_monkey_ig_j"
+  igblast_auxiliary_data: "database/igblast/optional_file/rhesus_monkey_gl.aux"
+  imgt_germline_db_V: "database/germlines/imgt/rhesus_monkey/vdj/imgt_rhesus_monkey_IG_All_V.fasta"
+  imgt_germline_db_D: "database/germlines/imgt/rhesus_monkey/vdj/imgt_rhesus_monkey_IGHD.fasta"
+  imgt_germline_db_J: "database/germlines/imgt/rhesus_monkey/vdj/imgt_rhesus_monkey_IG_All_J.fasta"
+  imgt_germline_v_db_fasta: "database/igblast/fasta/imgt_rhesus_monkey_ig_v.fasta"
+  HV_primer: 23
+  KV_primer: 21
+  LV_primer: 0
 
 CORRECTION: True
 ANALYSISNAME: "COVID"
 # BCR_DB: "database/public-bcell-dataset-IGHV-cdr3aa.tsv"
 BCR_DB: "database/bcelldb.rds"
 SAMPLE_ORDER : "COV47,COV21,COV72,COV57,COV96,COV107"
+
+

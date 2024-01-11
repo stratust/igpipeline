@@ -5,13 +5,22 @@ atgtcactttctagcctgctgaaggtggtcacagcttcactgtggctaggacctggcatt
 >AE000660|TRAV23/DV6*01|Homo_sapiens|F|L-PART1+L-PART2|90761..90812+90959..90990|84 nt|1| | | | |84+0=84| | |
 atggacaagatcttaggagcatcatttttagttctgtggcttcaactatgctgggtgagt
 ggccaacagaaggagaaaagtgac
+>IMGT000024|TRAV23/DV6*05|Homo_sapiens|F|L-PART1+L-PART2|474549..474600+474747..474778|84 nt|1| | | | |84+0=84| | |
+atggacaagatcttaggagcatcatttttagttctgtggcttcaactatgctgggtgagt
+ggccaacagaaggagaaaagtgac
 >AE000660|TRAV29/DV5*01|Homo_sapiens|F|L-PART1+L-PART2|167277..167328+167493..167518|78 nt|1| | | | |78+0=78| | |
 atggccatgctcctgggggcatcagtgctgattctgtggcttcagccagactgggtaaac
 agtcaacagaagaatgat
 >AJ245565|TRAV29/DV5*03|Homo_sapiens|P|L-PART1+L-PART2|139..190+355..380|78 nt|1| | | | |78+0=78| | |
 atggccatgctcctgggggcatcagtgctgattctgtggcttcagccagactgggtaaac
 agtcaacagaagaatgat
+>IMGT000024|TRAV29/DV5*04|Homo_sapiens|F|L-PART1+L-PART2|551446..551497+551662..551687|78 nt|1| | | | |78+0=78| | |
+atggccatgctcctgggggcatcagtgctgattctgtggcttcagccagactgggtaaac
+agtcaacagaagaatgat
 >AE000660|TRAV36/DV7*01|Homo_sapiens|F|L-PART1+L-PART2|230689..230740+230894..230904|63 nt|1| | | | |63+0=63| | |
+atgatgaagtgtccacaggctttactagctatcttttggcttctactgagctgggtgagc
+agt
+>IMGT000024|TRAV36/DV7*05|Homo_sapiens|F|L-PART1+L-PART2|614859..614910+615064..615074|63 nt|1| | | | |63+0=63| | |
 atgatgaagtgtccacaggctttactagctatcttttggcttctactgagctgggtgagc
 agt
 >AE000661|TRAV38-2/DV8*01|Homo_sapiens|F|L-PART1+L-PART2|34000..34048+34298..34308|60 nt|1| | | | |60+0=60| | |

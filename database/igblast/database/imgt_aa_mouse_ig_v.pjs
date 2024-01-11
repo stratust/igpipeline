@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "imgt_aa_mouse_ig_v",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/data04-scratch/toliveira/nussenzweig_lab/devel/igpipeline/database/igblast/fasta/imgt_aa_mouse_ig_v.fasta",
+  "number-of-letters": 64168,
+  "number-of-sequences": 672,
+  "last-updated": "2023-11-13T16:52:00",
+  "number-of-volumes": 1,
+  "bytes-total": 200641,
+  "bytes-to-cache": 70417,
+  "files": [
+    "imgt_aa_mouse_ig_v.pdb",
+    "imgt_aa_mouse_ig_v.phr",
+    "imgt_aa_mouse_ig_v.pin",
+    "imgt_aa_mouse_ig_v.pog",
+    "imgt_aa_mouse_ig_v.pos",
+    "imgt_aa_mouse_ig_v.pot",
+    "imgt_aa_mouse_ig_v.psq",
+    "imgt_aa_mouse_ig_v.ptf",
+    "imgt_aa_mouse_ig_v.pto"
+  ]
+}

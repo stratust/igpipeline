@@ -12,13 +12,13 @@ tggtaccggcagaaaccaaatcaggctttggagcacctgatctatattgtctcaaca...
 ...aaatccgcagctcgacgcagcatgggtaagacaagcaacaaagtggaggcaagaaag
 aattctcaaactctcacttcaatccttaccatcaagtccgtagagaaagaagacatggcc
 gtttactactgtgctgcgtggtgggtggc
->X74798|TRGV10*02|Homo_sapiens|ORF|V-REGION|164..471|308 nt|1| | | | |308+18=326| | |
+>X74798|TRGV10*02|Homo_sapiens|ORF|V-REGION|164..472|309 nt|1| | || |309+18=327| | |
 ttatcaaaagtggagcagttccagctatccatttccacggaagtcaagaaaagtattgac
 ataccttgcaagatatcgagcacaaggttt............gaaacagatgtcattcac
 tggtaccggcagaaaccaaatcaggctttggagcacctgatctatattgtctcaaca...
 ...aaatccgcagctcgacgcagcatgggtaagacaagcaacaaagtggaggcaagaaag
 aattctcaaactctcacttcaatccttaccatcaagtccgtagagaaagaagacatggcc
-gtttactactgtgctgcgtgggatta
+gtttactactgtgctgcgtgggattac
 >Y11227|TRGV11*01|Homo_sapiens|ORF|V-REGION|155..463|309 nt|1| | | | |309+21=330| | |
 cttgggcagttggaacaacctgaaatatctatttccagaccagcaaataagagtgcccac
 atatcttggaaggcatccatccaaggcttt............agcagtaaaatcatacac

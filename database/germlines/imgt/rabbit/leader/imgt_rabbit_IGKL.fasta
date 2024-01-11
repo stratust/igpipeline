@@ -1,0 +1,25 @@
+>K02131|IGKV1S1*01|Oryctolagus_cuniculus|F|L-PART1+L-PART2|154..208+330..340|66 nt|1| | | | |66+0=66| | |
+atggacacgagggcccccactcagctgctggggctcctgctgctctggctcccagatgcc
+agatgt
+>X02336|IGKV1S2*01|Oryctolagus_cuniculus|F|L-PART1+L-PART2|7..61+185..195|66 nt|1| | | | |66+0=66| | |
+atggacaccagggcccccactcagctgctggggctcctgctgctctggctcccaggtgcc
+acattt
+>K02438|IGKV1S2*02|Oryctolagus_cuniculus|F|L-PART1+L-PART2|7..61+185..195|66 nt|1| | | | |66+0=66| | |
+atggacaccagggcccccactcagctgctggggctcctgctgctctggctcccaggtgcc
+acattt
+>X02337|IGKV1S3*01|Oryctolagus_cuniculus|F|L-PART1+L-PART2|131..185+309..319|66 nt|1| | | | |66+0=66| | |
+atggacacgagggcccccactcagctgctggggctcctgctgctctggctcccaggtgcc
+actttt
+>K02439|IGKV1S3*02|Oryctolagus_cuniculus|F|L-PART1+L-PART2|130..184+308..318|66 nt|1| | | | |66+0=66| | |
+atggacacgagggcccccactcagctgctggggctcctgctgctctggctcccaggtgcc
+actttt
+>K02440|IGKV1S4*01|Oryctolagus_cuniculus|ORF|L-PART1+L-PART2|131..185+282..292|66 nt|1| | | | |66+0=66| | |
+atggacacaagggcccccactcagctgctggggctcctgctgctctggctcccaggtgcc
+agatgt
+>X00977|IGKV1S5*01|Oryctolagus_cuniculus|F|L-PART1+L-PART2|131..185+308..318|66 nt|1| | | | |66+0=66| | |
+atggacacgagggcccccactcagctgctggggctcctgctgctctggctcccaggtgcc
+atatgt
+>X14364|IGKV1S6*01|Oryctolagus_cuniculus|F|L-PART1+L-PART2|129..183+306..319|69 nt|1| | | | |69+0=69| | |
+atggacacgagggcccccactcagctgctggggctcctgctgctctggctcccaggtgcc
+agatgtgcc
+

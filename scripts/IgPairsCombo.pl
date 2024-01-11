@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+
 package MyApp {
     use MooseX::App qw(Color);
     use Log::Any '$log';
@@ -14,6 +15,75 @@ package MyApp {
     __PACKAGE__->meta->make_immutable;
 }
 
+
+package MyApp::CreateExcel {
+    use feature qw(say);
+    use MooseX::App::Command;
+    extends 'MyApp';    # inherit log
+    use MooseX::FileAttribute;
+    use IO::Uncompress::AnyUncompress qw(anyuncompress $AnyUncompressError);
+    use Excel::Writer::XLSX;
+    use Spreadsheet::WriteExcel::Styler;
+    use Data::Printer;
+    use List::MoreUtils qw(uniq);
+    use namespace::autoclean;
+
+    command_short_description q[Create  XLSX from IgInterface];
+    command_long_description q[Create XLSX from IgInterface];
+
+    has_file 'input_file' => (
+        traits        => ['AppOption'],
+        cmd_type      => 'option',
+        cmd_aliases   => [qw(i)],
+        required      => 1,
+        must_exist    => 1,
+        documentation => q[Very important option!],
+    );
+
+    option 'output_prefix' => (
+        is            => 'rw',
+        isa           => 'Str',
+        cmd_aliases   => [qw(o)],
+        required      => '1',
+        documentation => q[Output prefix.],
+    );
+
+    our @TABLE_HEADER;
+
+    sub parse_integration_file {
+        my ($self) = @_;
+        my %structure;
+        my @header;
+        open( my $in, '<', $self->input_file ) 
+            || die "Cannot open/read file " . $self->input_file . "!";
+        while ( my $row = <$in> ){
+            chomp $row;
+            my @F = split "\t", $row;
+            unless (@header){
+                @header = @F;
+                next;
+            }
+            my %hash;
+            @hash{@header} = @F;
+            push @{$structure{$hash{CLONE}}},\%hash;
+        }
+        close( $in );
+        @TABLE_HEADER = @header;
+        return \%structure;
+    }
+
+    sub run {
+        my ($self) = @_;
+        my $integrated_file = $self->parse_integration_file;
+        
+
+   }
+
+
+    __PACKAGE__->meta->make_immutable;
+}
+
+
 package MyApp::ParseExcel {
     use feature qw(say);
     use MooseX::App::Command;
@@ -24,6 +94,7 @@ package MyApp::ParseExcel {
     use Spreadsheet::Read;
     use Excel::Writer::XLSX;
     use Spreadsheet::WriteExcel::Styler;
+    use Data::XLSX::Parser;
     use Data::Printer;
     use Bio::Seq;
     use List::MoreUtils qw(uniq);
@@ -72,7 +143,7 @@ package MyApp::ParseExcel {
     sub parse_clone_summary {
         my ($self, $index) = @_;
         my %structure;
-        my %indexed_sequences;
+        #my %indexed_sequences;
 
         my $parser = Spreadsheet::ParseXLSX->new();
         my $workbook = $parser->parse( $self->input_file->stringify );
@@ -87,6 +158,8 @@ package MyApp::ParseExcel {
             next if $worksheet_name =~ /chart/i;
             next unless $worksheet_name =~ /filtered/i;
 
+            $self->log->warn("\tParsing Worksheet: ". $worksheet_name);
+
             my $chain = $worksheet_name;
             $chain =~ s/^(\S+).*/$1/g;
             $chain = uc $chain;
@@ -98,6 +171,8 @@ package MyApp::ParseExcel {
             my $i;
             my ($clone_id, $n_seqs); # hold clone_id and n_seqs because those those are merged cells
             for my $row ( $row_min .. $row_max ) {
+
+                $self->log->warn("\t\tParsing row: ". $row);
                 my @values;
                 for my $col ( $col_min .. $col_max ) {
 
@@ -144,12 +219,179 @@ package MyApp::ParseExcel {
                     }
 
                     # Add to index hash
-                    $indexed_sequences{$row_hash{'SEQUENCE_ID'}} = {chain => $chain, clone_id => $clone_id };
+                    #$indexed_sequences{$row_hash{'SEQUENCE_ID'}} = {chain => $chain, clone_id => $clone_id };
                 }
                 $i++;
             }
             @TABLE_HEADER = @header;
         }
+        return \%structure;
+    }
+
+    sub parse_clone_summary_faster {
+        my ($self, $index) = @_;
+        my %structure;
+        #my %indexed_sequences;
+
+        my @rows;
+        my $parser = Data::XLSX::Parser->new;
+        $parser->add_row_event_handler(
+            sub {
+                my ( $row ) = @_;
+                push @rows, $row;
+                #my ( $row, $rowDetail ) = @_;
+                # array of cell values in parsed row
+                #print Dumper $row;
+
+                # array of hashes with cell details (reference, value, column, row, style, etc.) in parsed row
+                #print Dumper $rowDetail;
+            }
+        );
+        $parser->open($self->input_file->stringify);
+
+        my $workbook = $parser->workbook;
+
+        for my $worksheet_name ( $workbook->names ) {
+
+            # Filter some  worksheets
+            next if $worksheet_name =~ /chart/i;
+            next unless $worksheet_name =~ /filtered/i;
+
+            $self->log->warn("\tParsing Worksheet: ". $worksheet_name);
+
+            my $chain = $worksheet_name;
+            $chain =~ s/^(\S+).*/$1/g;
+            $chain = uc $chain;
+
+            # Parse sheet
+            $parser->sheet_by_rid($workbook->sheet_rid($worksheet_name));
+
+            # Get header
+            my $header_ref = shift @rows;
+            my @header = @{$header_ref};
+            my ($clone_id, $n_seqs); # hold clone_id and n_seqs because those those are merged cells
+
+            while ( my $row = shift  @rows ) {
+                my @values = @{$row};
+                if (@values && $values[2]){
+                    # Update clone_id variable using valeu from the first row
+                    # with the clone_id
+                    if ($values[0]){
+                        $clone_id = $values[0];
+                    }
+                    # Update values with clone information if is empty
+                    else {
+                        die "Something is wrong! I cannot find clone id for row: $row" unless $clone_id;
+                        $values[0] = $clone_id;
+                    }
+
+                    my %row_hash;
+                    @row_hash{@header} = @values;
+                    if ($index->{$row_hash{SEQUENCE_ID}}){
+                        $row_hash{SAMPLEID} = $index->{$row_hash{SEQUENCE_ID}}->{SAMPLEID}
+                    }
+                    else {
+                        p $index;
+                        die "Cannot find SAMPLEID for $row_hash{SEQUENCE_ID}";
+                    }
+
+                    # add to the structure 
+                    unless ($structure{$chain}{$row_hash{'SEQUENCE_ID'}}){
+                        $structure{$chain}{$row_hash{'SEQUENCE_ID'}} = \%row_hash;
+                    }
+                    else{
+                        die "Something is wrong. $row_hash{SEQUENCE_ID} is repeated in the same spreadsheet!";
+                    }
+                }
+            }
+            @TABLE_HEADER = @header;
+        }
+        return \%structure;
+    }
+
+
+    sub parse_clone_summary_tsv {
+        my ($self, $index) = @_;
+        my %structure;
+        #my %indexed_sequences;
+        my %clone_size;
+        my @header;
+        open( my $in, '<', $self->input_file->stringify ) || die "Cannot open/read file " . $self->input_file . "!";
+        while ( my $row = <$in> ){
+            chomp $row;
+            my @values = split("\t", $row);
+            if ( !@header and  $values[0] eq 'CLONE' and $values[1] eq 'SEQUENCE_ID'){
+                my @aux = @values;
+                $aux[0] = 'clone_id';
+                @header = @aux;
+                next;
+            }
+
+            if (@values && $values[2]){
+                my $clone_id;
+                if ($values[0]){
+                    $clone_id = $values[0];
+                }
+                # Update values with clone information if is empty
+                else {
+                    die "Something is wrong! I cannot find clone id for row: $row" unless $clone_id;
+                    $values[0] = $clone_id;
+                }
+
+                my %row_hash;
+                @row_hash{@header} = @values;
+
+                # Skip if not functional
+                next if $row_hash{FUNCTIONAL} =~ /F/;
+                # create clone_id column
+
+                $clone_size{$clone_id}++;
+
+                # Get chain
+                my $v_call = $row_hash{V_CALL};
+                my $chain;
+                if ($v_call =~ /IGH/) {
+                    $chain = "HEAVY";
+                }
+                elsif ($v_call =~ /IGK/) {
+                    $chain = "KAPPA";
+                }
+                elsif ($v_call =~ /IGL/) {
+                    $chain = "LAMBDA";
+                }
+                else {
+                    p $row;
+                    die 'Cannot find chain!';
+                }
+
+                if ($index->{$row_hash{SEQUENCE_ID}}){
+                    $row_hash{SAMPLEID} = $index->{$row_hash{SEQUENCE_ID}}->{SAMPLEID}
+                }
+                else {
+                    p $index;
+                    die "Cannot find SAMPLEID for $row_hash{SEQUENCE_ID}";
+                }
+
+                    # add to the structure 
+                unless ($structure{$chain}{$row_hash{'SEQUENCE_ID'}}){
+                    $structure{$chain}{$row_hash{'SEQUENCE_ID'}} = \%row_hash;
+                }
+                else{
+                    die "Something is wrong. $row_hash{SEQUENCE_ID} is repeated in the same spreadsheet!";
+                }
+            }
+        }
+        close( $in );
+        
+        # add clone size to structure
+        foreach my $chain (sort {$a cmp $b} keys %structure) {
+            foreach my $sequence_id (sort {$a cmp $b} keys %{$structure{$chain}} ) {
+                my $clone_id = $structure{$chain}{$sequence_id}{clone_id};
+                $structure{$chain}{$sequence_id}{num_seqs} = $clone_size{$clone_id};
+            }
+        }
+
+        @TABLE_HEADER = ($header[0],'num_seqs', @header[1 .. $#header]);
         return \%structure;
     }
 
@@ -200,7 +442,7 @@ package MyApp::ParseExcel {
             foreach my $seq_id ( sort { $a cmp $b }
                 keys %{ $seq_classification->{$chain} } )
             {
-                die "Something is wrong! Sequence $seq_id was not used for pairing. Please check sequence names or if all the sequence pairs are in the file '"
+                warn "Something is wrong! Sequence $seq_id was not used for pairing. Please check sequence names or if all the sequence pairs are in the file '"
                   . $self->pairs_file . "'";
             }
         }
@@ -723,18 +965,35 @@ package MyApp::ParseExcel {
 
     sub run {
         my ($self) = @_;
+        $self->log->warn("Parsing pairs files ...");
         my ( $index, $pairs ) = $self->parse_pairs_files;
-        my $seq_classification = $self->parse_clone_summary($index);
+        $self->log->warn("Parsing clone summary file ...");
+        my $seq_classification;
+        if ($self->input_file->stringify =~ /\.xlsx/){
+            $self->log->warn("Excel clone summary file ...");
+            $seq_classification = $self->parse_clone_summary_faster($index);
+        }
+        else {
+            $self->log->warn("TSV clone summary file ...");
+            $seq_classification = $self->parse_clone_summary_tsv($index);
+        }
+        $self->log->warn("Making pairs classification ...");
         my $pairs_classification = $self->make_pairs( $seq_classification, $pairs );
+        $self->log->warn("Making pair groups ...");
         my $pair_types       = $self->generate_groups($pairs_classification);
+        $self->log->warn("Finding Clusters ...");
         my ($clusters, $clusters_by_sample) = $self->find_clusters($pair_types);
         my @expected_header = @TABLE_HEADER[ 2 .. $#TABLE_HEADER ];
 
         my @selected = qw/SEQUENCE_ID V_CALL D_CALL J_CALL corrected_input_from_start translation_of_corrected_input_from_start v_insertions v_deletions nt_mismatches_V_region v_region_aa_mismatches  cdr3_aa cdr3_aa_length/;
         foreach my $sampleid ( sort { $a cmp $b } keys %{$clusters_by_sample} ) {
             foreach my $type (qw/strict clonal/) {
+
+                $self->log->warn("Generate Excel File: " . $self->output_prefix . '_'.$sampleid.'_' . $type . '.xlsx' );
                 $self->create_xlsx( $clusters_by_sample->{$sampleid}{$type}, \@expected_header,
                     $self->output_prefix . '_'.$sampleid.'_' . $type . '.xlsx' );
+
+                $self->log->warn("Generate Excel File: " . $self->output_prefix . '_'.$sampleid.'_' . $type . '_selected_columns.xlsx' );
                 $self->create_xlsx( $clusters_by_sample->{$sampleid}{$type}, \@selected,
                         $self->output_prefix
                       . '_'. $sampleid . '_'
@@ -746,7 +1005,9 @@ package MyApp::ParseExcel {
 
         #create combo
         foreach my $type (qw/strict clonal/) {
+            $self->log->warn("Generate Excel File: " . $self->output_prefix . '_all_samples_' . $type . '.xlsx' );
             $self->create_xlsx($clusters->{$type}, \@expected_header, $self->output_prefix . '_all_samples_' . $type . '.xlsx');
+            $self->log->warn("Generate Excel File: " . $self->output_prefix . '_all_samples_' . $type . '_selected_columns.xlsx' );
             $self->create_xlsx($clusters->{$type}, \@selected,  $self->output_prefix . '_all_samples_' . $type . '_selected_columns.xlsx');
         }
    }

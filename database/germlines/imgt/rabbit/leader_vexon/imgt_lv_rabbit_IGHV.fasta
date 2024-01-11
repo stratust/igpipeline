@@ -1,0 +1,414 @@
+>AY386694|IGHV1S1*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|1992..2037+2137..2434|344 nt|1| | | | |344+0=344| | |
+atggagactgggctgcgctggctcctcctggtcactgtgctcaaaggtgtccagtgtcag
+gagcagctgaaggagtccgggggtcgtctggtcatgcctggaggaatcctgacactcacc
+tgcacagcctctggatccaacatcagtagctatggagtgagctggttccgccaggctcca
+gggaaggggctcgaatggataagatacattagttatggtggtagcgcatactacaagagc
+tgggtgaaaggccgattcaccatctccaaaacctcgagcacggtggatctgaaaatgacc
+agtctgacagcctcggacacggccacctatttctgtgcgagaga
+>AY386694|IGHV1S10*01|Oryctolagus_cuniculus_Alicia|P|L-PART1+V-EXON|84651..84696+84800..85104|351 nt|1| | | | |351+0=351| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgcccagggtcag
+gagcagctgaaggagtccggaggggatctggtccagccggaggatccctgaaactctgct
+gcaaagcctctggaatctacttcagtagctatggcatgagctgggtccgccaggctccag
+ggaaggggctggagtggatcgcatacatttatcttggtttggtatcacaaactacgcgaa
+ctccgtgaagacctgattcaccatctccagcgacaacgcccagaacacggtgtttctgca
+aatgaacagtctgacagacgaggacacagccatgtatttctgtgtcagaga
+>AY386694|IGHV1S11*01|Oryctolagus_cuniculus_Alicia|P|L-PART1+V-EXON|95568..95613+95717..96010|340 nt|1| | | | |340+0=340| | |
+atggagactgggctgcgctgggttctcctggtcgctgtgctcaaaggtttccaatgtcag
+gagcaacaggaggaatcggcggcaggcctgttcaagcctgggggatccctgaaactcacc
+tgcaaagcctctggattctccctcagtagctttggagtaagctgggtccgccaggctcca
+gggaaggggctggagtggattggatgcatttatgctggtagtggtagcacagactaagcg
+agctgggtgaatggccaattcaccacgcccagaacacggtgaatctgcaaatgaacagta
+caacaacagcggacatggccacctatttctgtgccagaga
+>AY386694|IGHV1S12*01|Oryctolagus_cuniculus_Alicia|P|L-PART1+V-EXON|102077..102122+102226..102505|326 nt|1| | | | |326+0=326| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+gagcagctggaggagtccgcaggaggcctggtcaaccctggaggatccctgacactcacc
+tgcacagcctctggattctccctcagtagctacatcatgggctgggtctgccaggctcca
+gggaaggagctggaatatatcagaatcattagtagtggtggtaacacatactacgccagc
+tgggcgagaagccgatccaccatttccagcaacacgcccagaacacggtttctctgcaaa
+cgaacagtctatttctgtgaaaggga
+>AY386694|IGHV1S13*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|105158..105203+105307..105604|344 nt|1| | | | |344+0=344| | |
+atggagactgggctgcactggcttctcctggtcgctctgctcaaaggtgtccagtgtcag
+gagcagctggaggaatccgggggaggcctggtcacgcctggaggaaccctgacactcacc
+tgcacagtctctggattctccctcagtagctatggagtaagctgggtccgccaggctgca
+gggaaggggctggaatggatcggatacattagtagtagtggtagcgcatactacgcgagt
+tgggtaaatggtcgattcaccatctccaaaacctcgagcacggtggatctgaaaatgacc
+agtctgagagccgcggacacggccacctatttctgtgccagaaa
+>AY386694|IGHV1S15*01|Oryctolagus_cuniculus_Alicia|P|L-PART1+V-EXON|117884..117929+118033..118335|349 nt|1| | | | |349+0=349| | |
+atggagactgggctgctctggcttctcctggtcactgtgctcaaaggtgtccagtgtcag
+cagctagaggagtccggggcaggcctagtccagcctggggaatccctgaaactcatctgg
+aaagcctctggattcaccttcagtagctacagcatgagctgggtccaccatgctcaggga
+agggcccggagtggatcggatgcatttatcctgattatggtagcacatactacgtgagct
+cggtgaatgacagattcaccatctccagccacaacgcccagaacacggtggatctgaaaa
+tgaacagtctgacagccgcggacacggccacctatttctgtgccagaga
+>AY386694|IGHV1S16*01|Oryctolagus_cuniculus|P|L-PART1+V-EXON|125397..125442+125546..125850|351 nt|1| | | | |351+0=351| | |
+atggagactgggctgctctggcttctcctggtcgctgtgctcaaaggtgtccagggtcag
+gagcagctgaaggagtccggagggggtctggtccagccggaggatccctgaaactctcct
+gcaaagcctctggaatctacttcagtagctacggcatgagctgggtccgccaggctccag
+ggaaggggctggagtggatcgcatacatttatcttggtttggtatcacaaactatgcgaa
+ctccgtgaagacccgatacaccatctccagcgacaacgcccagaacacggtgtttctgca
+aatgaacagtctgacagacgaggacacagccatgtatttctgtgtcagaga
+>AY386697|IGHV1S17*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|4184..4229+4333..4630|344 nt|1| | | | |344+0=344| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtatcag
+gagcagcagaaggagtccgggggtcgactggtcatgcctggaggatccctgacactcacc
+tgcacagtctctggattctccctcagtagctacaacatgggctgggtccgccaggctcca
+ggggaggggctggaatacatcggatggattagtactggtggtagcgcatactacgcgagc
+tgggtgaatggtcgattcaccatctccaaaacctcgaccacgatggatctgaaaatgacc
+agtctgacagccgcggacacggccacctatttctgtgccagaga
+>AY386697|IGHV1S18*01|Oryctolagus_cuniculus_Alicia|P|L-PART1+V-EXON|9107..9152+9255..9560|352 nt|1| | | | |352+0=352| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtatcag
+gagcagctgaaggagtccgggggtcgtctggtcatgcctggaggatccctgacactcacc
+tgcacagtctctggattctccctcagtagctacaacatgggctgggtccgccaggctcca
+ggggaggggctggagtggatcggagacatttatgctggtagtggtagcacatactacgcg
+agctgggtgaatggccgattcaccatctccagcaacaccaaccagaacacggtgtctctg
+caaatgaacagtctgacagcggcggacacggccaccatttctgtgcaagaga
+>AY386694|IGHV1S2*01|Oryctolagus_cuniculus_Alicia|P|L-PART1+V-EXON|9355..9400+9487..9799|359 nt|1| | | | |359+0=359| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggatgtctgtgtttg
+caggttccagtgtcaggaacagctggaggaatcctgggcaggccaagtcctgcctgggga
+tccctgacactcacatgcacagtctctggattctccctcagtagctatgcaatgatctgg
+gtccgccaggctccaggggaggggctggaatacatcggaatcatttatactggtggtagc
+gcatactacgcgagctgggtgaatggttgattcaccatcttcaaaacctcgagcacggtg
+gatctgaaaatgaccggtctgacagcctcggacaaggccacctatttctgtgccagaga
+>AY386697|IGHV1S20*01|Oryctolagus_cuniculus_Alicia|P|L-PART1+V-EXON|22353..22398+22502..22793|338 nt|1| | | | |338+0=338| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcgctggaggagtccgggggtcgcctggtcaagcctgacgaaaccctgacactcacctgc
+acagtctctggaatcgacctcagtagcaatgcaatgagctgggtccgccaggctccgggg
+aggggctggaatggatcggaaccattagtactggtggtagcacatactacacaagctggg
+caaaaggccgattcaccatctccaaaacctcgaccacggtggatctgcaaatgaagtctg
+acagccgcggacacggccacctatttctgtgccagaga
+>AY386697|IGHV1S22*01|Oryctolagus_cuniculus_Alicia|P|L-PART1+V-EXON|37589..37634+37738..38043|352 nt|1| | | | |352+0=352| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+gagcagctgaaggaatccgggggaggcctggtaacgcctggaggaaccctgacactcacc
+tgcacagcctctggattcaccatcagtagctaccacatgtgctgggtccgccaggctcca
+gggaaggggctggagtggatcgcatacatttatgctagtagtattagtacatactacgcg
+agctgggtgaatggccgattcaccatctccagcaacaccaaccagaacacggtgtctctg
+caaatgaacagtctgacagcggcggacacggccaccatttctgtgcaagaga
+>AY386697|IGHV1S24*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|49298..49343+49447..49744|344 nt|1| | | | |344+0=344| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+gagcagctgaaggagtccgggggaggcctggtcacgcctggaggaatcctgtcactcacc
+tgcacagcctctggattctccatcagtagctacagaatgggctgggtccgccaggctcca
+gggaaggggctggaatacatcggatacattagttacggtggtagcgcatactacaagagc
+tgggtgaaaggccgattcaccatctccaaaacctcaagcacggtggatctgaaaatgacc
+agtctgacagcctcggacaaggccacctatttctgtgccagaga
+>AY386697|IGHV1S25*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|56760..56805+56909..57206|344 nt|1| | | | |344+0=344| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+gagcagctgaaggagtccgggggagtcctggtcacgcctggaggaatcctgtcactcacc
+tgcacagcctctggattctccatcagtagctacagaatgggctgggtccgccaggctcca
+gggaaggggctggaatacatcggaatcatttatactggtggtagcgcatactacgcgagc
+tgggtgaatggtcgattcaccatctccaaaacctcgagcacggtggatctgaaaatgacc
+agtctgacagccgcggacatggccacctatttctgtgccagaga
+>AY386697|IGHV1S26*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|63529..63574+63678..63978|347 nt|1| | | | |347+0=347| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcagtgaaggagtccgagggaggtctcttcaagccaacggataccctgacactcacctgc
+acagtctctggattctccctcagtagctatgcaataagctgggtccgccaggctccaggg
+aacgggctggaatggatcggaatcattaatagttatggtagcacatactacgcgagctgg
+gcgaaaagccgatccaccatcaccagaaacaccaacgagaacacggtgactctgaaaatg
+accagtctgacagccgcggacacggccacctatttctgtgcgagaga
+>AY386697|IGHV1S28*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|76112..76157+76261..76561|347 nt|1| | | | |347+0=347| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcgctggaggagtccaggggaggcctgatcaagcctggaggaaccctgacactcacctgc
+acagcctctggattcaccatcagtagctacgacatgagctgggtccgacaggctccaggg
+aaggagctggagtggatcggatacattagttatggtggtagcgcatactacgcgagctgg
+gcgaaaagccgatccaccatcaccagaaacaccaacgagaacacggtgactctgaaaatg
+accagtctgacagccgcggacacggccacctatttctgtgcgagaga
+>AY386697|IGHV1S29*01|Oryctolagus_cuniculus|P|L-PART1+V-EXON|78863..78908+79012..79309|344 nt|1| | | | |344+0=344| | |
+atggagactgggctgtgctagcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+gagcagctgaaggagtccggaagaggcctggtccagcctgggggatccctgacactcacc
+tgcacagcctccggattcaccatcagtagcaatgcaatgatctgggtccgccaggctcca
+gggaaggggctggaatacatcggattcattaatactggtggtagcactaactacgcgagc
+tgggcgaatggccgattcaccatctccagcgacaacgcccagaacacggtgtctctgcaa
+atgaacagtctgacagccgcggacacctatttctgtgccagaga
+>AY386694|IGHV1S3*01|Oryctolagus_cuniculus_Alicia|P|L-PART1+V-EXON|19235..19280+19384..19691|354 nt|1| | | | |354+0=354| | |
+atggagactgggctgcgctggcttctcctggtcactgtgctcaaaggtgtccagtgtcag
+gagtagctgaaggagtccgggggaggcctggtccagcctgggggaatccctgaaactctt
+ctgcaaagcctctggattcgacttcagtagctatgcaatgatctgggtctgccaggctcc
+agggaaggggctggagtggatcggaatcatttatgctggtagaggtagcacagactacat
+gagctgggtgaatggccgattcaccatctgcagcgacaacgtccagaacactgtggatct
+tcaaatgaacagtatgacagccgcggacatggccacctatttctgtgtgagaga
+>AY386697|IGHV1S30*01|Oryctolagus_cuniculus_Alicia|P|L-PART1+V-EXON|83318..83363+83467..83769|349 nt|1| | | | |349+0=349| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+gagcagctggtggagtcctggggcggcctggtcaagcctgagggatcctgacactctcct
+gaaaagcctctggattctccctcagcagctacgacatgagctgggtccgccaggctccag
+ggaaggggctggagtggatcggattcatttggagtggtggtagcacagactatgcgagct
+gggtgaatggccgaatcatcatctccagcgataacacccagaacacggtgtctctgctca
+tgaacagtctgtcagccagggacacggccacgtatttctgcgcaggagg
+>AY386697|IGHV1S31*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|87864..87909+88013..88313|347 nt|1| | | | |347+0=347| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcggtggaggagtccaggggaggcctgatcaagccaacggataccctgacactcacctgc
+acagtctctggattctccctcagtagctatggagtgatctgggtccgccaggctccaggg
+aacgggctggaatatatcggaaccattggtagtagtggtagcgcatactacgcgagctgg
+gcgaaaagccgatccaccatcaccagaaacaccaacctgaacacggtgactctgaaaatg
+accagtctgacagccgcggacacggccacctatttctgtgcgagaga
+>AY386697|IGHV1S34*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|100814..100859+100963..101263|347 nt|1| | | | |347+0=347| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcggtgaaggagtccgagggaggtctcttcaagccaacggataccctgacactcacctgc
+acagtctctggattctccctcagtagcaatgcaataagctgggtccgccaggctccaggg
+aacgggctggaatggatcggagccattggtagtagtggtagcgcatactacgcgagctgg
+gcgaaaagccgatccaccatcaccagaaacaccaacctgaacacggtgactctgaaaatg
+accagtctgacagccgcggacacggccacctatttctgtgcgagaga
+>M12180|IGHV1S35*01|Oryctolagus_cuniculus|P|L-PART1+V-EXON|241..286+390..667|324 nt|1| | | | |324+0=324| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+gagcagctggaggagtccgcaggaggcctggtcaaccctggaggaaccctgacactcacc
+tgcacagtctctggattctccctcagtagctacagcatgggctgggtccgcccggctcca
+gggaaggagctggaatatatcagaatcattagtagtggtggtaacacatactacgcgagc
+tgggcgagaagccgatccaccatttccagcaacacgcccagaacacggtttctctgcaaa
+tgaacagtctatttctgtgaaagg
+>M12180|IGHV1S36*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|3325..3370+3474..3771|344 nt|1| | | | |344+0=344| | |
+atggagactgggctgtgctggcttctcctggtcactgtgctcaaaggtgtccagtgtcag
+gagcagctggaggagtccgggggaggcctggtcacgcctggaggaaccctgacactcacc
+tgcacagcctctggattctccctcagtagctatggagtgagctgggtccgccaggctgca
+gggaaggggctggaatggatcggatacattagtagtagtggtagcgcatactacgcgagc
+tgggtgaatggtcgattcaccatctccaaaacctcgagcacggtggatctgaaaatgacc
+agtctgacagcctcggacacggccacctatttctgtgcaagaaa
+>M60121|IGHV1S37*01|Oryctolagus_cuniculus|P|L-PART1+V-EXON|68..112+210..507|343 nt|1| | | | |343+0=343| | |
+atggagactgggctgcgctggctctcctggtcgctgtgctcaaaggtgtccagtatcagg
+agcagctggaggagtccgggggtcacctggtcacgcctggaggatccctgacactcacct
+gcacagcctctggattctccctcagtagctacaacatgggctgggtccgccaggctccag
+ggaaggggctggaatacatcggatatataagtagtgctggtagcacatactacgcgagct
+gggtgaatggtcgattcaccatctccaaaacctcgaccacgatggatctgaaaatgaaca
+gtccgacagcctcggacacggccacctatttctgtgccagaga
+>AY386694|IGHV1S4*01|Oryctolagus_cuniculus_Alicia|P|L-PART1+V-EXON|35017..35062+35164..35448|331 nt|1| | | | |331+0=331| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+gagcagctggtagagtacaggggaggcctggtccaggctgggagatccctgaaactctcc
+tgcaaagcctctgggttagacttcagtagctacagcatgaaatgggttcactaggctcca
+gagaaggtcccagagtggatcacatatatttatcctggtagtggtagcagggccaattca
+caatctccagcgaaaatgcccagaacatggtgtctctgcaaatgaaccatcttacagagg
+atgacacggccacctattactgtgtgggaga
+>M93173|IGHV1S40*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|514..559+662..968|353 nt|1| | | | |353+0=353| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcgttggaggagtccgggggagacctggtcaagcctggggcatccctgacactcacctgc
+acagcctctggattctccttcagtagcagctactacatgtgctgggtccgccaggctcca
+gggaaggggctggagtggatcgcatgcatttatgctggtagtagtggtagcacttactac
+gcgagctgggcgaaaggccgattcaccatctccaaaacctcgtcgaccacggtgactctg
+caaatgaccagtctgacagccgcggacacggccacctatttctgtgcgagaga
+>M93177|IGHV1S42*01|Oryctolagus_cuniculus|P|L-PART1+V-EXON|82..126+237..535|344 nt|1| | | | |344+0=344| | |
+atggagactggctgcgctaacttctcctggtcgctgtgctcaaaggtgtccagtgtcagg
+agcagctgaaggagtccggaggaggcctggtaacgcctggaggaaccctgacactcacct
+gcacagcctctggattcaccatcagtagctaccacatgtgctgggtctgctaagctccag
+ggaaggggctggagtggatcggatacatttatgctggtagtggtagcacatggtacgcga
+gctgggtgaaaggccgattcaccatctccaaaacctcgaccacggtggatctgaaaatga
+ccagtctgacaaccgaggacacggccacctatttctgtgccaga
+>M93179|IGHV1S43*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|81..126+230..537|354 nt|1| | | | |354+0=354| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+cagcagctggaggagtccgggggaggcctggtcaagcctggaggaaccctgacactcacc
+tgcaaagcctctggaatcgacttcagtagctactactacatctgctgggtccgccaggct
+ccagggaaggggctggagttgatcgcatgcatttatactagtagtggtagcacatggtac
+gcgagctgggtgaatggccgattcaccatctccagaagcaccagcctaaacacggtggat
+ctgaaaatgaccagtctgacagccgcggacacggccacctatttctgtgccaga
+>M93181|IGHV1S44*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|81..126+230..525|342 nt|1| | | | |342+0=342| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcgctggaggagtccgggggtcgcctggtaacgcctggaggatccctgacactcacctgc
+acagtctctggaatcgacctcactagctatgcaatgggctgggtccgccaggctccaggg
+aaggggctggaatacatcggaatcattagtagtagtggtagcacatactacgcgagctgg
+gcgaaaggccgattcaccatctccaaaacctcgtcgaccacggtggatctgaaaatgacc
+agtctgacaaccgaggacacggccacctatttctgtgctgga
+>M93183|IGHV1S45*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|81..126+230..539|356 nt|1| | | | |356+0=356| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+gagcagctggaggagtccgggggagacctggtcaagcctgagggatccctgacactcacc
+tgcacagcctctggattctccttcagtagcagctactggatatgctgggtccgccaggct
+ccagggaaggggctggagtggatcgcatgcatttatgctggtagtagtggtagcacttac
+tacgcgagctgggcgaaaggccgattcaccatctccaaaacctcgtcgaccacggtgact
+ctgcaaatgaccagtctgacagccgcggacacggccacctatttctgtgcgagaga
+>M93184|IGHV1S46*01|Oryctolagus_cuniculus|P|L-PART1+V-EXON|81..126+230..534|351 nt|1| | | | |351+0=351| | |
+atggggactggactgcgcgggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+gagcagctggtggagtccgggggaggcctggtcacgactggggaatctttgaaactcttc
+cgcaaagcctctggattcaccatcagtagcagctactggatatgctgggtccgccaggct
+ccagggaaggggccggagtggatcggatacattagtagtgctggtagcacaaactacacc
+agctgggtgaatggctgaatcatcatctccagcaacaacgcccagaaaacgctgtatcgg
+caaatgaacagtctgacagccagggatagggccctgtatttctgtgcagga
+>M93185|IGHV1S47*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|81..126+230..534|351 nt|1| | | | |351+0=351| | |
+atggagactgggctgcgctggcttctcctggtcactgtgctcaaaggtgtccagtgtcag
+gagcagctggtggagtccgggggaggcctggtccagcctgagggatccctgacactcacc
+tgcaaagcctctggattcgacttcagtagcaatgcaatgtgctgggtccgccaggctcca
+gggaaggggcctgagtggatcgcatgcatttataatggtgatggcagcacatactacgcg
+agctgggtgaatggccgattcaccatctccagaagcaccagcctaaacacggtgactctg
+caaatgaccagtctgacagccgtggacacggccacctatttctgtgcgaga
+>M93186|IGHV1S48*01|Oryctolagus_cuniculus|P|L-PART1+V-EXON|71..116+218..522|351 nt|1| | | | |351+0=351| | |
+atggagactgggctgcgcgggcttctcctggtcactgtgctcaaaggtgtccagtgtcag
+gagcagctggtggagtccgggggaggcctggtcatgccttagagatccctgaaactctcc
+tgcaaagcctctggattcaccctcagtagctactggatgtgctgggtccgccaggctcca
+gggaaggggctggagtggaatggagaaattaatgctaatggtggtagcacatggtatgcg
+agcagggtaaatggccgattcaccgtctccagaaacaacatcgagagcaagccggatctg
+caaatgagcagtctgacagtcacggacacgtccctctattactgtgcaaga
+>AF176997|IGHV1S49*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|218..263+367..665|345 nt|1| | | | |345+0=345| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcagtgaaggagtccgagggaggtctcttcaagccagcggataccctgacactcacctgc
+acagcctctggatttaccatcagtagctatggagtgagctgggtccgccaggctccaggg
+aaggggccggaatggatcggagccattgatataaatggtagaacatactacgcgacctgg
+gcgaagagccgggccaccatcaccagaaatgtcaacgagaacacggtgactctgagagtg
+accagtctgacagccgcggacacggccacctatttctgtgcgaga
+>AY386694|IGHV1S5*01|Oryctolagus_cuniculus_Alicia|P|L-PART1+V-EXON|47520..47565+47669..47974|352 nt|1| | | | |352+0=352| | |
+atggggactgggctgtgctggcttctccttgtcgctgtgctcaaaggtgtccagtgtcag
+tcctggaggagtccgggggaggtctgttcaagcctgtgggatccctgacactctcctgca
+aagcctccggattcatcttcagtgacaactacgcaatgtgctggtaccgccaggctccag
+ggaaggggttggagtggatcgcatacattaatactggtagtggtagcacatggtacgcga
+gctgggtgaatggccgattcaccatctccagaaacaccaaggagaacacggtgtctctga
+aaatgacaagtctgactgccgtggacacgtccgcctatttctgtgtgagaga
+>AF176998|IGHV1S50*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|218..263+367..665|345 nt|1| | | | |345+0=345| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcagtgaaggagtccgagggaggtctcttcaagccaacggataccctgacactcacctgc
+acagtctctggattctccctcagtagctatgcaataagctgggtccgccaggctccaggg
+aacgggctggaatacatcggatacattagtttcactaataccgcatactacgcgagctgg
+gcgaaaagccgatccaccatcaccagaaacaccaacgagaacacggtgactctgaaaatg
+accagtctgacagccgcggacacggccacctatttctgtgcgaga
+>AF176999|IGHV1S51*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|218..263+367..665|345 nt|1| | | | |345+0=345| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcagtgaaggagtccgagggaggtctcttcaagccaacggataccctgacactcacctgc
+acagtctctggattctccctcagtagctacaacatcggctgggtccgccaggctccaggg
+agcgggctggagtggatcggaatcattagttacggtggtagcgcatactacgcgagctgg
+gcgaaaagccgatccaccatcaccagaaacaccaacgagaacacggtgactctgaaaatg
+accagtctgacagccgcggacacggccacctatttctgtgcgaga
+>AF177000|IGHV1S52*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|218..263+367..665|345 nt|1| | | | |345+0=345| | |
+atggagactgggctgcgctggcttctcctggtcgctgcgctcaaaggtgtccagtgtcag
+tcagtgaaggagtccgagggaggtctcttcaagccaacggataccctgacactcacctgc
+acagtctctggattctccctcagtagctacaacatgggctgggtccgccaggctccaggg
+aacgagctggaatggatcggaatcattactagttatggtagcacatactacgcgagctgg
+gcgaaaagccgatccaccatcaccagaaacaccaacgagaacccggtgactctgaaaatg
+accagtctgacagccgcggacacggccacctatttctgtgcgaga
+>AF177001|IGHV1S53*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|218..263+367..668|348 nt|1| | | | |348+0=348| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+gagcagctggaggagtccgggggaggcctggtcaaccctggaggaaccttgacactcacc
+tgcacagtctctggatttaccatcagtacctatggagtgagctgggtccgccaggctcca
+gggaacgggctggaatggatcggaaccgttaattatgatggtagcacacactacgcgagc
+tgggcgaaaagccgatccaccatcaccagaaacaccaacgagaacacggcgactctgaaa
+atgaccagtctgacaggcgcggacacggccacctatttctgtgcgaga
+>AF177002|IGHV1S54*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|195..240+344..645|348 nt|1| | | | |348+0=348| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcgctgggggagtccaggggaggcctgatcaagcctggaggaaccctgacactcacctgc
+acagcctctggattcaccatcagtagctacgacatgagctgggtccgccaggctccaggg
+gaggggctggaatatatcggatgcattaatagttatggtaccacatattacgcgagctgg
+gcgaaaagccgatccaccatcaccagaaacaccaacgagaacacggtgactctgaaaatg
+accagtctgacagccgcggacacggccacctatttctgtgggagagag
+>AF177003|IGHV1S55*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|195..240+344..645|348 nt|1| | | | |348+0=348| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcagtgaaggagtccgagggaggtctcttcaagccaacggataccctgacactctcctgc
+acagtctctggattctccctcagtagctatggagtgagctgggtccgccaggctccaggg
+gaggggctggaatgcatcggatggattagtactgatggtagcacatactacgcgagctgg
+gcgaaaagccgatccaccatcaccagaaacaccaacgagaacacggtgactctgaaaatg
+accagtctgacagccgcggacacggccacctatttctgtgcgagggct
+>AF177004|IGHV1S56*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|218..263+367..668|348 nt|1| | | | |348+0=348| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+gagcagctgaaggagtccgggggaggcctggtcacgcctggaggaatcctgtcactcacc
+tgcacagcctctggattctccctcagtacctacaacatgggctgggtccctccagctcca
+gggaaggggctggaatacatcggatggattaatactggtgggagcccatactgcacgagc
+tgggcagggaagcgttccaccatcaccagaaacaccagcgagaacacggtgactctggaa
+atgaccagtctgacagcggcggacacggccacttatctctgtgcaaag
+>AF177005|IGHV1S57*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|217..262+367..665|345 nt|1| | | | |345+0=345| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+acagtgaaggagtccgagggaggtctcttcaagccaacgcataccctgacactcacctgc
+acagcctctggattctccctcagtagctatccgataatctgggtccgccaggctccaggg
+aatgggctggaatggatcggaatcactaatacttatggtagcccatactacgcgagctgg
+gcaaaaagccgatccaccatcaccagaaacaccaacgagaacacggtgactctgaaaatg
+accagtctgacagccgcggacacggccacctatttctgtgcgaga
+>AF177006|IGHV1S58*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|216..261+366..667|348 nt|1| | | | |348+0=348| | |
+atggggactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+gagcagctgaaggagtccgggggtcgtctggtcatgcctggaggatccctgacaatcacc
+tgcacagtctctggattctccctcagtagcaatgcaataagctgggtccgccaggctcca
+gggaacgggctggaatggatcggcgtcattaatagtggcggtaccgcatattacgcgagc
+tgggcgaaaggccggtccaccatctccagaaacaccaaggagaacacggtgactctgcaa
+atgaccagtctgacagccgcggacacggccacgtatttctgtgcgaga
+>AF177007|IGHV1S59*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|217..262+366..664|345 nt|1| | | | |345+0=345| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcagtgaaggagtccgagggaggcctcttcaagccaacggagaccctgacactcacctgt
+acagtctctggattctccctcagggactatagaacgggctgggtccgccaggctccaggg
+aaggagctggaagttgtcgcatatattcgtggtgatggtgtcatatactacgcgagctgg
+gcgaaaaagcgatccaccatcaccagaaacaccaacgaaaacacggtgactctgaaaatg
+accagtctgacagccgcggacacggccacttatttctgtggaaga
+>AY386694|IGHV1S6*01|Oryctolagus_cuniculus_Alicia|P|L-PART1+V-EXON|52372..52417+52521..52820|346 nt|1| | | | |346+0=346| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccttgtcagt
+aggcggaggagtccgggagaggccccgtgaagcctggaggaagtctgacactcatctgca
+cagtctctggattctctctcagtagcaacgacatgagctgggtccgccaggctccaggga
+aggggctggaatacatcggatacattggtagtggtggtagcacatactacgcgagctggg
+ttaatgaccgattcaccatctccagagacaccaacgagaacacggtctctctgaaaatga
+caagtctgactgccgcggacagggccacccatttctgtgtgagaga
+>AF177008|IGHV1S60*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|217..262+366..664|345 nt|1| | | | |345+0=345| | |
+atggagactggactgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcagtgaaggagtccgagggaggtctcttcaaggcaacggagaccctgacactcacctgc
+acactctctggattctccctcaataacaatgcaatacactgggtccgccaggctccaggg
+aaggggctggaatggatcgggatgatttatggcagtggtgccacatattacgcgagctgg
+gtgagtggtcgggccaccatcaccagagacaccaacgagaacacggtgactctgaaaatg
+accagtctgacagacgcggacacggccacctatttctgtgcgaga
+>AF177009|IGHV1S61*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|217..262+366..664|345 nt|1| | | | |345+0=345| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcagtgaaggagtccgagggaggtctcttcaagccaacggataccctgacactcacctgc
+acagtctctggattctccctaacatccatgtcaataagctgggtccgccaggctccaggg
+aacgggctggaatggatcggagccattaatagggtgagtaccacatactacacaacctgg
+gcgaaaagccgatccaccatcaccagaaacaccaacgagaacacggtgactctgaaaatg
+accagtctgacagtcgcggacacggccacgtatttctgtacgaga
+>AF177010|IGHV1S62*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|217..262+366..664|345 nt|1| | | | |345+0=345| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcagtgaaggagtccgagggaggcctgatcaagccaacggacaccctgacactcacctgc
+acagtctctggattctccctcactaattatataatattttgggtccgccaggctccaggg
+aaggagctggagtggatcggatacatccatggtggtggtaacacatactacgcgagctgg
+gcgaaaagccgatccaccatcaccagagacaccaaagagaatacggtgactctgaaaatg
+gccagtctaacagcctcggatacggccacctatttctgtgcgaga
+>AF177011|IGHV1S63*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|217..262+366..664|345 nt|1| | | | |345+0=345| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcagtgaaggagtccgagggaggcctcttcaagccaacggataccctgacactcacctgc
+acagcctctggattctccatcagtagctacagaatgggctgggtccgccaggctccaggg
+aacgggctggaagttatcggatatattcgtggtgatggtgtcacatactgcgcgagctgg
+gcgaaaagccgatccaccatcaccagaaacaccaacgagaacacggcgactctgaaaatg
+accagtctgacagccgcggacacggccacctatttctgtggaaga
+>AF177012|IGHV1S64*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|217..262+366..664|345 nt|1| | | | |345+0=345| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcgctggaggagtccgggggtcgcctggtcaagcctgacgaaaccctgacactcacctgc
+acagtctctggaatcgacctcagatgctatgcaatgggctgggtccgccaggctccaggg
+aacgggctggaatacatcggagccattaatactgatggtagcccatactacgcgagctgg
+gcgaaaagccgattcaccatctccagcaacaccaacgagaacacggtgactctgaaaatg
+accagtctgacagccgcggacacggccacctatttctgtgcgaga
+>AF177013|IGHV1S65*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|217..262+366..664|345 nt|1| | | | |345+0=345| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcgctggaggaattcgggggaggcctgatcaggccagcgagtaccctgacactcacctgc
+acagtctctggattctccctcaatgaggtaggagtgatctgggtccgacaggctccaggg
+aaggagctggagtggatcggatacattagttatcgtggtaatgcatactacgcgagctgg
+gcgaaaagccgatccaccatcaccagaaacaccaaggagaacacggtgactctgaaagtg
+actggtctgacagccgcggacacggccacctatttctgtgcgaga
+>AF177014|IGHV1S66*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|217..262+366..664|345 nt|1| | | | |345+0=345| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcagtgaaggagtccgagggaggtctcttcgagccaacggataccctgacactcacctgc
+acagtctctggattctccctcactaaatatggagtaatgtgggtccgccaggctccaggg
+aacgggctggaatggatcggattcattgcttatagtggtaacacatactacacgacctgg
+gcgaaaagccgatccaccatcaccagaaacaccaacgagaacacggtgactctgaaaatg
+accagtctgacagccgcggacacggccacctatttctgtgcgaga
+>AF177015|IGHV1S67*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|194..239+343..641|345 nt|1| | | | |345+0=345| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcagtgaaggagtccgagggaggtctcttcaagccaacggataccctgacactcacctgc
+acagtctctggattctccctcagtacttatggagtgatctgggtccgccaggctccaggg
+aacgggctggaatatatcggaagcatagctagtggtggtagcgcgggctacgcgagctgg
+gcgaaaagccgatccaccatcaccagaaacaccaacgagaacacggtgactctgaaaatg
+accagtctgacagccgcggacacggccacctatttctgtgcggca
+>AF177016|IGHV1S68*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|197..242+346..644|345 nt|1| | | | |345+0=345| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcggtggaggagtccaggggaggcctgatcaagccagcggataccctgacactcacctgc
+acagtctctggcttctccctcaataactatggagtgatttgggtccgccaggctccaggg
+agcgggctggagtatatcggaaccattgatattggtgttaccgcattctacgcgagctgg
+gcgaaaagtcgatccaccatcaccaaaaacaccaacgagaacacggtgactctgagaatg
+accagtctgacagccgcggacacggccacctatttctgtgcgagt
+>M93171|IGHV1S69*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|81..126+228..522|341 nt|1| | | | |341+0=341| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+tcggtggaggagtccgggggtcgcctggtcacgcctgggacacccctgacactcacctgc
+acagtctctggattctccctcagtagctatgcaatgagctgggtccgccaggctccaggg
+aaggggctggaatggatcggaatcattagtagtagtggtagcacatactacgcgagctgg
+gcgaaaggccgattcaccatctccaaaacctcgaccacggtggatctgaaaatcaccagt
+ccgacaaccgaggacacggccacctatttctgtgccagaga
+>AY386694|IGHV1S7*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|61649..61694+61798..62101|350 nt|1| | | | |350+0=350| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtgtccagtgtcag
+cagctgaaggagtccggaggaggcctggtcaagcctgggggatccctgaaactctgctgc
+aaagcctctggattcaccttcagtagctactacatgtgctgggtccgccaggctccaggg
+aaggggctggagtggatcggatgcatttatgctggtagtggtagcacacactacgctagc
+tgggtgaatggccggttcactctctccagagacaacgcccagagcacagtttgcctacaa
+ctgaacagtctgacagccgcggacacggccacctatttctgtgccagaga
+>AY386694|IGHV1S8*01|Oryctolagus_cuniculus|F|L-PART1+V-EXON|74117..74162+74264..74567|350 nt|1| | | | |350+0=350| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaagatgtccagtgccag
+aagcagctggtggagtccgggggaggcctggaccagcctgcgggatccctgaaactctcc
+tgcaaagactctggattcaccctcagtagcaatgcaatgtgctgggtacaccaggctcca
+gggaaggggctggagtggatcgcatgtattgatagttacggtagcacaaactacgtgagc
+agggtgaatggccgattcaccatctccagcgacaacacccagaacatggtggatcttgaa
+atgaacagtctgacagccgcggacatggccatctatttctgtgccagaga
+>AY386694|IGHV1S9*01|Oryctolagus_cuniculus_Alicia|P|L-PART1+V-EXON|78996..79041+79145..79450|352 nt|1| | | | |352+0=352| | |
+atggagactgggctgcgctggcttctcctggtcgctgtgctcaaaggtatccagggtcag
+gagcagctagaggagtccggcggaggcctagtccagcctggggaatccctgaaaatcatc
+tggaaagcctctggattcaccttcagtagctactggatttgctgggtccaccatgctcag
+ggaaggcaccgcagtggatcagatgcatttatcctgattatggtaccacaggctacgtga
+gctcggtgaatgacagattcaccatctccagccacaacgcccagaacacggtggatctga
+aaatgaacagtctgacagccgtggacacggccacctatttctgtgccagaga
+

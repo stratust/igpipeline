@@ -1,0 +1,58 @@
+>AABR03078283|IGLV1S1*01|Rattus_norvegicus_BN/SsNHsdMCW|F|L-PART1+V-EXON|28687..28732+28828..29132|351 nt|1| | | | |351+0=351| | |
+atgacctgtacttcacttttgcttatcctcctggctgtctgctcaggggccatttcccag
+gctgttgtgactcaggaatctgcactcaccacattacctggtggaacagttacactcact
+tgccactcaagtactggggctgttacaaccagtaactatgccaactggattcaagaaaaa
+gcagatcatttattcactggtatagtaggtgacaccagcaacagggctccaggtgctcct
+gccagattctcaggctccctgcttgaaggcaaggctgcccttaccatcacaggggcgcag
+attgaggatgaggcaacgtatttctgttctctctggtacagcaaccatttc
+>AABR03078283|IGLV2S1*01|Rattus_norvegicus_BN/SsNHsdMCW|F|L-PART1+V-EXON|65291..65339+65406..65719|363 nt|1| | | | |363+0=363| | |
+atgtttacggaatccacggaaagtaactgtgttcgtcgcagggatgttcgatcatatggc
+cagttcacgctgactcaaccaaagtccgtgtcaggatctttaagaagcactatcaccatt
+ccctgtgagcgcagcagtggtgacattggagatagctatgtgagctggtaccagcaacac
+ttgggaagaccccccatcaatgtgatctatgctgatgatcaaagaccatctgaagtgtct
+gatcggttctcgggctccatcgacagctcctctaactcagcctcactgaccatcactaat
+ctgcagatggatgatgaggccgactacttctgtcagtcttacgatagtaatattgatatt
+aat
+>AABR03078283|IGLV3S1*01|Rattus_norvegicus_BN/SsNHsdMCW|F|L-PART1+V-EXON|105196..105241+105314..105621|354 nt|1| | | | |354+0=354| | |
+atgggtttaaggaattattggactggaattatttgttgcttgggatggtcatgtgcccag
+gctgtccttactcagccaaactctgtgtctacgtctctaggaagcacagtcaaactgtct
+tgcacactcagctctggtaacatagaaaacaactatgtgcactggtaccagcagtatgag
+ggaagatctcccaccactatgatttataatgatgataagagaccggatggtgtccctgac
+aggttctctggctccattgacagctcttccaactcagccttcctgacaatcaataatgtg
+gaaattgaagatgaagctatctacttctgtcattcttatgttagtagtattaat
+>AABR03078979|IGLV3S2*01|Rattus_norvegicus_BN/SsNHsdMCW|F|L-PART1+V-EXON|23373..23418+23491..23798|354 nt|1| | | | |354+0=354| | |
+atgagtttaagcaattattggattgtaattgtttgtttcttgggatggtcatgtgcccag
+tttgtgcttactcagccaaactctgtgtctacgaatctcggaagcacagtcaaactgtct
+tgcaagcgcagcactggtaacattggaagcaattatgtgaactggtaccagcagcatgag
+ggaagatctcccaccactatgatttatagggatgataagagaccagatggagttcctgac
+aggttctctggctccattgacagatcttccaactcagccctcctgacaatcaataatgtg
+cagactgaagatgaagctgactacttctgtcagtcttacagtagtggtattaat
+>AABR03078834|IGLV3S3*01|Rattus_norvegicus_BN/SsNHsdMCW|F|L-PART1+V-EXON|21145..21190+21314..21621|354 nt|1| | | | |354+0=354| | |
+atgacatggactctactattccttgctgttcttcatcacttaacagggtcatgtgcccag
+tttgtgcttactcagtcaaactctatgtctacgtctctaggaagcacagtcaaactgtct
+tgcaagcgcagcactggtaacattggaagcagctatgtgtactggtaccagcagcatgag
+ggaagatctcccaccactatgatttatgatgatgataagagaccagatggagttcctgat
+aggttctctggctccattgacagctcttccaactcagccttcctgacaatcaataatgtg
+cagattgaagatgaagctatctacttctgtcagtcttacagtagtggtattaat
+>AC109901|IGLV3S4*01|Rattus_norvegicus_BN/SsNHsdMCW|F|L-PART1+V-EXON|137728..137773+137299..137606|354 nt|1| | | | |354+0=354| |rev-compl|
+atgacatggactctactattccttgccttcctttatcacttaacagggtcatgtgcccag
+gttgtgcttactcagccaaaatctgtgtctacgtctctagaaagcacagtcaaactgtct
+tgcaaactcaactctggtaacattggaagctactatatacactggtaccagcagcatgag
+ggaagatctcccaccactatgatttatagggatgataagagaccagatggagttcctgat
+aggttctctggctccattgacagctcttccaactcagccttcctgacaatcaataatgtg
+cagactgaagatgaagctatctacttctgtcattcttatgatagtagtattaat
+>AC109901|IGLV3S5*01|Rattus_norvegicus_BN/SsNHsdMCW|F|L-PART1+V-EXON|123149..123194+122770..123077|354 nt|1| | | | |354+0=354| |rev-compl|
+atggatttaaggaattattggactgtaattatttgttgcttgggatggtcatgggcccag
+gttgtgcttactcagccaaacactgtgtctacgtctctaggaatcacagtcaaactgtct
+tgcaagtgcagctctggtaacattggaagctactctgtgcactggtaccagcagcatgag
+ggaagatctcccaccactatgatatataaggatgataaaagaccagatggagttcctgat
+aggttctctggctccattgacagctcttccaattcagcattcctgacaatcaataatgtg
+cagactgaagatgaagctgtctacttctgtcattcttatgatagtaatattaat
+>AC133058|IGLV4S1*01|Rattus_norvegicus|F|L-PART1+V-EXON|132846..132891+133000..133299|346 nt|1| | | | |346+0=346| | |
+atggcctgggtctctcttgttctacctctgctctctctgtatgcaggttatgtgaccagc
+tatgagctgatccaaccaccttcggcatcagtcactctgggaaatactgtctcactcact
+tgtgtcggagatgaattatcaaaaagatatgctcagtggtatcaacaaaagccagacaag
+accattgtgtccgtgatatacaaagatagtgagcggccctcaggcatctctgaccgattc
+tctggttccagctccgggacaacagccactctgacaatccatggcaccctggctgaggat
+gaggctgattattactgtttgtcaacatatagtgatgataatcttc
+

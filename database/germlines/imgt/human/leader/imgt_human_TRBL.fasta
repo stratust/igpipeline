@@ -6,6 +6,8 @@ atgggcacgaggctcttcttctatgtggccctttgtctgctgtgggcaggacacagg
 atgggcacgaggctcttcttctatgtggccctttgtctgctgtgggcaggacacagg
 >L36092|TRBV10-2*01|Homo_sapiens|F|L-PART1+L-PART2|239704..239752+239859..239866|57 nt|1| | | | |57+0=57| | |
 atgggcaccaggctcttcttctatgtggccctttgtctgctgtgggcaggacacagg
+>IMGT000021|TRBV10-2*02|Homo_sapiens|F|L-PART1+L-PART2|193671..193719+193826..193833|57 nt|1| | | | |57+0=57| | |
+atgggcaccaggctcttcttctatgtggccctttgtctgctgtgggcaggacacagg
 >U03115|TRBV10-3*01|Homo_sapiens|F|L-PART1+L-PART2|14717..14765+14872..14879|57 nt|1| | | | |57+0=57| | |
 atgggcacaaggttgttcttctatgtggccctttgtctcctgtggacaggacacatg
 >M33233|TRBV11-1*01|Homo_sapiens|F|L-PART1+L-PART2|589..637+739..746|57 nt|1| | | | |57+0=57| | |
@@ -34,6 +36,8 @@ ctttgtctcctgggagcagtttcagtg
 >X06154|TRBV14*01|Homo_sapiens|F|L-PART1+L-PART2|140..188+275..282|57 nt|1| | | | |57+0=57| | |
 atggtttccaggcttctcagtttagtgtccctttgtctcctgggagcaaagcacata
 >U03115|TRBV15*01|Homo_sapiens|F|L-PART1+L-PART2|63499..63547+63673..63680|57 nt|1| | | | |57+0=57| | |
+atgggtcctgggcttctccactggatggccctttgtctccttggaacaggtcatggg
+>IMGT000021|TRBV15*02|Homo_sapiens|F|L-PART1+L-PART2|361660..361708+361834..361841|57 nt|1| | | | |57+0=57| | |
 atgggtcctgggcttctccactggatggccctttgtctccttggaacaggtcatggg
 >L26231|TRBV16*01|Homo_sapiens|F|L-PART1+L-PART2|255..303+411..418|57 nt|1| | | | |57+0=57| | |
 atgagcccaatattcacctgcatcacaatcctttgtctgctggctgcaggttctcct
