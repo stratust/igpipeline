@@ -1,0 +1,83 @@
+# ################################# Cloning private repo ##################################
+FROM condaforge/mambaforge:23.3.1-1 as intermediate
+# #FROM ubuntu:22.04 as intermediate
+#
+# # install git
+RUN apt-get update
+RUN DEBIAN_FRONTEND="noninteractive" TZ="America/New_York" apt-get install -y git ssh
+#
+# # add credentials on build
+ARG SSH_PRIVATE_KEY
+
+RUN mkdir /root/.ssh/
+RUN echo "${SSH_PRIVATE_KEY}" > /root/.ssh/id_rsa
+RUN chmod 600 /root/.ssh/id_rsa
+
+# # make sure your domain is accepted
+RUN ssh-keyscan github.com >> /root/.ssh/known_hosts
+#
+RUN git clone -b igpipeline3 https://github.com/stratust/igpipeline.git igpipeline
+RUN rm -rf img LiCENSE README.md
+
+############################################################################################
+######################################## Dockerfile for ####################################
+################################# Antibody Analysis Pipeline ###############################
+############################################################################################
+############################################################################################
+
+FROM condaforge/mambaforge:23.3.1-1
+
+RUN mkdir -p /igpipeline/
+
+COPY --from=intermediate /igpipeline /igpipeline
+
+ENV PATH="/igpipeline/scripts:${PATH}"
+ENV PATH="/root/.local/bin:$PATH"
+ENV IGDATA="/igpipeline/database/igblast"
+
+RUN sed -i -r "s/#\s+deb-src/deb-src/g"   /etc/apt/sources.list \
+  && apt-get update \
+  && apt-get -y upgrade
+
+# Build dep
+RUN DEBIAN_FRONTEND="noninteractive" TZ="America/New_York" apt-get -y build-dep perl
+
+# System dependencies
+RUN apt-get install -y curl wget pandoc libssl-dev build-essential libncurses5-dev unzip zip libxml2 libstdc++6 fontconfig git
+RUN mamba install -y -c conda-forge -c bioconda python=3.8.15 parallel pyaml pygments jsonpickle xlsxwriter snakemake changeo=1.3.0 cutadapt igblast=1.21.0 r-base r-peptides r-readxl r-writexl r-dplyr r-ggplot2 r-ggpubr r-data.table r-ggbeeswarm r-reshape2 r-argparser r-circlize bioconductor-genomicranges r-svglite bbmap
+
+# Env variables
+ARG PERLBREW_ROOT=/usr/local/perl
+ARG PERL_VERSION=5.38.0
+
+# Perl
+RUN mkdir -p $PERLBREW_ROOT
+RUN \curl -L https://install.perlbrew.pl | bash
+
+ENV PATH=$PERLBREW_ROOT/bin:$PATH
+ENV PERLBREW_PATH $PERLBREW_ROOT/bin
+ENV PERL5LIB /usr/local/perl/perls/perl-$PERL_VERSION
+
+ENV MAKEFLAGS=" -j $(nproc)"
+ENV TEST_JOBS=$(nproc)
+RUN perlbrew -j $(nproc) --notest install $PERL_BUILD perl-$PERL_VERSION
+RUN perlbrew install-cpanm
+RUN bash -c 'source $PERLBREW_ROOT/etc/bashrc'
+
+ENV PERLBREW_ROOT=$PERLBREW_ROOT
+ENV PATH=$PERLBREW_ROOT/perls/perl-$PERL_VERSION/bin:$PATH
+ENV PERLBREW_PERL perl-$PERL_VERSION
+ENV PERLBREW_MANPATH=$PELRBREW_ROOT/perls/perl-$PERL_VERSION/man
+ENV PERLBREW_SKIP_INIT=1
+
+RUN ln -sf $PERLBREW_ROOT/perls/perl-$PERL_VERSION/bin/perl /usr/local/bin/perl
+
+# Install Perl Modules
+RUN apt-get -y  install libexpat1-dev
+# Force install because tests uses a deprecated pragma and its a dependeny for BioPerl
+RUN cpanm -f XML::DOM::XPath
+RUN cpanm --notest MooseX/App.pm IO/Interactive.pm Log/Any.pm MooseX/FileAttribute.pm Text/CSV_XS.pm  Data/XLSX/Parser.pm Spreadsheet/ParseXLSX.pm Spreadsheet/Read.pm Excel/Writer/XLSX.pm Spreadsheet/WriteExcel/Styler.pm Data/Printer.pm Bio/Seq.pm Log/Any/App.pm Algorithm/Combinatorics.pm
+
+RUN echo "conda deactivate" >> /root/.bashrc
+
+WORKDIR /igpipeline/

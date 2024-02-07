@@ -48,11 +48,11 @@ When the installation finishes, Docker starts automatically. The whale ![](img/i
 
 #### Step 1:
 
-Once Docker is installed, download the image containing the IgPipeline on https://hub.docker.com/r/stratust/igpipeline2
-![](img/dockerhub_igpipeline2_frontpage.png "")  
+Once Docker is installed, download the image containing the IgPipeline on https://hub.docker.com/r/stratust/igpipeline3
+![](img/dockerhub_igpipeline3_frontpage.png "")  
 
-Open up a terminal session and download the image using the command **docker pull stratust/igpipeline2**  
-![](img/igpipeline2_docker_pull.png "")  
+Open up a terminal session and download the image using the command **docker pull stratust/igpipeline3**  
+![](img/igpipeline3_docker_pull.png "")  
 
 <br/>
 
@@ -75,7 +75,7 @@ Also create a folder named "results".
 <br/>
 
 ```
-docker run -it -v ~/Desktop/ig_analysis/data:/igpipeline/data -v ~/Desktop/ig_analysis/results:/igpipeline/results stratust/igpipeline2:latest
+docker run -it -v ~/Desktop/ig_analysis/data:/igpipeline/data -v ~/Desktop/ig_analysis/results:/igpipeline/results stratust/igpipeline3:latest
 ``` 
 <br/>
 
@@ -98,7 +98,7 @@ snakemake -j 4
 
 <br/>
 
-That's it ! The IgPipeline2 is executing.
+That's it ! The IgPipeline3 is executing.
 ![](img/img9.png "")  
 
 <br/>
