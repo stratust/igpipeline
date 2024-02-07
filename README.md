@@ -1,4 +1,4 @@
-# Antibody Analysis - IgPipeline 2
+# Antibody Analysis - IgPipeline 3
 
 This is modified version of the original IgPipeline, allowing the use of different isotypes (IgG, IgM and IgA). It was first used in the following publication:
 
