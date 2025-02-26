@@ -48,7 +48,6 @@ ARG PERL_VERSION=5.38.3
 ENV PERLBREW_HOME=/opt/.perlbrew
 # Perl
 RUN mkdir -p $PERLBREW_ROOT $PERLBREW_HOME
-RUN $PERLBREW_ROOT/bin/perlbrew init
 ENV PATH=$PERLBREW_ROOT/bin:$PATH
 ENV PERLBREW_PATH $PERLBREW_ROOT/bin
 ARG MAKEFLAGS=" -j $(nproc)"
@@ -62,6 +61,7 @@ ENV PERLBREW_MANPATH=$PERLBREW_ROOT/perls/perl-$PERL_VERSION/man
 
 
 RUN \curl -L https://install.perlbrew.pl | bash
+RUN $PERLBREW_ROOT/bin/perlbrew init
 
 RUN perlbrew -v -j $(nproc) --notest install perl-$PERL_VERSION && \
   perlbrew install-cpm && \
