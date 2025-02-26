@@ -43,11 +43,12 @@ RUN sed -i -r "s/#\s+deb-src/deb-src/g" /etc/apt/sources.list && \
     apt-get install -y curl wget pandoc libssl-dev build-essential libncurses5-dev unzip zip libxml2 libstdc++6 fontconfig git libexpat1-dev && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 # Env variables
-ARG PERLBREW_ROOT=/root/perlbrew
+ARG PERLBREW_ROOT=/opt/perlbrew
 ARG PERL_VERSION=5.38.3
-
+ENV PERLBREW_HOME=/opt/.perlbrew
 # Perl
-RUN mkdir -p $PERLBREW_ROOT
+RUN mkdir -p $PERLBREW_ROOT $PERLBREW_HOME
+RUN $PERLBREW_ROOT/bin/perlbrew init
 ENV PATH=$PERLBREW_ROOT/bin:$PATH
 ENV PERLBREW_PATH $PERLBREW_ROOT/bin
 ARG MAKEFLAGS=" -j $(nproc)"
@@ -57,7 +58,7 @@ ENV PERLBREW_ROOT=$PERLBREW_ROOT
 ENV PATH=$PERLBREW_ROOT/perls/perl-$PERL_VERSION/bin:$PATH
 ENV PERLBREW_PERL perl-$PERL_VERSION
 ENV PERLBREW_MANPATH=$PERLBREW_ROOT/perls/perl-$PERL_VERSION/man
-ENV PERLBREW_SKIP_INIT=1
+#ENV PERLBREW_SKIP_INIT=1
 
 
 RUN \curl -L https://install.perlbrew.pl | bash
