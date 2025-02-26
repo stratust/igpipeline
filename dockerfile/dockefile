@@ -44,40 +44,39 @@ RUN DEBIAN_FRONTEND="noninteractive" TZ="America/New_York" apt-get -y build-dep 
 
 # System dependencies
 RUN apt-get install -y curl wget pandoc libssl-dev build-essential libncurses5-dev unzip zip libxml2 libstdc++6 fontconfig git
-RUN mamba install -y -c conda-forge -c bioconda python=3.8.15 parallel pyaml pygments jsonpickle xlsxwriter snakemake changeo=1.3.0 cutadapt igblast=1.21.0 r-base r-peptides r-readxl r-writexl r-dplyr r-ggplot2 r-ggpubr r-data.table r-ggbeeswarm r-reshape2 r-argparser r-circlize bioconductor-genomicranges r-svglite bbmap
-
 # Env variables
-ARG PERLBREW_ROOT=/usr/local/perl
-ARG PERL_VERSION=5.38.0
+ARG PERLBREW_ROOT=/root/perlbrew
+ARG PERL_VERSION=5.38.3
 
 # Perl
 RUN mkdir -p $PERLBREW_ROOT
-RUN \curl -L https://install.perlbrew.pl | bash
-
 ENV PATH=$PERLBREW_ROOT/bin:$PATH
 ENV PERLBREW_PATH $PERLBREW_ROOT/bin
-ENV PERL5LIB /usr/local/perl/perls/perl-$PERL_VERSION
 
-ENV MAKEFLAGS=" -j $(nproc)"
-ENV TEST_JOBS=$(nproc)
-RUN perlbrew -j $(nproc) --notest install $PERL_BUILD perl-$PERL_VERSION
-RUN perlbrew install-cpanm
+RUN \curl -L https://install.perlbrew.pl | bash
+
+ARG MAKEFLAGS=" -j $(nproc)"
+ARG TEST_JOBS=$(nproc)
+RUN perlbrew -v -j $(nproc) --notest install perl-$PERL_VERSION
+RUN perlbrew install-cpm
 RUN bash -c 'source $PERLBREW_ROOT/etc/bashrc'
+RUN echo "source $PERLBREW_ROOT/etc/bashrc" >> /root/.bashrc
+RUN perlbrew switch perl-$PERL_VERSION
 
 ENV PERLBREW_ROOT=$PERLBREW_ROOT
 ENV PATH=$PERLBREW_ROOT/perls/perl-$PERL_VERSION/bin:$PATH
 ENV PERLBREW_PERL perl-$PERL_VERSION
-ENV PERLBREW_MANPATH=$PELRBREW_ROOT/perls/perl-$PERL_VERSION/man
+ENV PERLBREW_MANPATH=$PERLBREW_ROOT/perls/perl-$PERL_VERSION/man
 ENV PERLBREW_SKIP_INIT=1
-
-RUN ln -sf $PERLBREW_ROOT/perls/perl-$PERL_VERSION/bin/perl /usr/local/bin/perl
 
 # Install Perl Modules
 RUN apt-get -y  install libexpat1-dev
 # Force install because tests uses a deprecated pragma and its a dependeny for BioPerl
-RUN cpanm -f XML::DOM::XPath
-RUN cpanm --notest MooseX/App.pm IO/Interactive.pm Log/Any.pm MooseX/FileAttribute.pm Text/CSV_XS.pm  Data/XLSX/Parser.pm Spreadsheet/ParseXLSX.pm Spreadsheet/Read.pm Excel/Writer/XLSX.pm Spreadsheet/WriteExcel/Styler.pm Data/Printer.pm Bio/Seq.pm Log/Any/App.pm Algorithm/Combinatorics.pm
+RUN cpm install --global MooseX::App IO::Interactive Log::Any MooseX::FileAttribute Text::CSV_XS Data::XLSX::Parser Spreadsheet::ParseXLSX Spreadsheet::Read Excel::Writer::XLSX Spreadsheet::WriteExcel::Styler Data::Printer Bio::Seq Log::Any::App Algorithm::Combinatorics
 
-RUN echo "conda deactivate" >> /root/.bashrc
+RUN perlbrew off
+RUN mamba install -y -c conda-forge -c bioconda python=3.8.15 parallel pyaml pygments jsonpickle xlsxwriter snakemake changeo=1.3.0 cutadapt igblast=1.21.0 r-base r-peptides r-readxl r-writexl r-dplyr r-ggplot2 r-ggpubr r-data.table r-ggbeeswarm r-reshape2 r-argparser r-circlize bioconductor-genomicranges r-svglite bbmap
+
+RUN perlbrew switch perl-$PERL_VERSION
 
 WORKDIR /igpipeline/
