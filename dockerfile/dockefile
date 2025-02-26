@@ -3,8 +3,9 @@ FROM condaforge/mambaforge:23.3.1-1 as intermediate
 # #FROM ubuntu:22.04 as intermediate
 #
 # # install git
-RUN apt-get update
-RUN DEBIAN_FRONTEND="noninteractive" TZ="America/New_York" apt-get install -y git ssh
+RUN apt-get update && \
+    DEBIAN_FRONTEND="noninteractive" TZ="America/New_York" apt-get install -y git ssh && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
 #
 # # add credentials on build
 ARG SSH_PRIVATE_KEY
@@ -35,15 +36,12 @@ ENV PATH="/igpipeline/scripts:${PATH}"
 ENV PATH="/root/.local/bin:$PATH"
 ENV IGDATA="/igpipeline/database/igblast"
 
-RUN sed -i -r "s/#\s+deb-src/deb-src/g"   /etc/apt/sources.list \
-  && apt-get update \
-  && apt-get -y upgrade
-
-# Build dep
-RUN DEBIAN_FRONTEND="noninteractive" TZ="America/New_York" apt-get -y build-dep perl
-
-# System dependencies
-RUN apt-get install -y curl wget pandoc libssl-dev build-essential libncurses5-dev unzip zip libxml2 libstdc++6 fontconfig git
+RUN sed -i -r "s/#\s+deb-src/deb-src/g" /etc/apt/sources.list && \
+    apt-get update && \
+    apt-get -y upgrade && \
+    DEBIAN_FRONTEND="noninteractive" TZ="America/New_York" apt-get -y build-dep perl && \
+    apt-get install -y curl wget pandoc libssl-dev build-essential libncurses5-dev unzip zip libxml2 libstdc++6 fontconfig git libexpat1-dev && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
 # Env variables
 ARG PERLBREW_ROOT=/root/perlbrew
 ARG PERL_VERSION=5.38.3
@@ -52,16 +50,8 @@ ARG PERL_VERSION=5.38.3
 RUN mkdir -p $PERLBREW_ROOT
 ENV PATH=$PERLBREW_ROOT/bin:$PATH
 ENV PERLBREW_PATH $PERLBREW_ROOT/bin
-
-RUN \curl -L https://install.perlbrew.pl | bash
-
 ARG MAKEFLAGS=" -j $(nproc)"
 ARG TEST_JOBS=$(nproc)
-RUN perlbrew -v -j $(nproc) --notest install perl-$PERL_VERSION
-RUN perlbrew install-cpm
-RUN bash -c 'source $PERLBREW_ROOT/etc/bashrc'
-RUN echo "source $PERLBREW_ROOT/etc/bashrc" >> /root/.bashrc
-RUN perlbrew switch perl-$PERL_VERSION
 
 ENV PERLBREW_ROOT=$PERLBREW_ROOT
 ENV PATH=$PERLBREW_ROOT/perls/perl-$PERL_VERSION/bin:$PATH
@@ -69,13 +59,23 @@ ENV PERLBREW_PERL perl-$PERL_VERSION
 ENV PERLBREW_MANPATH=$PERLBREW_ROOT/perls/perl-$PERL_VERSION/man
 ENV PERLBREW_SKIP_INIT=1
 
+
+RUN \curl -L https://install.perlbrew.pl | bash
+
+RUN perlbrew -v -j $(nproc) --notest install perl-$PERL_VERSION && \
+  perlbrew install-cpm && \
+  bash -c 'source $PERLBREW_ROOT/etc/bashrc' && \
+  echo "source $PERLBREW_ROOT/etc/bashrc" >> /root/.bashrc && \
+  perlbrew switch perl-$PERL_VERSION
+
 # Install Perl Modules
-RUN apt-get -y  install libexpat1-dev
 # Force install because tests uses a deprecated pragma and its a dependeny for BioPerl
-RUN cpm install --global MooseX::App IO::Interactive Log::Any MooseX::FileAttribute Text::CSV_XS Data::XLSX::Parser Spreadsheet::ParseXLSX Spreadsheet::Read Excel::Writer::XLSX Spreadsheet::WriteExcel::Styler Data::Printer Bio::Seq Log::Any::App Algorithm::Combinatorics
+RUN cpm install --global MooseX::App IO::Interactive Log::Any MooseX::FileAttribute Text::CSV_XS Data::XLSX::Parser Spreadsheet::ParseXLSX Spreadsheet::Read Excel::Writer::XLSX Spreadsheet::WriteExcel::Styler Data::Printer Bio::Seq Log::Any::App Algorithm::Combinatorics && \
+    rm -rf ~/.perl-cpm
 
 RUN perlbrew off
-RUN mamba install -y -c conda-forge -c bioconda python=3.8.15 parallel pyaml pygments jsonpickle xlsxwriter snakemake changeo=1.3.0 cutadapt igblast=1.21.0 r-base r-peptides r-readxl r-writexl r-dplyr r-ggplot2 r-ggpubr r-data.table r-ggbeeswarm r-reshape2 r-argparser r-circlize bioconductor-genomicranges r-svglite bbmap
+RUN mamba install -y -c conda-forge -c bioconda python=3.8.15 parallel pyaml pygments jsonpickle xlsxwriter snakemake changeo=1.3.0 cutadapt igblast=1.21.0 r-base r-peptides r-readxl r-writexl r-dplyr r-ggplot2 r-ggpubr r-data.table r-ggbeeswarm r-reshape2 r-argparser r-circlize bioconductor-genomicranges r-svglite bbmap && \
+    mamba clean --all --yes
 
 RUN perlbrew switch perl-$PERL_VERSION
 
