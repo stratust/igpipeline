@@ -342,7 +342,7 @@ create.summary.list <- function ( unified.df ){
 plot.shm.and.cdr3.length = function( excel.file ) {
   project = gsub( "(\\S+?)_.*","\\1", basename(excel.file))
   cluster_type =  gsub( ".*_(\\S+?)_selected_columns.*","\\1", basename(excel.file))
-  xl.obj = as.data.frame( read_excel( excel.file, sheet = "PROPER", skip = 1, col_names = T ) )
+  xl.obj = as.data.frame( read_excel( excel.file, sheet = "PROPER", skip = 1, col_names = T, guess_max = 21474836 ) )
   
   unified.df = get.unified.df( ig.df = xl.obj )
   # get cdr3aa cols
@@ -488,7 +488,7 @@ plot.hidrophobicity = function( excel.file ) {
   
   project = gsub( "(\\S+?)_.*","\\1", basename(excel.file))
   cluster_type =  gsub( ".*_(\\S+?)_selected_columns.*","\\1", basename(excel.file))
-  obj = read_excel( excel.file, sheet = "PROPER", skip = 1, col_names = T, .name_repair = "universal")
+  obj = read_excel( excel.file, sheet = "PROPER", skip = 1, col_names = T, .name_repair = "universal", guess_max = 21474836)
   
   xl.obj = get.unified.df(obj)
   
