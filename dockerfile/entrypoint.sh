@@ -1,9 +1,15 @@
-#!/bin/bash
-# Source the perlbrew environment
-source /opt/perlbrew/etc/bashrc
+#!/usr/bin/env bash
+set -euo pipefail
 
-# Activate desired Perl version without spawning subshell
-perlbrew use perl-5.38.3
+: "${PERLBREW_ROOT:=/opt/perlbrew}"
+export PATH="$PERLBREW_ROOT/bin:$PATH"
 
-# Run whatever the user provides (e.g., /bin/bash)
-exec "/bin/bash"
+# Activate the perl without sourcing any rc file
+eval "$("$PERLBREW_ROOT/bin/perlbrew" env perl-5.38.3)"
+
+# Run user command or an interactive shell
+if [[ $# -gt 0 ]]; then
+  exec "$@"
+else
+  exec /bin/bash
+fi

@@ -75,12 +75,15 @@ RUN cpm install --global MooseX::App IO::Interactive Log::Any MooseX::FileAttrib
     rm -rf ~/.perl-cpm
 
 RUN perlbrew off
-RUN mamba install -y -c conda-forge -c bioconda python=3.8.15 parallel pyaml pygments jsonpickle xlsxwriter snakemake changeo=1.3.0 cutadapt igblast=1.21.0 r-base r-peptides r-readxl r-writexl r-dplyr r-ggplot2 r-ggpubr r-data.table r-ggbeeswarm r-reshape2 r-argparser r-circlize bioconductor-genomicranges r-svglite bbmap && \
+RUN mamba install -y -c conda-forge -c bioconda parallel pyaml pygments jsonpickle xlsxwriter snakemake changeo=1.3.4 cutadapt igblast=1.22.0 r-base r-peptides r-readxl r-writexl r-dplyr r-ggplot2 r-ggpubr r-data.table r-ggbeeswarm r-reshape2 r-argparser r-circlize bioconductor-genomicranges r-svglite bbmap && \
     mamba clean --all --yes
 
 WORKDIR /igpipeline/
 
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+# ensure bash is the build/run shell
+SHELL ["/bin/bash","-lc"]
+COPY entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/entrypoint.sh
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+CMD ["/bin/bash"]
 
